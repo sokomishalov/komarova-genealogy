@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <title>Бессмертный полк. Поиск</title>
+
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="dns-prefetch" href="//cdn.moypolk.ru" />
+    <link rel="dns-prefetch" href="//mc.yandex.ru" />
+
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-60x60.png" sizes="60x60" />
+    <link rel="apple-touch-icon" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="apple-touch-icon" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-120x120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-144x144.png" sizes="144x144" />
+    <link rel="apple-touch-icon" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-180x180.png" sizes="180x180" />
+
+    <link rel="icon" type="image/png" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-180x180.png" sizes="180x180" />
+    <link rel="icon" type="image/png" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-144x144.png" sizes="144x144" />
+    <link rel="icon" type="image/png" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-120x120.png" sizes="120x120" />
+    <link rel="icon" type="image/png" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://cdn.moypolk.ru/assets/icons/favicon/favicon-16x16.png" sizes="16x16" />
+
+    <meta name="keywords" content="поиск, неизвестный солдат, история ветерана" />
+    <meta name="description" content="Бессмертный Полк. Поиск" />
+    <meta property="og:title" content="Бессмертный полк. Поиск" />
+    <meta property="og:description" content="Бессмертный Полк. Поиск" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.moypolk.ru/search/soldiers?s=%D0%A1%D0%BD%D0%B8%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2" />
+    <meta property="og:image" content="/assets/icons/socimage.jpg" />
+        <meta name="csrf-token" content="7G0lySxyhFlzFfZ0dVKEFoiIpOog7rsL11xLFGVj" />
+
+    <link rel="image_src" href="https://cdn.moypolk.ru/assets/icons/socimage.jpg" />
+    <meta name="twitter:image" content="https://cdn.moypolk.ru/assets/icons/socimage.jpg" />
+    <meta name="twitter:image:src" content="https://cdn.moypolk.ru/assets/icons/socimage.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Бессмертный полк. Поиск" />
+    <meta name="twitter:description" content="Бессмертный Полк. Поиск" />
+    <meta name="twitter:site" content="@moypolkru" />
+    <meta property="vk:image" content="https://cdn.moypolk.ru/assets/icons/socimage.jpg" />
+
+            <link rel="stylesheet" href="https://cdn.moypolk.ru/styles/styles.min.css?ver=1.8.0" />
+
+                    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+        <script type="text/javascript">
+        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
+            document.write('<script src="https://cdn.moypolk.ru/scripts/svg4everybody.min.js"><\/script>');
+        document.write('<script src="https://www.moypolk.ru/scripts/fitie.min.js"><\/script>');
+
+                function checkRecaptcha(token) {
+            document.getElementById('js-coordForm').submit();
+        }
+            </script>
+
+    <style>
+        .form__box_id {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="body ">
+<button type="button" class="up-button" id="js-upButton"></button>
+<div id="PopupRegionsContainer"></div>
+<input type="hidden" id="basePath" value="/">
+<input type="hidden" id="userData" value="/ajax/user-data">
+<header class="page-header" id="js-pageHeader">
+    <div class="page-header__search-categories" id="js-phSearchCategory">
+        <div class="page-header__search-form-title">
+            В какой категории Вы хотите продолжить искать?
+        </div>
+        <a href="https://www.moypolk.ru/search?s=Снимщиков" class="page-header__search-form-link  page-header__search-form-link--active js-search-link">Все категории</a>
+<a href="https://www.moypolk.ru/search/soldiers?s=Снимщиков" data-type="soldiers" class="page-header__search-form-link js-search-link">Истории ветеранов</a>
+<a href="https://www.moypolk.ru/search/unknowns?s=Снимщиков" data-type="unknowns" class="page-header__search-form-link js-search-link">Неизвестный солдат</a>
+<a href="https://www.moypolk.ru/search/news?s=Снимщиков" data-type="news" class="page-header__search-form-link js-search-link">Новости</a>
+<!--<a href="https://www.moypolk.ru/search/finds?s=Снимщиков" data-type="finds" class="page-header__search-form-link js-search-link">Объявления</a>-->
+<a href="https://www.moypolk.ru/search/gauptvahta?s=Снимщиков" data-type="gauptvahta" class="page-header__search-form-link js-search-link">Гауптвахта</a>
+<a href="https://www.moypolk.ru/search/creations?s=Снимщиков" data-type="creations" class="page-header__search-form-link js-search-link">Творчество</a>
+<a href="https://www.moypolk.ru/search/results?s=Снимщиков" data-type="results" class="page-header__search-form-link js-search-link">Результаты работы Центра Поисковой Работы</a>
+<a href="https://www.moypolk.ru/search/forum?s=Снимщиков" data-type="forum" class="page-header__search-form-link js-search-link">Поисковый портал</a>
+<a href="https://www.moypolk.ru/search/podcasts?s=Снимщиков" data-type="podcasts" class="page-header__search-form-link js-search-link">Подкасты</a>
+<!--<a href="https://www.moypolk.ru/search/photo" data-type="photo" class="page-header__search-form-link js-search-link">Фото</a>-->
+<a href="https://www.moypolk.ru/search/posts?s=Снимщиков" data-type="posts" class="page-header__search-form-link js-search-link">Строй Бессмертного Полка</a>
+    </div>
+    <div class="page-header__wrapper">
+        <div class="page-header__plank">
+            <div class="page-header__plank-inner">
+                <a href="/" class="page-header__plank-index-link">
+                    <svg width="92" height="32">
+                        <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#logo"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    </svg>
+                </a>
+                <button type="button" class="page-header__plank-btn  js-phFormBtn">
+                    <svg class="page-header__search-svg" width="23" height="22">
+                        <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#search"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    </svg>
+                </button>
+            </div>
+            <button type="button" class="page-header__toggle" id="js-phPlankToggle"></button>
+        </div>
+
+        <div class="page-header__search" id="js-phSearch">
+            <div class="page-header__search-container">
+
+                <div class="page-header__search-forms">
+                    <form action="/search" method="get" class="page-header__text-form" id="js-phTextForm">
+                        <input type="search" name="s" class="page-header__search-input js-search-input" placeholder="Поиск" required id="js-phSearchInput" autocomplete="off" maxlength="100" minlength="2">
+                        <button type="submit" class="page-header__search-submit">
+                            <svg class="page-header__search-submit-svg" width="14" height="13">
+                                <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#search"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            </svg>
+                            ПОИСК
+                        </button>
+                    </form>
+
+            <form action="/search/ajax/photo/cache" method="POST" enctype="multipart/form-data" class="page-header__file-form  js-photoForm">
+                <input type="hidden" name="_token" value="7G0lySxyhFlzFfZ0dVKEFoiIpOog7rsL11xLFGVj" autocomplete="off">                <label class="page-header__file-btn" title="Поиск по фото">
+                  <svg class="page-header__file-svg" width="20" height="18">
+                    <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#photo" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                  </svg>
+                  <input type="file" accept="image/jpeg,image/png" name="photofile" class="page-header__file-input js-photoInput">
+                </label>
+                <span class="page-header__file-error  js-photoError"></span>
+            </form>
+        </div>
+
+                <a href="/search" class="page-header__search-link">РАСШИРЕННЫЙ ПОИСК</a>
+
+                <button type="button" class="page-header__search-close" id="js-phSearchClose"></button>
+            </div>
+        </div>
+
+        <div class="page-header__inner" id="js-phInner">
+            <div class="page-header__location">
+                <div class="page-header__location-choice">
+                    <span class="page-header__location-title">Дислокация полка:</span>
+                    <a href="/api/regions" class="page-header__location-name"
+                       id="js-regionsOpen">
+                        <span class="page-header__location-region js-txt_region_name">Москва</span>
+                        <span class="page-header__location-city js-txt_region_city">Москва</span>
+                    </a>
+                </div>
+                <a href="/moscow" class="page-header__location-link js-lnk_region_url">
+                    Перейти на страницу региона
+                </a>
+            </div>
+
+            <div class="page-header__notifications-wrapper" id="js-phNotificationsWrapper">
+                <div class="notifications" id="js-notifications">
+                    <button type="button" class="notifications__btn" id="js-notificationsBtn">
+                        <svg class="notifications__svg" width="20" height="22">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#bell"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        <div class="notifications__counter" id="js-notifCounter"></div>
+                    </button>
+                    <div class="notifications__container">
+                        <div class="notifications__header">
+                                <span class="notifications__heading">
+                                    УВЕДОМЛЕНИЯ
+                                </span>
+                            <a class="notifications__clear" href="#" id="js-allNotifRead">Все прочитано</a>
+                        </div>
+                        <div class="notifications__scroll" id="js-navNotificationsScroll">
+                            <div class="notifications__list" id="js-navNotificationsList">
+                                <div class="notifications__notice" style="display: none" id="js-notifHidden" ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-header__personal" id="js-pageHeaderPersonal">
+                <a class="page-header__personal-link js-lnk_user">
+                    <svg class="page-header__personal-link-svg" width="10" height="10">
+                        <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#star" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    </svg>
+                    <span class="js-txt_name">ЛИЧНЫЙ КАБИНЕТ</span>
+                </a>
+                <div class="emerge  emerge--personal">
+                    <a class="emerge__link js-lnk_user">
+                        МОЙ ПРОФИЛЬ
+                    </a>
+                    <a class="emerge__link  js-lnk_user_stories">
+                        МОИ ИСТОРИИ
+                        <span class="emerge__counter js-txt_stories"></span>
+                    </a>
+                    <a class="emerge__link  js-lnk_user_marks">
+                        МОИ ЗАКЛАДКИ
+                        <span class="emerge__counter js-txt_marks"></span>
+                    </a>
+                    <a class="emerge__link  js-lnk_user_standers">
+                        ШТЕНДЕР
+                        <span class="emerge__counter js-txt_standers"></span>
+                    </a>
+                    <a class="emerge__link js-lnk_user_unknown">
+                        НЕИЗВЕСТНЫЙ СОЛДАТ
+                        <span class="emerge__counter js-txt_unknown"></span>
+                    </a>
+                    <a class="emerge__link js-lnk_admin_url">
+                        АДМИНИСТРИРОВАНИЕ
+                    </a>
+                    <a href="/logout" class="emerge__link">ВЫХОД</a>
+                </div>
+            </div>
+
+            <button type="button" class="page-header__search-btn  js-phFormBtn">
+                <svg class="page-header__search-svg" width="20" height="20">
+                    <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                </svg>
+            </button>
+            <div class="page-header__collapsed" id="js-phCollapsed">
+                <nav class="nav">
+                    <a href="/" class="nav__index-link">
+                        <svg class="nav__index-link-svg" width="292" height="100">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#logo"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                    <div class="nav__list">
+                        <div class="nav__item">
+                            <a href="/soldier/create1" class="nav__link">ЗАПИШИ ДЕДА В ПОЛК</a>
+                            <div class="emerge">
+                                <a href="/instrukcii" class="emerge__link">КАК ЗАПИСАТЬ
+                                    ИСТОРИЮ
+                                    <br>(ИНСТРУКЦИЯ)</a>
+                                <a href="/stender/create" class="emerge__link">СОЗДАТЬ ШТЕНДЕР</a>
+                            </div>
+                        </div>
+                        <div class="nav__item">
+                            <a href="/letopis-polka" class="nav__link">О ДВИЖЕНИИ</a>
+                            <div class="emerge  emerge--col">
+                                <div class="emerge__col">
+                                    <a href="/ustav-polka" class="emerge__link">УСТАВ</a>
+                                    <a href="/letopis-polka" class="emerge__link">ЛЕТОПИСЬ</a>
+                                    <a href="/news" class="emerge__link">НОВОСТИ
+                                        ПОЛКА</a>
+                                    <a href="/donate?show=oferta" class="emerge__link">ПУБЛИЧНАЯ ОФЕРТА</a>
+                                </div>
+                                <div class="emerge__col">
+                                    <a href="/moscow/news"
+                                       class="emerge__link">НОВОСТИ РЕГИОНА</a>
+                                    <a href="/faq" class="emerge__link">ВОПРОС-ОТВЕТ</a>
+                                    <a href="/gauptvahta" class="emerge__link">ГАУПТВАХТА</a>
+                                    <a href="/gallery" class="emerge__link">ФОТО, ВИДЕО</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__item">
+                            <span class="nav__link">ПРОЕКТЫ</span>
+                            <div class="emerge">
+
+                                <a href="https://www.moypolk.ru/posts" class="emerge__link">СТРОЙ БЕССМЕРТНОГО ПОЛКА</a>
+
+                                <!-- <a href="/creation" class="emerge__link">ВАШЕ
+                                    ТВОРЧЕСТВО</a> -->
+                                <a href="/podcasts" class="emerge__link">ПОДКАСТЫ</a>
+                                <a href="/forum" class="emerge__link">ПОИСКОВЫЙ ПОРТАЛ</a>
+                                <a href="/soldier/unknown" class="emerge__link">НЕИЗВЕСТНЫЙ СОЛДАТ</a>
+                                <a href="http://lyubov.moypolk.ru/" class="emerge__link">ЛЮБОВЬЮ ПОБЕДИВ ВОЙНУ</a>
+                            </div>
+                        </div>
+                        <div class="nav__item">
+                            <a href="/search" class="nav__link">ПОИСК</a>
+                            <div class="emerge">
+                                <a href="/centr-poiskovoy-raboty-bessmertnogo-polka" class="emerge__link">ЦЕНТР ПОИСКОВОЙ
+                                    РАБОТЫ</a>
+                                <a href="/rekomendacii-po-poisku" class="emerge__link">РЕКОМЕНДАЦИИ ПО
+                                    ПОИСКУ</a>
+                                <a href="/resource" class="emerge__link">ПОИСК ПО ДРУГИМ
+                                    РЕСУРСАМ</a>
+                                <a href="/search/photo" class="emerge__link">ПОИСК ПО ФОТО</a>
+                            </div>
+                        </div>
+                                                    <a href="/press-centr" class="nav__link">КОНТАКТЫ</a>
+                                            </div>
+                </nav>
+                <a href="/donate" class="page-header__help-link  btn2">
+                    Помочь полку
+                </a>
+
+                <div class="breadcrumbs">
+                    <span class="breadcrumbs__title">ОФИЦИАЛЬНЫЙ САЙТ ДВИЖЕНИЯ</span>
+                                            <div class="breadcrumbs__link-wrapper  breadcrumbs__link-wrapper--index">
+                            <a href="/" class="breadcrumbs__link">
+                                <svg class="breadcrumbs__index-svg" width="14" height="13">
+                                    <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#home" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </a>
+                        </div>
+                                                    <div class="breadcrumbs__link-wrapper">
+                                <a  class="breadcrumbs__link">Поиск</a>
+                            </div>
+                                                            </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <main class="main main--search2 search2">
+
+
+        <div class="search search2__search" id="js-search">
+    <div class="search__tabs">
+        <button type="button" class="search__tab search__tab--text js-searchTab">
+            Поиск по базе движения
+        </button>
+        <button type="button" class="search__tab search__tab--photo js-searchTab">
+            Поиск по фото
+        </button>
+    </div>
+
+    <form class="search__form search__form--text" id="js-searchForm" action='/search/soldiers'>
+
+                <div class="search__advanced">
+            <div class="search__advanced-btn" id="searchAdvancedBtn">
+                <h4 class="search__advanced-title">РАСШИРЕННЫЙ ПОИСК</h4>
+                <div class="search__advanced-arrow">
+                    <div class="double-arrow">
+                        <div class="double-arrow__inner"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="search__collapsed" id="searchCollapsed">
+                <div class="search__collapsed-inner">
+    <div class="search__adv-inputs">
+        <label class="search__adv-label">Место рождения
+            <input type="text" name="birthplace" value="" class="search__adv-input" placeholder="Область, населенный пункт"  maxlength="200">
+        </label>
+        <div class="search__date-wrapper">
+            <div class="search__date-wrapper-label">Дата рождения
+                
+                    
+                
+            </div>
+            <div class="search__select-wrapper  search__select-wrapper--day">
+                <select class="search__select  js-selectric" name="birthdate_day" data-placeholder="Укажите регион">
+                    <option value="">Нет</option>
+                                            <option value="1" >1</option>
+                                            <option value="2" >2</option>
+                                            <option value="3" >3</option>
+                                            <option value="4" >4</option>
+                                            <option value="5" >5</option>
+                                            <option value="6" >6</option>
+                                            <option value="7" >7</option>
+                                            <option value="8" >8</option>
+                                            <option value="9" >9</option>
+                                            <option value="10" >10</option>
+                                            <option value="11" >11</option>
+                                            <option value="12" >12</option>
+                                            <option value="13" >13</option>
+                                            <option value="14" >14</option>
+                                            <option value="15" >15</option>
+                                            <option value="16" >16</option>
+                                            <option value="17" >17</option>
+                                            <option value="18" >18</option>
+                                            <option value="19" >19</option>
+                                            <option value="20" >20</option>
+                                            <option value="21" >21</option>
+                                            <option value="22" >22</option>
+                                            <option value="23" >23</option>
+                                            <option value="24" >24</option>
+                                            <option value="25" >25</option>
+                                            <option value="26" >26</option>
+                                            <option value="27" >27</option>
+                                            <option value="28" >28</option>
+                                            <option value="29" >29</option>
+                                            <option value="30" >30</option>
+                                            <option value="31" >31</option>
+                                    </select>
+            </div>
+            <div class="search__select-wrapper  search__select-wrapper--month">
+                <select class="search__select  js-selectric" name="birthdate_month">
+                    <option value="">Нет</option>
+                                            <option value="1" >Январь</option>
+                                            <option value="2" >Февраль</option>
+                                            <option value="3" >Март</option>
+                                            <option value="4" >Апрель</option>
+                                            <option value="5" >Май</option>
+                                            <option value="6" >Июнь</option>
+                                            <option value="7" >Июль</option>
+                                            <option value="8" >Август</option>
+                                            <option value="9" >Сентябрь</option>
+                                            <option value="10" >Октябрь</option>
+                                            <option value="11" >Ноябрь</option>
+                                            <option value="12" >Декабрь</option>
+                                    </select>
+            </div>
+            <input type="text" class="search__adv-input  search__adv-input--year" name="birthdate_year" value="" placeholder="Год"  maxlength="4">
+        </div>
+        <div class="search__date-wrapper">
+            <div class="search__date-wrapper-label">Дата смерти</div>
+            <div class="search__select-wrapper  search__select-wrapper--day">
+                <select class="search__select  js-selectric" name="deathdate_day">
+                    <option value="">Нет</option>
+                                            <option value="1" >1</option>
+                                            <option value="2" >2</option>
+                                            <option value="3" >3</option>
+                                            <option value="4" >4</option>
+                                            <option value="5" >5</option>
+                                            <option value="6" >6</option>
+                                            <option value="7" >7</option>
+                                            <option value="8" >8</option>
+                                            <option value="9" >9</option>
+                                            <option value="10" >10</option>
+                                            <option value="11" >11</option>
+                                            <option value="12" >12</option>
+                                            <option value="13" >13</option>
+                                            <option value="14" >14</option>
+                                            <option value="15" >15</option>
+                                            <option value="16" >16</option>
+                                            <option value="17" >17</option>
+                                            <option value="18" >18</option>
+                                            <option value="19" >19</option>
+                                            <option value="20" >20</option>
+                                            <option value="21" >21</option>
+                                            <option value="22" >22</option>
+                                            <option value="23" >23</option>
+                                            <option value="24" >24</option>
+                                            <option value="25" >25</option>
+                                            <option value="26" >26</option>
+                                            <option value="27" >27</option>
+                                            <option value="28" >28</option>
+                                            <option value="29" >29</option>
+                                            <option value="30" >30</option>
+                                            <option value="31" >31</option>
+                                    </select>
+            </div>
+            <div class="search__select-wrapper  search__select-wrapper--month">
+                <select class="search__select  js-selectric" name="deathdate_month">
+                    <option value="">Нет</option>
+                                            <option value="1" >Январь</option>
+                                            <option value="2" >Февраль</option>
+                                            <option value="3" >Март</option>
+                                            <option value="4" >Апрель</option>
+                                            <option value="5" >Май</option>
+                                            <option value="6" >Июнь</option>
+                                            <option value="7" >Июль</option>
+                                            <option value="8" >Август</option>
+                                            <option value="9" >Сентябрь</option>
+                                            <option value="10" >Октябрь</option>
+                                            <option value="11" >Ноябрь</option>
+                                            <option value="12" >Декабрь</option>
+                                    </select>
+            </div>
+            <input type="text" class="search__adv-input  search__adv-input--year" value="" name="deathdate_year" placeholder="Год"  maxlength="4">
+        </div>
+        <div class="search__date-wrapper">
+            <div class="search__date-wrapper-label">Дата призыва</div>
+            <div class="search__select-wrapper  search__select-wrapper--day">
+                <select class="search__select  js-selectric" name="сonscriptiondate_day">
+                    <option value="">Нет</option>
+                                            <option value="1" >1</option>
+                                            <option value="2" >2</option>
+                                            <option value="3" >3</option>
+                                            <option value="4" >4</option>
+                                            <option value="5" >5</option>
+                                            <option value="6" >6</option>
+                                            <option value="7" >7</option>
+                                            <option value="8" >8</option>
+                                            <option value="9" >9</option>
+                                            <option value="10" >10</option>
+                                            <option value="11" >11</option>
+                                            <option value="12" >12</option>
+                                            <option value="13" >13</option>
+                                            <option value="14" >14</option>
+                                            <option value="15" >15</option>
+                                            <option value="16" >16</option>
+                                            <option value="17" >17</option>
+                                            <option value="18" >18</option>
+                                            <option value="19" >19</option>
+                                            <option value="20" >20</option>
+                                            <option value="21" >21</option>
+                                            <option value="22" >22</option>
+                                            <option value="23" >23</option>
+                                            <option value="24" >24</option>
+                                            <option value="25" >25</option>
+                                            <option value="26" >26</option>
+                                            <option value="27" >27</option>
+                                            <option value="28" >28</option>
+                                            <option value="29" >29</option>
+                                            <option value="30" >30</option>
+                                            <option value="31" >31</option>
+                                    </select>
+            </div>
+            <div class="search__select-wrapper  search__select-wrapper--month">
+                <select class="search__select  js-selectric" name="сonscriptiondate_month">
+                    <option value="">Нет</option>
+                                            <option value="1" >Январь</option>
+                                            <option value="2" >Февраль</option>
+                                            <option value="3" >Март</option>
+                                            <option value="4" >Апрель</option>
+                                            <option value="5" >Май</option>
+                                            <option value="6" >Июнь</option>
+                                            <option value="7" >Июль</option>
+                                            <option value="8" >Август</option>
+                                            <option value="9" >Сентябрь</option>
+                                            <option value="10" >Октябрь</option>
+                                            <option value="11" >Ноябрь</option>
+                                            <option value="12" >Декабрь</option>
+                                    </select>
+            </div>
+            <input type="text" class="search__adv-input  search__adv-input--year" value="" name="сonscriptiondate_year" placeholder="Год"  maxlength="4">
+        </div>
+
+    </div>
+
+    <div class="search__adv-inputs">
+        <label class="search__adv-label">Воинское звание
+            <input type="text" name="rank" value="" class="search__adv-input" placeholder="Выберите звание" maxlength="200">
+        </label>
+
+        <label class="search__adv-label">Боевое подразделение
+            <input type="text" name="units" value="" class="search__adv-input" placeholder="Взвод, рота, полк, дивизия" maxlength="200">
+        </label>
+
+        <label class="search__adv-label">Воинская специальность
+            <input type="text" name="profession" value="" class="search__adv-input" placeholder="Введите звание" maxlength="200">
+        </label>
+
+        <label class="search__adv-label">Место призыва
+            <input type="text" name="conscriptionplace" value="" class="search__adv-input" placeholder="Место призыва" maxlength="200">
+        </label>
+    </div>
+
+    <div class="search__adv-inputs">
+        <label class="search__adv-label">Принимал участие
+            <input type="text" name="battles" value="" class="search__adv-input" placeholder="Битвы, сражения, операции" maxlength="200">
+        </label>
+
+        <label class="search__adv-label">Награды
+            <input type="text" name="awards" value="" class="search__adv-input" placeholder="Ордена и медали" maxlength="200">
+        </label>
+
+        <label class="search__adv-label">Госпитали
+            <input type="text" name="hospitals" value="" class="search__adv-input" placeholder="Номер госпиталя" maxlength="200">
+        </label>
+
+        <label class="search__adv-label">Плен
+            <input type="text" name="captivity" value="" class="search__adv-input" placeholder="Название лагеря" maxlength="200">
+        </label>
+    </div>
+    <button type="submit" class="btn  btn--l  search__adv-submit">
+        <span class="btn__inner">
+            <svg class="search__adv-submit-svg" width="21" height="21">
+                <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>ИСКАТЬ
+        </span>
+    </button>
+</div>            </div>
+        </div>
+                    
+
+        <div class="search__form-wrap">
+            <label class="search__label">
+                <input
+                    type="search"
+                    name='s'
+                    class="search__input js-search-input"
+                    id="js-searchInput"
+                    placeholder="Кого вы ищете?"
+                    value="Снимщиков"
+                    autocomplete="off"
+                    required
+                    />
+            </label>
+
+            <button type="submit" class="search__submit">
+                <svg class="search__submit-icon" width="42" height="40">
+                <use
+                    xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#search"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    ></use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="search__form__msg search__form__msg--agreement">
+            Используя поиск, Вы даете <a target="_blank" href="/documents/Soglasie_na_obrabotku_personalnyh_dannyh_poisk.pdf">согласие</a> на обработку персональных данных 
+            в соответствии с <a target="_blank" href="/documents/Politika_obrabotki_personalnyh_dannyh.pdf">Политикой обработки персональных данных</a>
+        </div>
+
+        <div class="search__categories-wrapper">
+            <div class="search__categories" id="js-searchCategory">
+                <div class="search__categories-title">
+                    В какой категории Вы хотите продолжить искать?
+                </div>
+                <a href="https://www.moypolk.ru/search?s=Снимщиков" class="search__category  search__category--active js-search-link">Все категории</a>
+<a href="https://www.moypolk.ru/search/soldiers?s=Снимщиков" data-type="soldiers" class="search__category js-search-link">Истории ветеранов</a>
+<a href="https://www.moypolk.ru/search/unknowns?s=Снимщиков" data-type="unknowns" class="search__category js-search-link">Неизвестный солдат</a>
+<a href="https://www.moypolk.ru/search/news?s=Снимщиков" data-type="news" class="search__category js-search-link">Новости</a>
+<!--<a href="https://www.moypolk.ru/search/finds?s=Снимщиков" data-type="finds" class="search__category js-search-link">Объявления</a>-->
+<a href="https://www.moypolk.ru/search/gauptvahta?s=Снимщиков" data-type="gauptvahta" class="search__category js-search-link">Гауптвахта</a>
+<a href="https://www.moypolk.ru/search/creations?s=Снимщиков" data-type="creations" class="search__category js-search-link">Творчество</a>
+<a href="https://www.moypolk.ru/search/results?s=Снимщиков" data-type="results" class="search__category js-search-link">Результаты работы Центра Поисковой Работы</a>
+<a href="https://www.moypolk.ru/search/forum?s=Снимщиков" data-type="forum" class="search__category js-search-link">Поисковый портал</a>
+<a href="https://www.moypolk.ru/search/podcasts?s=Снимщиков" data-type="podcasts" class="search__category js-search-link">Подкасты</a>
+<!--<a href="https://www.moypolk.ru/search/photo" data-type="photo" class="search__category js-search-link">Фото</a>-->
+<a href="https://www.moypolk.ru/search/posts?s=Снимщиков" data-type="posts" class="search__category js-search-link">Строй Бессмертного Полка</a>
+            </div>
+        </div>
+    </form>
+
+    <form
+        action="/search/ajax/photo/cache"
+        class="search__form search__form--photo js-photoForm"
+        >
+        <label class="search__photo-btn btn btn--photo">
+            <span class="btn__inner">
+                <svg class="btn__icon" width="46" height="40">
+                <use
+                    xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#photo"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    ></use>
+                </svg>
+
+                Загрузить фото
+            </span>
+            <input
+                type="file"
+                accept="image/jpeg,image/png"
+                class="search__photo-input js-photoInput"
+                />
+        </label>
+
+        <div class="search__error js-photoError"></div>
+
+        <div class="search__photo-wrapper js-photoWrapper">
+                    </div>
+    </form>
+
+    <div class="search__links">
+        <a href="/centr-poiskovoy-raboty-bessmertnogo-polka" class="search__link search__link--l">ЦЕНТР ПОИСКОВОЙ РАБОТЫ</a>
+        <a href="/rekomendacii-po-poisku" class="search__link search__link--r">РЕКОМЕНДАЦИИ ПО ПОИСКУ</a>
+    </div>
+
+    <div class="clouds"></div>
+
+</div>
+
+        <div class="search2__about  search2__about--photo">
+
+            <div class="search2__about-container">
+                <div class="search2__about-wrapper">
+                    <h2 class="search2__about-caption">Поиск человека по фото</h2>
+
+                    <div class="search2__about-content  content">
+                        <h2>
+                            Какими способами можно найти человека в нашей базе по фото?
+                        </h2>
+
+                        <p>
+                            Обратите внимание: фотография должна быть в самом высоком возможном качестве, человек изображен лицом в анфас, детали лица хорошо различимы.
+                        </p>
+
+                        <h2>
+                            Вручную через строку поиска:
+                        </h2>
+
+                        <p>
+                            Нажмите на значок лупы сверху — в строке вы увидите изображение фотоаппарата. По нажатию на него откроется окно выбора файла. Достаточно выбрать фотографию человека, которого необходимо найти и немного подождать.
+                        </p>
+
+                        <h2>
+                            Автоматически при создании истории ветерана или записи о неизвестном солдате:
+                        </h2>
+
+                        <p>
+                            После того, как фотография солдата загружена в карточку, наш сервис автоматически проверит совпадение в архивах и общих фотографиях в других карточках.
+                        </p>
+
+                        <h2>
+                            Через новую функцию «Поиск по фото»:
+                        </h2>
+
+                        <p>
+                            Сверху расположено поле «Загрузить фотографию». По нажатию на ссылку откроется окно выбора файла. Загрузите в поле необходимую фотографию и немного подождите. Если ваш солдат будет идентифицирован системой на фотографиях, загруженных другими людьми — вы сразу увидите результат, сможете скачать фотографии и посмотреть их местоположение.
+                        </p>
+                    </div>
+                </div>
+
+                <img src="https://www.moypolk.ru/assets/icons/search.svg" alt="search" class="search2__about-image">
+            </div>
+        </div>
+
+        <div class="search2__results  search2__results--text">
+
+            
+                <div class="search2__container">
+                    <div class="search2__caption-wrap">
+                        <div class="search2__caption  search2__caption--result">
+                            <h4 class="search2__tab-link  tab-link">Истории
+                                <span class="tab-link__sum">11</span>
+                            </h4>
+                        </div>
+
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+
+                    <div class="search2__list  search2__list--result">
+
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-anatoliy-petrovich">
+                Снимщиков Анатолий Петрович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2020/05/02/500fd5d410f17e1021bfdc3f6be62649.jpeg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Челябинская область, Озерск</span>
+                    <span class="search-card__rank"><b>Звание </b> - младший лейтенант</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 6.03.1924 - 19.03.2003</span>
+                <div class="search-card__text  cutted-text">
+            Родился 06.03.1924г. в Москве.Детство и юность прошли в г.Магнитогорске,куда переехала семья.Место призыва-Магнитогорский РВК.В декабре 1942г. стал курсантом 1-...
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            02.05.2020
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-anatoliy-petrovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-ivan-polikarpovich">
+                Снимщиков Иван Поликарпович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2020/05/05/596c5a2e12887abc241d56d672468984.jpeg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Белгородская область, Валуйки</span>
+                <div class="search-card__text  cutted-text">
+            Родился 9 ноября 1924г. в селе Доброе Белгородской области Шебекинского района.До войны окончил 7 классов, после школы работал в колхозе, был холост.На фронт бы...
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            03.06.2014
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-ivan-polikarpovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-evgeniy-borisovich">
+                Снимщиков Евгений Борисович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2015/05/01/35a4a39e4854d9911562fd08f9659e13.jpg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Москва, Москва</span>
+                    <span class="search-card__rank"><b>Звание </b> - подполковник</span>
+                <div class="search-card__text  cutted-text">
+            Родился 8 сентября 1924 года поселок Сапожок Рязанской области,закончил 10 классов,с 18 лет был призван в армию и закончил 3-6 месячные курсы младших офицеров.П...
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            01.05.2015
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-evgeniy-borisovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-semen-trofimovich">
+                Снимщиков Семен Трофимович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2020/05/07/d85f51ababd365cd175298cbdc1a7c38.jpeg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Краснодарский край, Краснодар</span>
+                    <span class="search-card__rank"><b>Звание </b> - старший лейтинант</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 22.06.1918 - </span>
+                <div class="search-card__text  cutted-text">
+            
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            07.05.2020
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-semen-trofimovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-ivan-romanovich-1">
+                Снимщиков Иван Романович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2020/07/25/c7fbb36b157c47d888867f3dadec80b6.png" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Ивановская область, Иваново</span>
+                    <span class="search-card__rank"><b>Звание </b> - Полковник</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 1927 - 2003</span>
+                <div class="search-card__text  cutted-text">
+            
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            08.05.2020
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-ivan-romanovich-1" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-aleksey-vasilevich">
+                Снимщиков Алексей Васильевич
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2020/05/09/af252d0d1e60ee338087d381dbdaa56e.jpeg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Российская Федерация, Россия; Краснодарский край, Сочи</span>
+                    <span class="search-card__rank"><b>Звание </b> - Красноармеец</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 18.02.1919 - 24.05.1995</span>
+                <div class="search-card__text  cutted-text">
+            Летом 1941года, в ожесточенных боях попал в окружение в Белоруссии, был пленён и угнан в Германию. Прошёл концентрационный лагерь ,,Нойенгамме,, город Гамбург....
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            09.05.2020
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-aleksey-vasilevich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-nikolay-martynovich">
+                Снимщиков Николай Мартынович
+            </a>
+        </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Москва, Москва</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 5.-.1914 - </span>
+                <div class="search-card__text  cutted-text">
+            
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            25.02.2024
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-nikolay-martynovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-ivan-grigorevich">
+                Снимщиков Иван Григорьевич
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2025/04/10/74958b2db4f0b9b8a7cf27a260ac9359.jpg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Алтайский край, Барнаул</span>
+                    <span class="search-card__rank"><b>Звание </b> - мл. лейтенант</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 15.08.1921 - 05.1965</span>
+                <div class="search-card__text  cutted-text">
+            
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            10.04.2025
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-ivan-grigorevich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/snimshchikov-ivan-semnovich">
+                Снимщиков Иван Семнович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2025/05/01/65074241487d1e0c9d09c87e1e5c745d.jpg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Липецкая область, Данковский район</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 9.06.1923 - </span>
+                <div class="search-card__text  cutted-text">
+            
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            01.05.2025
+        </div>
+        <a href="https://www.moypolk.ru/soldier/snimshchikov-ivan-semnovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/shalman-zinoviy-isaakovich">
+                Шальман Зиновий Исаакович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2021/06/20/cabcfb2e6c1d2a8fe8748b1edfbc2cab.jpg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Украина, Днепропетровск</span>
+                    <span class="search-card__rank"><b>Звание </b> - Старший лейтенант.</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 1921 - 28.05.1945</span>
+                <div class="search-card__text  cutted-text">
+            Награды.Ордена: &quot;ОТЕЧЕСТВЕННОЙ ВОЙНЫ&quot; 2 СТЕПЕНИ (01.1945, 03.1945).Представлялся к наградам:ордену “ОТЕЧЕСТВЕННОЙ ВОЙНЫ” 1 СТЕПЕНИ - награждён орденом “ОТЕЧЕСТВ...
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            20.06.2021
+        </div>
+        <a href="https://www.moypolk.ru/soldier/shalman-zinoviy-isaakovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                                                    <div class="search2__search-card  search-card">
+        <div class="search-card__wrap">
+        <div class="search-card__wrapping">
+            <div class="search-card__breadcrumbs">
+                <div class="search-card__breadcrumbs-list">
+                    <div class="search-card__breadcrumbs-hidden">
+                        <a href="/" class="search-card__breadcrumbs-link">Главная</a>
+                        <a href="/search" class="search-card__breadcrumbs-link">Поиск</a>
+                    </div>
+                </div>
+                Истории
+            </div>
+            <a class="search-card__caption  cutted-text" href="https://www.moypolk.ru/soldier/gavrilyuk-evgeniy-antonovich">
+                Гаврилюк Евгений Антонович
+            </a>
+        </div>
+                    <div class="search-card__photo-container">
+                <img src="https://cdn.moypolk.ru/static/resize/h200/soldiers/photo/2025/01/10/3e372ac922309b1c97c5dc14c1edfec2.jpg" class="search-card__photo">
+            </div>
+            </div>
+
+    <div class="search-card__description">
+                    <span class="search-card__rank"><b>Регион </b> - Украина, Украина</span>
+                    <span class="search-card__rank"><b>Звание </b> - Гвардии майор.</span>
+                    <span class="search-card__rank"><b>Годы жизни </b> - 1918 - 24.01.1945</span>
+                <div class="search-card__text  cutted-text">
+            Награды.Ордена: “КРАСНОГО ЗНАМЕНИ” (3.11.1944, 14.11.1944), “ОТЕЧЕСТВЕННОЙ ВОЙНЫ” 1 (5.03.1945) СТЕПЕНИ - ПОСМЕРТНО, “КРАСНОЙ ЗВЕЗДЫ” (30.04.1943).Представлялся...
+        </div>
+    </div>
+    <div class="search-card__footer">
+        <div class="search-card__date">
+            10.01.2025
+        </div>
+        <a href="https://www.moypolk.ru/soldier/gavrilyuk-evgeniy-antonovich" class="search-card__more">
+            Подробнее
+        </a>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+
+                <div class="search2__paginator">
+                    <div class="paginator">
+                        
+                    </div>
+                </div>
+
+            
+            <div class="search-on">
+    <h3 class="search-on__title">ТАКЖЕ ИСКАТЬ НА:</h3>
+    <div class="search-on__links">
+        <a href="https://bessmertnybarak.ru/pamyatnik/" target="_blank" class="search-on__link" rel="nofollow">Бессмертный барак</a>
+        
+        <a href="http://otechestvort.ru/izdat/book07/main.htm" target="_blank" class="search-on__link" rel="nofollow">Солдатские медальоны</a>
+        
+        
+        <a href="http://podvignaroda.ru/?#tab=navPeople_search" target="_blank" class="search-on__link" rel="nofollow">Подвиг народа</a>
+        <a href="https://pamyat-naroda.ru/" target="_blank" class="search-on__link" rel="nofollow">Память народа</a>
+        <a href="http://www.dokst.ru/main/node/1118" target="_blank" class="search-on__link" rel="nofollow">Саксонские мемориалы</a>
+        <a href="https://obd-memorial.ru/html/" target="_blank" class="search-on__link" rel="nofollow">ОБД Мемориал</a>
+        <a href="https://www.moypolk.ru/resource" target="_blank" class="search-on__link" rel="nofollow">Другие ресурсы</a>
+    </div>
+</div>        </div>
+
+    </main>
+
+        <script src="https://cdn.moypolk.ru/scripts/jquery-3.2.1.min.js"></script>
+        <script src="https://cdn.moypolk.ru/scripts/jquery.overlayScrollbars.min.js"></script>
+        <script src="https://cdn.moypolk.ru/scripts/jquery.dotdotdot.min.js"></script>
+        <script src="https://cdn.moypolk.ru/scripts/jquery.magnific-popup.min.js"></script>
+        <script src="https://cdn.moypolk.ru/scripts/jquery.mask.min.js"></script>
+        <script src="https://cdn.moypolk.ru/scripts/jquery.validate.min.js?ver=1.0.1"></script>
+    <script src="https://cdn.moypolk.ru/scripts/jquery.validate-advance.min.js?v=1.6.4"></script>
+        <script src="https://cdn.moypolk.ru/scripts/selectize.min.js"></script>
+    <script src="https://cdn.moypolk.ru/scripts/selectize-plugin.min.js"></script>
+        <script src="https://cdn.moypolk.ru/scripts/jquery.selectric.min.js?v=1.5"></script>
+        <script src="https://cdn.moypolk.ru/scripts/pixi.min.js"></script>
+    <script src="https://cdn.moypolk.ru/scripts/smoke.min.js"></script>
+        <script src="https://cdn.moypolk.ru/scripts/js.cookie.min.js"></script>
+    <script src="https://cdn.moypolk.ru/scripts/main.min.js?v=1.6.10"></script>
+
+    <script src="https://cdn.moypolk.ru/scripts/manifest.js"></script>
+    <script src="https://cdn.moypolk.ru/scripts/vendor.js"></script>
+    <script src="https://cdn.moypolk.ru/scripts/application.js?v=1.95"></script>
+    <script src="https://cdn.moypolk.ru/scripts/search.js?v=1.13"></script>
+    
+
+
+<input type="hidden" id="regionsPath" value="/api/regions.json">
+    <style>
+    .eu-popup{
+        position:fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 10px 10px 20px 10px;
+        z-index: 4242;
+        flex-wrap: wrap;
+        background-color: #f0e5d1;
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.75);
+        margin: 20px;
+        border-radius: 20px;
+        bottom: 0px;
+        color: #655d54;
+        opacity: 0.8;
+        font-size: 14px; 
+    }
+    .eu-popup-button {
+        background-color: #f0e5d1;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px #332827 solid;
+        border-radius: 10px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .eu-popup-button:last-child {
+        margin-left: 10px;
+    }
+
+    .eu-popup-button:hover {
+        background-color: #e4d7c3;
+        cursor: pointer;
+    }
+</style>
+
+<div id="eu-cookie-consent" style="" class="eu-popup">
+    
+            <div style="width: 100%">
+            <p>
+                <b>
+                    
+                                            Нажмите «ОК», если вы соглашаетесь с <a target="_blank" href="/documents/Politika_obrabotki_personalnyh_dannyh.pdf">условиями</a> обработки cookie и данных о поведении на сайте, нужных нам для аналитики. Запретить обработку cookie можете через браузер
+                                    </b>
+            </p>
+        </div>
+        
+    
+    <script>
+        function euCookieConsentSetCheckboxesByClassName(classname) {
+            checkboxes = document.getElementsByClassName('eu-cookie-consent-cookie');
+            for (i = 0; i < checkboxes.length; i++) {
+                checkboxes[i].setAttribute('checked', 'checked');
+                checkboxes[i].checked = true;
+            }
+            //document.getElementById("eu-cookie-consent-form").requestSubmit();
+            saveCookie();
+            //var cookie_date = new Date();
+            //cookie_date.setYear(cookie_date.getFullYear() + 1);
+            //document.cookie = "moypolkcookie='1';expires=" + cookie_date.toUTCString() + ";path=/";
+            document.getElementById("eu-cookie-consent").style.display = "none";
+            
+        }
+        function saveCookie(){
+            let token = $('meta[name="csrf-token"]').attr("content");
+            $.ajax({
+                url: "/saveTheCookie",
+                type: 'POST',
+                data: {
+                    '_csrf-frontend': token,
+                },
+                success: function (response) {
+                    console.log("saveCookie success");
+                    return true;
+                },
+                error: function( jqXHR, textStatus, errorThrown) {
+                    console.log("saveCookie error status:", textStatus);
+                    console.log("saveCookie error thrown:", errorThrown);
+                }
+            });
+        };
+    </script>
+
+    
+    <form action="/saveTheCookie" method="POST" id="eu-cookie-consent-form">
+        <div style="margin-top: 20px;">
+                            <a class="eu-popup-button"
+                        onclick="euCookieConsentSetCheckboxesByClassName('eu-cookie-consent-cookie');">
+                                            Ok
+                                    </a>
+                                </div>
+    </form>
+</div>
+
+    <footer class="page-footer">
+  <div class="clouds clouds--b"></div>
+        <div class="page-footer__container">
+            <svg class="page-footer__logo" width="174" height="60">
+                <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#logo"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+            <p class="page-footer__slogan">ОНИ ДОЛЖНЫ ИДТИ ПОБЕДНЫМ
+                <br>СТРОЕМ В ЛЮБЫЕ ВРЕМЕНА</p>
+            <ul class="page-footer__links">
+                <li class="page-footer__item">
+                    <a href="/" class="page-footer__link">ГЛАВНАЯ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/forum" class="page-footer__link">ПОИСКОВЫЙ ПОРТАЛ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/gauptvahta" class="page-footer__link">НАРУШЕНИЕ УСТАВА</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/letopis-polka" class="page-footer__link">О ПРОЕКТЕ</a>
+                </li>
+
+                <li class="page-footer__item">
+                    <a href="/soldier/unknown" class="page-footer__link">НЕИЗВЕСТНЫЙ СОЛДАТ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/news" class="page-footer__link">НОВОСТИ ДВИЖЕНИЯ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/page/documents" class="page-footer__link">ДОКУМЕНТЫ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/faq" class="page-footer__link">ВОПРОС-ОТВЕТ</a>
+                </li>
+
+                <li class="page-footer__item">
+                    <a href="https://www.moypolk.ru/moscow/soldiers" class="page-footer__link js-regionsoldiers">ИСТОРИИ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/gallery" class="page-footer__link">ФОТО, ВИДЕО</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/donate" class="page-footer__link">ПОМОЧЬ ДВИЖЕНИЮ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/press-centr" class="page-footer__link">КОНТАКТЫ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/sitemap" class="page-footer__link">КАРТА САЙТА</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/podcasts" class="page-footer__link">ПОДКАСТЫ</a>
+                </li>
+                <li class="page-footer__item">
+                    <a href="/search" class="page-footer__link">ПОИСК</a>
+                </li>
+                <li class="page-footer__item">
+                    <!-- <a href="/admin/coordinator" class="page-footer__link">КООРДИНАТОРЫ</a> -->
+                </li>
+            </ul>
+        </div>
+        <div class="page-footer__delimiter  page-footer__delimiter--firrst"></div>
+        <div class="page-footer__second">
+            <div class="page-footer__subscribe">
+                <h4 class="page-footer__heading">ПОДПИШИТЕСЬ НА НОВОСТИ И ОБНОВЛЕНИЯ</h4>
+                <form class="page-footer__subscribe-form" id="js-footerSubscribe">
+
+                    <input type="text" name="email" class="page-footer__subscribe-input" placeholder="ВАШ E-MAIL" required>
+                    <button type="submit" class="page-footer__subscribe-submit">ПОДПИСАТЬСЯ</button>
+                </form>
+                <div class="search__form__msg search__form__msg--agreement">
+                    Нажимая на кнопку "ПОДПИСАТЬСЯ", Вы соглашаетесь получать информационные рассылки от РИПОД "БЕССМЕРТНЫЙ ПОЛК" (ИНН: 7017997033)
+                </div>
+
+                <div class="page-footer__subscribe-msg  success-msg">
+                    <span class="success-msg__row-1">Спасибо!</span>
+                    <span class="success-msg__row-2">Ваша подписка оформлена</span>
+                </div>
+                <div class="page-footer__subscribe-error  success-msg">
+                    <span class="success-msg__row-1">Ошибка!</span>
+                    <span class="success-msg__row-2">Пожалуйста, попробуйте позже.</span>
+                </div>
+            </div>
+            <div class="page-footer__social">
+                <h4 class="page-footer__heading">ПРИСОЕДИНЯЙТЕСЬ К НАМ</h4>
+                <div class="page-footer__social-links">
+                    
+                    <a href="https://vk.com/moypolk" class="page-footer__social-link" target="_blank" rel="nofollow">Вконтакте
+                        <svg height="22" width="32"
+                             class="page-footer__social-link-svg  page-footer__social-link-svg--vk">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#soc-vk"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                    
+                    
+                                        
+                    
+
+
+
+
+
+
+
+                    
+                    
+
+
+
+
+
+
+
+                    
+                    
+                    <a href="https://www.youtube.com/moypolk?sub_confirmation=1" class="page-footer__social-link" target="_blank" rel="nofollow">Ютуб
+                        <svg height="22" width="29"
+                             class="page-footer__social-link-svg  page-footer__social-link-svg--ytb">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#soc-youtube"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                    
+                    <a href="https://zen.yandex.ru/id/5a8aff15865165dfbdd603ec" class="page-footer__social-link" target="_blank" rel="nofollow">Zen
+                        <svg height="22" width="22" class="page-footer__social-link-svg  page-footer__social-link-svg--zen">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#soc-zen" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                    
+                    <a href="https://t.me/moypolk" target="_blank" rel="nofollow noreferrer noopener" class="page-footer__social-link">Телеграм
+                        <svg height="27" width="26"
+                            class="page-footer__social-link-svg  page-footer__social-link-svg--fb">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#telegram"
+                            mlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                    <a href="https://tamtam.chat/moypolk" class="page-footer__social-link  page-footer__social-link--tamtam" target="_blank" rel="nofollow">ТамТам
+                        <svg height="22" width="36"
+                             class="page-footer__social-link-svg  page-footer__social-link-svg--tamtam">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#soc-tam"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                    
+                    <a href="https://ok.ru/moypolkru" class="page-footer__social-link" target="_blank" rel="nofollow">OK
+                        <svg height="22" width="13" class="page-footer__social-link-svg  page-footer__social-link-svg--ok">
+                            <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#soc-ok" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                                    </div>
+            </div>
+        </div>
+        <div class="page-footer__delimiter"></div>
+        <div class="page-footer__third">
+
+
+
+
+
+
+
+
+
+
+            <div class="page-footer__info">
+                <svg class="page-footer__info-icon" width="57" height="50">
+                    <use xlink:href="https://www.moypolk.ru/assets/icons/symbols.svg#bird" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                </svg>
+
+                <p class="page-footer__text">
+                    В соответствии с Законом РФ «О персональных данных» все персональные данные сайта moypolk.ru хранятся на серверах на территории РФ. Услуги предоставляются на основании соответствующих договоров.
+                </p>
+            </div>
+        </div>
+        <div class="page-footer__vault">
+            <div class="page-footer__copyright"><span class="page-footer__copyright-symbol">Ⓒ</span> moypolk.ru
+                Бессмертный
+                полк
+            </div>
+            <div class="page-footer__terms-of-use">
+                                <a class="page-footer__terms-of-use-link" target="_blank" href="/documents/Politika_obrabotki_personalnyh_dannyh.pdf">Политика обработки персональных данных</a>
+                <a class="page-footer__terms-of-use-link" target="_blank" href="/documents/Polzovatelskoe_soglashenie.pdf">Пользовательское соглашение</a>
+            </div>
+            <a href="http://gitinsky.com/" target="_blank" class="page-footer__copyright  page-footer__copyright--link">Поддержка сайта — DevOps-аутсорсинг Git in Sky</a>
+        </div>
+        
+    </footer>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(28990935, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/28990935" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<script>
+    $('.page-footer__subscribe-submit').click(()=> {
+        $.ajax({
+            type: "POST",
+            url: "/ajax/add_subscribe",
+            data:  {
+                'email': $('.page-footer__subscribe-input').val(),
+            },
+            dataType: 'json',
+            headers: {
+                'X-CSRF-TOKEN': "7G0lySxyhFlzFfZ0dVKEFoiIpOog7rsL11xLFGVj"
+            },
+        })
+        .done(function(data) {
+            $('.page-footer__subscribe-msg-1').text(data.message1);
+            $('.page-footer__subscribe-msg-2').text(data.message2);
+            $('.page-footer__subscribe-msg').addClass('success-msg--active');
+        })
+        .fail(function (response) {
+            let text;
+            if (typeof response.responseJSON.errors != 'undefined' && response.responseJSON.errors.email.length) {
+                text = response.responseJSON.errors.email[0];
+            } else {
+                text = 'Произошла ошибка.';
+            }
+            $('input[name=subscribe-email]').after('<label id="email-error" class="error" for="email" style="display: block">'
+                + text +
+                '</label>');
+        });
+        return false;
+    })
+</script>
+
+</body>
+
+</html>

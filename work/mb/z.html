@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Поиск</title>
+
+    <meta name="robots" content="noindex, follow">
+<link rel="canonical" href="http://memory-book.ua/search" />
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/ico" href="/assets/images/favicon.ico">
+
+    <link href="/assets/css/bootstrap-grid.css" rel="stylesheet">
+    <link href="/assets/css/swiper.css" rel="stylesheet">
+    <link href="/assets/css/swipebox.css" rel="stylesheet">
+    <link href="/assets/css/style.css?1757709533" rel="stylesheet">
+    <link href="/assets/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />    
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">  
+
+    <link rel="icon" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/assets/images/favicon/android-icon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/favicon/android-icon-192x192.png" />
+
+    <script type="text/javascript" src="/assets/js/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+    <script>var lang_href = '/';</script>
+
+
+    <script>var base_href = '/';</script>
+
+    <script type="text/javascript" src="/assets/js/plugins.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+    <script src="/assets/js/map-style.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANW1CFtoNPO90PMeSIQ4KeENLt4V2p8Ho"></script>
+    <script type="text/javascript" src="/assets/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <!-- AIzaSyCTRSHf8sjMCfK9PHPJxjJkwrCIo5asIzE -->
+    <script src="/assets/js/ckeditor/ckeditor.js" language="javascript" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/js/scripts.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+</head>
+<body class="inner-page url-search">
+    
+
+        <div class="nav-wrapper">
+        <nav class="navbar navbar-static">
+            <div class="container"> 
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                                        <a class="logo" href="/"><img class=" full-width" src="/assets/images/logo.png" alt="Книга Памяти Украины"></a>
+                                    </div>              
+                <a href="/help" class="btn btn-red btn-lg pull-right visible-lg visible-md">Помочь проекту</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="container">             
+                    <ul class="nav navbar-nav">
+                        	<li class="l0  m-news first "><a href="/news">Новости</a>
+			</li><li class="l0  active  m-search item2 "><a href="/search" class=" active ">Поиск</a>
+			</li><li class="l0  m-stories item3 "><a href="/stories">Истории</a>
+			</li><li class="l0  m-gallery/albums/29 item4 "><a href="/gallery/albums/29">Захоронения</a>
+			</li><li class="l0  m-video item5 "><a href="/video">Видеолекторий</a>
+			</li><li class="l0  m-documents item6 "><a href="/documents">Документально</a>
+			</li><li class="l0  m-gallery/albums/135 item7 "><a href="/gallery/albums/135">Фронтовики</a>
+			</li><li class="l0  m-about last "><a href="/about">О нас</a>
+			</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+<header class="page-header">
+	<div class="container">
+		<ol class="bread">
+	<li class="first" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span class="itemprop" itemprop="title">Главная</span></a></li><li class="divider"><span>/</span></li><li class="last">
+	<span>Поиск</span>	</li></ol>
+
+		<h1>Поиск</h1>
+	</div>
+</header>
+<div class="container">
+    <div class="inner">
+		<div class="row">
+	<div class="col-sm-5 col-sm-push-7">
+		<div class="block-white">
+
+			<h5>Где искать?</h5>
+			<form action="search" method="get" class="search search-inner aligncenter">
+				<input type="text" name="s" value="" placeholder="ФИО, место, часть" />
+				<div class="row types">
+					<div class="col-ms-6"><a href="#" class="dashed active" data-class="type-item" data-id="book">По книгам памяти</a></div>
+					<div class="col-ms-6 align-right"><a href="#" class="dashed" data-class="type-item" data-id="gallery">По захоронениям</a></div>
+				</div>
+
+				<input type="hidden" name="type" class="type-item-value" value="book">
+
+				<select name="region" class="type-item item-book">
+										<option value="" selected>Все регионы</option>
+										<option value="26">Винница</option>
+										<option value="25">Винницкая область</option>
+										<option value="24">Волынская область</option>
+										<option value="85">Город-Герой Керчь</option>
+										<option value="2">Город-Герой Киев</option>
+										<option value="6">Город-Герой Одесса</option>
+										<option value="3">Город-Герой Севастополь</option>
+										<option value="28">Днепропетровск</option>
+										<option value="27">Днепропетровская область</option>
+										<option value="30">Донецк (Сталино)</option>
+										<option value="29">Донецкая область (Сталинская)</option>
+										<option value="54">Житомир</option>
+										<option value="22">Житомирская область</option>
+										<option value="56">Закарпатская область</option>
+										<option value="13">Запорожская область</option>
+										<option value="33">Ивано-Франковск (Станислав)</option>
+										<option value="14">Ивано-Франковская область (Станиславская)</option>
+										<option value="10">Запорожье</option>
+										<option value="7">Киевская область</option>
+										<option value="35">Кировоград</option>
+										<option value="34">Кировоградская область</option>
+										<option value="15">Крым</option>
+										<option value="37">Львов</option>
+										<option value="16">Луганск (Ворошиловград)</option>
+										<option value="17">Луганская область (Ворошиловградская)</option>
+										<option value="36">Львовская область</option>
+										<option value="5">Николаев</option>
+										<option value="8">Николаевская область</option>
+										<option value="55">Луцк</option>
+										<option value="38">Одесская область</option>
+										<option value="20">Полтава</option>
+										<option value="39">Полтавская область</option>
+										<option value="41">Ровно</option>
+										<option value="40">Ровненская область</option>
+										<option value="43">Сумы</option>
+										<option value="42">Сумская область</option>
+										<option value="4">Тернополь</option>
+										<option value="9">Тернопольская область</option>
+										<option value="57">Ужгород</option>
+										<option value="44">Харьков</option>
+										<option value="46">Херсон</option>
+										<option value="45">Херсонская область</option>
+										<option value="18">Харьковская область</option>
+										<option value="48">Хмельницкий</option>
+										<option value="47">Хмельницкая область (Каменец-Подольская)</option>
+										<option value="49">Черкассы</option>
+										<option value="21">Черкасская область</option>
+										<option value="50">Чернигов и Черниговская область</option>
+										<option value="53">Черновцы</option>
+										<option value="52">Черновицкая область</option>
+									</select>
+
+				<select name="section" class="type-item item-book">
+										<option value="" selected>Все разделы</option>
+										<option value="23">Военнопленные - "Саксонские мемориалы"</option>
+										<option value="84">Военнопленные - Шталаг 349 (Умань)</option>
+										<option value="71">Партизанское соединение генерал-майора Наумова</option>
+										<option value="90">Партизаны Виннитчины</option>
+										<option value="65">Партизаны Волыни</option>
+										<option value="68">Партизаны Днепропетровщины</option>
+										<option value="72">Партизаны Донетчины</option>
+										<option value="81">Партизаны Житомирщины</option>
+										<option value="67">Партизаны Киевщины</option>
+										<option value="78">Партизаны Кировоградщины</option>
+										<option value="12">Партизаны Крыма</option>
+										<option value="60">Партизаны Луганщины</option>
+										<option value="74">Партизаны Львовщины</option>
+										<option value="61">Партизаны Полтавщины</option>
+										<option value="82">Партизаны Сумщины</option>
+										<option value="58">Партизаны Харьковщины</option>
+										<option value="77">Партизаны Херсонщины</option>
+										<option value="69">Партизаны Черниговщины</option>
+										<option value="86">Подпольщики Сумщины</option>
+										<option value="83">Подпольщики Днепропетровщины</option>
+										<option value="80">Подпольщики Житомирщины</option>
+										<option value="79">Подпольщики Кировоградщины</option>
+										<option value="76">Подпольщики Херсонщины</option>
+										<option value="75">Подпольщики Виннитчины</option>
+										<option value="73">Подпольщики Донетчины</option>
+										<option value="70">Подпольщики Черниговщины</option>
+										<option value="64">Подпольщики Волыни</option>
+										<option value="63">Подпольщики Киевщины</option>
+										<option value="62">Подпольщики Луганщины</option>
+										<option value="59">Подпольщики Харьковщины</option>
+										<option value="11">Подпольщики Крыма</option>
+										<option value="66">Герои Советского Союза</option>
+										<option value="1">Солдатские медальоны</option>
+										<option value="19">Другие имена</option>
+									</select>
+
+				<select name="gallery" class="type-item item-gallery" style="display: none;">
+										<option value="" selected>Все захоронения</option>
+										<option value="22777">Винницкая область</option>
+										<option value="23094">Волынская область</option>
+										<option value="3231">Город-Герой Керчь</option>
+										<option value="22726">Город-Герой Киев</option>
+										<option value="24977">Город-Герой Одесса</option>
+										<option value="2340">Город-Герой Севастополь</option>
+										<option value="16648">Днепропетровская область</option>
+										<option value="2128">Донецкая область</option>
+										<option value="1552">Житомирская область</option>
+										<option value="17090">Запорожская область</option>
+										<option value="32478">Закарпатская область</option>
+										<option value="22699">Ивано-Франковская область</option>
+										<option value="6219">Киевская область</option>
+										<option value="22684">Кировоградская область</option>
+										<option value="2654">Крым</option>
+										<option value="24670">Луганская область</option>
+										<option value="16547">Львовская область</option>
+										<option value="22891">Николаевская область</option>
+										<option value="22772">Одесская область</option>
+										<option value="15647">Полтавская область</option>
+										<option value="24062">Ровненская область</option>
+										<option value="14864">Сумская область</option>
+										<option value="24973">Тернопольская область</option>
+										<option value="2264">Харьковская область</option>
+										<option value="1342">Херсонская область</option>
+										<option value="2517">Хмельницкая область</option>
+										<option value="9777">Черниговская область</option>
+										<option value="22751">Черкасская область</option>
+										<option value="36433">Черновицкая область</option>
+									</select>
+
+				<input type="submit" class="btn btn-blue" name="submit" value="Искать" />
+			</form>
+
+      		</div>
+	</div>
+	<div class="col-sm-7 col-sm-pull-5">
+								<ul class="book-list">
+																		<li>
+					<a href="?book_id=26">Винница <span class="gray">(133)</span></a>
+				</li>											<li>
+					<a href="?book_id=25">Винницкая область <span class="gray">(1477)</span></a>
+				</li>											<li>
+					<a href="?book_id=24">Волынская область <span class="gray">(2740)</span></a>
+				</li>											<li>
+					<a href="?book_id=85">Город-Герой Керчь <span class="gray">(8283)</span></a>
+				</li>											<li>
+					<a href="?book_id=2">Город-Герой Киев <span class="gray">(19373)</span></a>
+				</li>											<li>
+					<a href="?book_id=6">Город-Герой Одесса <span class="gray">(9157)</span></a>
+				</li>											<li>
+					<a href="?book_id=3">Город-Герой Севастополь <span class="gray">(107200)</span></a>
+				</li>											<li>
+					<a href="?book_id=28">Днепропетровск <span class="gray">(662)</span></a>
+				</li>											<li>
+					<a href="?book_id=27">Днепропетровская область <span class="gray">(16980)</span></a>
+				</li>											<li>
+					<a href="?book_id=30">Донецк (Сталино) <span class="gray">(219)</span></a>
+				</li>											<li>
+					<a href="?book_id=29">Донецкая область (Сталинская) <span class="gray">(49372)</span></a>
+				</li>											<li>
+					<a href="?book_id=54">Житомир <span class="gray">(37)</span></a>
+				</li>											<li>
+					<a href="?book_id=22">Житомирская область <span class="gray">(12591)</span></a>
+				</li>											<li>
+					<a href="?book_id=56">Закарпатская область <span class="gray">(152)</span></a>
+				</li>											<li>
+					<a href="?book_id=13">Запорожская область <span class="gray">(32398)</span></a>
+				</li>											<li>
+					<a href="?book_id=33">Ивано-Франковск (Станислав) <span class="gray">(6)</span></a>
+				</li>											<li>
+					<a href="?book_id=14">Ивано-Франковская область (Станиславская) <span class="gray">(2863)</span></a>
+				</li>											<li>
+					<a href="?book_id=10">Запорожье <span class="gray">(9811)</span></a>
+				</li>											<li>
+					<a href="?book_id=7">Киевская область <span class="gray">(770)</span></a>
+				</li>											<li>
+					<a href="?book_id=35">Кировоград <span class="gray">(11866)</span></a>
+				</li>											<li>
+					<a href="?book_id=34">Кировоградская область <span class="gray">(119025)</span></a>
+				</li>											<li>
+					<a href="?book_id=15">Крым <span class="gray">(35266)</span></a>
+				</li>											<li>
+					<a href="?book_id=37">Львов <span class="gray">(10)</span></a>
+				</li>											<li>
+					<a href="?book_id=16">Луганск (Ворошиловград) <span class="gray">(6581)</span></a>
+				</li>											<li>
+					<a href="?book_id=17">Луганская область (Ворошиловградская) <span class="gray">(78324)</span></a>
+				</li>											<li>
+					<a href="?book_id=36">Львовская область <span class="gray">(9400)</span></a>
+				</li>											<li>
+					<a href="?book_id=5">Николаев <span class="gray">(875)</span></a>
+				</li>											<li>
+					<a href="?book_id=8">Николаевская область <span class="gray">(2670)</span></a>
+				</li>											<li>
+					<a href="?book_id=55">Луцк <span class="gray">(560)</span></a>
+				</li>											<li>
+					<a href="?book_id=38">Одесская область <span class="gray">(576)</span></a>
+				</li>											<li>
+					<a href="?book_id=20">Полтава <span class="gray">(44)</span></a>
+				</li>											<li>
+					<a href="?book_id=39">Полтавская область <span class="gray">(800)</span></a>
+				</li>											<li>
+					<a href="?book_id=41">Ровно <span class="gray">(20)</span></a>
+				</li>											<li>
+					<a href="?book_id=40">Ровненская область <span class="gray">(45)</span></a>
+				</li>											<li>
+					<a href="?book_id=43">Сумы <span class="gray">(1209)</span></a>
+				</li>											<li>
+					<a href="?book_id=42">Сумская область <span class="gray">(2226)</span></a>
+				</li>											<li>
+					<a href="?book_id=4">Тернополь <span class="gray">(621)</span></a>
+				</li>											<li>
+					<a href="?book_id=9">Тернопольская область <span class="gray">(36299)</span></a>
+				</li>											<li>
+					<a href="?book_id=57">Ужгород <span class="gray">(9)</span></a>
+				</li>											<li>
+					<a href="?book_id=44">Харьков <span class="gray">(130)</span></a>
+				</li>											<li>
+					<a href="?book_id=46">Херсон <span class="gray">(3308)</span></a>
+				</li>											<li>
+					<a href="?book_id=45">Херсонская область <span class="gray">(74291)</span></a>
+				</li>											<li>
+					<a href="?book_id=18">Харьковская область <span class="gray">(69471)</span></a>
+				</li>											<li>
+					<a href="?book_id=48">Хмельницкий <span class="gray">(10)</span></a>
+				</li>											<li>
+					<a href="?book_id=47">Хмельницкая область (Каменец-Подольская) <span class="gray">(366)</span></a>
+				</li>											<li>
+					<a href="?book_id=49">Черкассы <span class="gray">(15)</span></a>
+				</li>											<li>
+					<a href="?book_id=21">Черкасская область <span class="gray">(869)</span></a>
+				</li>											<li>
+					<a href="?book_id=50">Чернигов и Черниговская область <span class="gray">(202691)</span></a>
+				</li>											<li>
+					<a href="?book_id=53">Черновцы <span class="gray">(3)</span></a>
+				</li>											<li>
+					<a href="?book_id=52">Черновицкая область <span class="gray">(290)</span></a>
+				</li>																	<li><a href="?book_id=23">Военнопленные - "Саксонские мемориалы" <span class="gray">(60596)</span></a></li>							<li><a href="?book_id=84">Военнопленные - Шталаг 349 (Умань) <span class="gray">(121)</span></a></li>							<li><a href="?book_id=71">Партизанское соединение генерал-майора Наумова <span class="gray">(3567)</span></a></li>							<li><a href="?book_id=90">Партизаны Виннитчины <span class="gray">(1)</span></a></li>							<li><a href="?book_id=65">Партизаны Волыни <span class="gray">(7)</span></a></li>							<li><a href="?book_id=68">Партизаны Днепропетровщины <span class="gray">(54)</span></a></li>							<li><a href="?book_id=72">Партизаны Донетчины <span class="gray">(122)</span></a></li>							<li><a href="?book_id=81">Партизаны Житомирщины <span class="gray">(218)</span></a></li>							<li><a href="?book_id=67">Партизаны Киевщины <span class="gray">(5)</span></a></li>							<li><a href="?book_id=78">Партизаны Кировоградщины <span class="gray">(592)</span></a></li>							<li><a href="?book_id=12">Партизаны Крыма <span class="gray">(452)</span></a></li>							<li><a href="?book_id=60">Партизаны Луганщины <span class="gray">(67)</span></a></li>							<li><a href="?book_id=74">Партизаны Львовщины <span class="gray">(2)</span></a></li>							<li><a href="?book_id=61">Партизаны Полтавщины <span class="gray">(2)</span></a></li>							<li><a href="?book_id=82">Партизаны Сумщины <span class="gray">(2482)</span></a></li>							<li><a href="?book_id=58">Партизаны Харьковщины <span class="gray">(121)</span></a></li>							<li><a href="?book_id=77">Партизаны Херсонщины <span class="gray">(231)</span></a></li>							<li><a href="?book_id=69">Партизаны Черниговщины <span class="gray">(950)</span></a></li>							<li><a href="?book_id=86">Подпольщики Сумщины <span class="gray">(1621)</span></a></li>							<li><a href="?book_id=83">Подпольщики Днепропетровщины <span class="gray">(116)</span></a></li>							<li><a href="?book_id=80">Подпольщики Житомирщины <span class="gray">(44)</span></a></li>							<li><a href="?book_id=79">Подпольщики Кировоградщины <span class="gray">(1127)</span></a></li>							<li><a href="?book_id=76">Подпольщики Херсонщины <span class="gray">(466)</span></a></li>							<li><a href="?book_id=75">Подпольщики Виннитчины <span class="gray">(3)</span></a></li>							<li><a href="?book_id=73">Подпольщики Донетчины <span class="gray">(106)</span></a></li>							<li><a href="?book_id=70">Подпольщики Черниговщины <span class="gray">(136)</span></a></li>							<li><a href="?book_id=64">Подпольщики Волыни <span class="gray">(11)</span></a></li>							<li><a href="?book_id=63">Подпольщики Киевщины <span class="gray">(15)</span></a></li>							<li><a href="?book_id=62">Подпольщики Луганщины <span class="gray">(130)</span></a></li>							<li><a href="?book_id=59">Подпольщики Харьковщины <span class="gray">(6)</span></a></li>							<li><a href="?book_id=11">Подпольщики Крыма <span class="gray">(130)</span></a></li>							<li><a href="?book_id=66">Герои Советского Союза <span class="gray">(521)</span></a></li>							<li><a href="?book_id=1">Солдатские медальоны <span class="gray">(2025)</span></a></li>							<li><a href="?book_id=19">Другие имена <span class="gray">(219)</span></a></li>						</ul>
+				
+	</div>
+
+</div>
+
+	</div>
+</div>
+
+
+    <footer>
+        <div class="container">
+            <ul>
+                	<li class="l0  m-gallery first "><a href="/gallery">Фотогалерея</a>
+			</li><li class="l0  m-library item2 "><a href="/library">Библиотека</a>
+			</li><li class="l0  m-reference item3 "><a href="/reference">Справочно</a>
+			</li><li class="l0  m-squads item4 "><a href="/squads">Поисковые отряды</a>
+			</li><li class="l0  m-partners item5 "><a href="/partners">Партнеры</a>
+			</li><li class="l0  m-contacts last "><a href="/contacts">Контакты</a>
+			</li>
+            </ul>
+            <a href="/contacts" class="btn btn-yellow btn-lg pull-right visible-lg visible-md">Написать нам</a>
+            <div class="copyright">
+                
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

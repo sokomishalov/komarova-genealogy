@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lietuvių pavardžių žodynas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="lki" />
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="autosuggest.css" />
+<script type="text/javascript">
+function suggest(inputString){
+		if(inputString.length == 0) {
+			$('#suggestions').fadeOut();
+		} else {
+		$('#model').addClass('load');
+			$.post("pavardes/autosuggest.php", {queryString: ""+inputString+""}, function(data){
+				if(data.length >0) {
+					$('#suggestions').fadeIn();
+					$('#suggestionsList').html(data);
+					$('#model').removeClass('load');
+				}
+			});
+		}
+	}
+ 
+	function fill(thisValue) {
+		$('#karast').val(thisValue);
+				setTimeout("$('#suggestions').fadeOut();", 600);
+		$("#eshkot").submit();
+		}
+ 
+</script>
+  </head>
+ 
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+ 
+  <!-- main navigation -->
+  <!-- =============== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">Lietuvių pavardės</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="divider-vertical"></li>
+              <li class="active">
+                <a href="/">Pagrindinis</a>
+              </li>
+              <li>
+                <a href="?pg=bendroji_informacija">Bendroji informacija</a>
+              </li>                                         
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lietuvių pavardžių žodynas<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="?pg=pratarme">Pratarmė</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Įvadas</li>
+                  <li><a href="?pg=svarba_paskirtis">Žodyno svarba ir paskirtis</a></li>
+                  <li><a href="?pg=pobudis">Žodyno pobūdis</a></li>
+                  <li><a href="?pg=saltiniai">Pavardžių šaltiniai</a></li>
+                  <li><a href="?pg=sandara">Žodyno sandara</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Pavardžių paplitimo statistika</li>
+                  <li><a href="?pg=pavardziu_daznumas">Pavardžių dažnumas</a></li>
+                  <li><a href="?pg=vietovese_daznumas">Pavardžių paplitimas vietovėse pagal dažnumą</a></li>
+                  <li><a href="?pg=vietovese_abecele">Pavardžių paplitimas vietovėse pagal abėcėlę</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sutrumpinimai<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="?pg=lit_sutrumpinimai">Literatūros sutrumpinimai</a></li>
+                  <li><a href="?pg=sutrumpinimai">Gyvenamųjų vietų vardų sutrumpinimai</a></li>
+                  <li><a href="?pg=kiti_sutrumpinimai">Kiti sutrumpinimai</a></li>
+                </ul>
+              </li>
+              <li style="padding-left: 300px;">&nbsp;</li>
+              <li class="divider-vertical"></li>
+              <li>
+                <a href="?pg=english">English</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="container-fluid maincontainer" role="main">
+      <div class="row-fluid">
+        <div class="span2">
+              </div>
+        
+        <div class="span9">
+          <br>
+<div class="clear article">
+<div id="vidinis"><h1>TAISYKLĖS</h1>
+<p>&nbsp;</p>
+<h3>Naudojimosi pavardžių žodynu <a href="http://pavardes.lki.lt/">http://pavardes.lki.lt</a> taisyklės</h3>
+<p>&nbsp;</p>
+<p><em>Lietuvių pavardžių žodynas </em> <a href="http://pavardes.lki.lt/">http://pavardes.lki.lt</a> yra Lietuvių kalbos instituto kūrinys. Naudojimąsi žodynu reglamentuoja šios taisyklės. Lietuvių kalbos institutas pasilieka teisę bet kuriuo metu keisti ar pildyti taisykles ar jų dalį. Norėdami sužinoti apie pakeitimus, nuolat periodiškai tikrinkite taisykles.</p>
+<p>&nbsp;</p>
+<h3>Autorių teisės</h3>
+<p><br />Visa žodyne pateikta medžiaga yra Lietuvių kalbos instituto nuosavybė, saugoma intelektinės nuosavybės teisės aktų. Draudžiama ją kopijuoti, publikuoti, parduoti, platinti, keisti ar kurti išvestinius produktus, išskyrus atvejus, kai tai leidžia teisės aktai ar šios taisyklės.<br /><br /></p>
+<h3>Duomenų naudojimas</h3>
+<p>&nbsp;</p>
+<p>Pateiktos svetainėje informacijos negalima perkelti į nuosavą kompiuterį ar išsispausdinti savo reikmėms. Be Lietuvių kalbos instituto leidimo draudžiama kurti kompiliacijas, duomenų bazes, žodynus, žinynus ar katalogus. Draudžiama ne Lietuvių kalbos instituto svetainėse pateikti <a href="http://pavardes.lki.lt/">http://pavardes.lki.lt</a> titulinio puslapio ar šioje bazėje gautų rezultatų kopijas. Rengiant mokslinius darbus pasinaudojus bazėje pateiktais duomenimis, būtina nurodyti šią bazę ir jos adresą <a href="http://pavardes.lki.lt/">http://pavardes.lki.lt</a></p>
+<p>&nbsp;</p>
+<h3>Nuorodos kitose svetainėse</h3>
+<p>&nbsp;</p>
+<p>Draudžiama susieti <a href="http://pavardes.lki.lt/">http://pavardes.lki.lt</a> ar jos dalį su kitais interneto šaltiniais, jei tai galėtų sudaryti įspūdį, kad susiejantis asmuo turi teisę naudotis svetainės medžiaga.</p>
+<p>&nbsp;</p>
+<h3>Garantijos</h3><p>Lietuvių kalbos institutas neatsako už interneto ryšio sutrikimus, kurie trukdo prieigą prie svetainės.</p>
+</div>    <p>&nbsp;</p>
+<p>&nbsp;</p>
+<a class="btn btn-success btn-large" href="?pg=c">
+Sutinku
+</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger btn-large" href="http://www.lki.lt">
+Nesutinku
+</a>        
+</div>
+</div>
+        </div>
+      </div>
+    
+ 
+      <div id="footer">
+        © 2012–2026  <a href="http://www.lki.lt" target="_blank">Lietuvių kalbos
+        institutas</a>  |  <a href="http://www.meta-nord.eu" target="_blank"><img src="pavardes/img/metanord.png" alt="MetaNord"></a>  |  Licencija: <a href="pavardes/img/META-SHARE_COMMONS_BYNC.pdf" target="_blank"><img src="pavardes/img/metashare.jpg" alt="MetaShare"> commons by NC</a>
+      </div>
+      
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

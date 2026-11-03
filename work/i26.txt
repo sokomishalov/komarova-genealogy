@@ -1,0 +1,78 @@
+
+<html><head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<title>Жертвы политического террора в СССР</title>
+<script language="javascript" type="text/javascript" src="jmp.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<BODY>
+
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+  <tbody>
+    
+  <tr>
+    <td colspan="2" class="content" height="60" valign="top">
+      <table cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td><a href="http://www.memo.ru/"><img src="mem_logo.gif" width="50" height="50" border="0" hspace="5" vspace="5" alt="Переход на главную станицу сайта общества &#171;Мемориал&#187;" ></a></td>
+          <td><p class="head"><a href="index.htm">Жертвы политического террора в СССР</a></p></td>
+	      </tr>
+	    </table>
+	  </td>
+   </tr>
+  
+  <tr>
+    <td colspan="2" class="content" height="10" valign="top">
+ 
+ 
+<p class="alefbet">Поиск по алфавиту: 
+	 <a href="index1.htm" >А</a> 
+	 <a href="index2.htm" >Б</a> 
+	<a href="index3.htm" >В</a> 
+	<a href="index4.htm" >Г</a>
+	<a href="index5.htm" >Д</a>
+	<a href="index6.htm" >Е</a>
+    <a href="index7.htm" >Ж</a>
+	<a href="index8.htm" >З</a>
+	<a href="index9.htm" >И</a>
+	<a href="index10.htm" >Й</a>
+	<a href="index11.htm" >К</a>
+	<a href="index12.htm" >Л</a> 
+	<a href="index13.htm" >М</a>
+    <a href="index14.htm" >Н</a> 
+	<a href="index15.htm" >О</a> 
+	<a href="index16.htm" >П</a> 
+	<a href="index17.htm" >Р</a> 
+	<a href="index18.htm" >С</a>
+    <a href="index19.htm" >Т</a> 
+	<a href="index20.htm" >У</a> 
+	<a href="index21.htm" >Ф</a> 
+	<a href="index22.htm" >Х</a> 
+	<a href="index23.htm" >Ц</a> 
+	<a href="index24.htm" >Ч</a>
+    <a href="index25.htm" >Ш</a> 
+	<a class="actlet" href="index26.htm" >Щ</a> 
+	<a href="index27.htm" >Ы</a> 
+	<a href="index28.htm" >Э</a> 
+	<a href="index29.htm" >Ю</a> 
+	<a href="index30.htm" >Я</a></p><p class="doppoisk">
+<a href="l582.htm" TARGET="ltoc" onClick="jmp2(37, 446, 1)">Щ&nbsp;&#8212;&nbsp;Щеп</a>&nbsp;|
+<a href="l583.htm" TARGET="ltoc" onClick="jmp2(37, 465, 1)">Щер&nbsp;&#8212;&nbsp;Щуг</a>&nbsp;|
+<a href="l584.htm" TARGET="ltoc" onClick="jmp2(37, 498, 1)">Щуд&nbsp;&#8212;&nbsp;Щын</a>
+</p>     
+</td>
+                                                   
+  </tr>
+
+   <tr>
+    <td style="border-right: 1px solid white; padding-top: 6px;" valign="top" width="30%">
+    <iframe name="ltoc" src="l582.htm" frameborder="0" height="100%" width="100%"></iframe>
+    </td>
+    <td style="padding-top: 6px;" valign="top" width="70%">
+    <iframe name="lcont" src="d37/f446.htm" frameborder="0" height="100%" width="100%"></iframe>
+    </td>
+  </tr>
+</tbody></table>
+<script>!function(){var e,t,n=3e3,r=500,l="4 октября 2016 года Минюст РФ внес Международный Мемориал в реестр «некоммерческих организаций, выполняющих функцию иностранного агента»",a="Мы обжалуем это решение в суде.",d="https://www.memo.ru/ru-ru/memorial/departments/intermemorial/news/22",s=.9,i=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,o=i<400?i-48:350;function u(e){return"display:block;box-sizing:border-box;user-select:none;position:fixed;border-radius:4px;bottom:24px;left:24px;max-width:"+o+"px;background-color:rgba(255, 255, 255,"+e/1.2+");padding:18px 16px 6px 16px;box-shadow: 0 3px 4px rgba(0,0,0,0.2);will-change:opacity;z-index:999999122;opacity:"+e+";transition: all "+r+"ms ease;"}function m(){u(0),e.style.transform="translateY(320px)",window.setTimeout(function(){e.remove()},r)}e=function(){var e=document.createElement("div"),t=u(s);e.setAttribute("style",t+"transform:translateY(320px);");var n=document.createElement("span"),i=document.createTextNode(l);n.appendChild(i),linkEl=document.createElement("a"),linkEl.setAttribute("href",d),linkEl.setAttribute("target","_blank"),linkEl.setAttribute("rel","nofollow"),linkEl.appendChild(document.createTextNode(a));var o='display:inline-block;color:#737373;font-size:12px;font-family:"Roboto",Helvetica,Arial,sans-serif;line-height:1.2;margin:0 0 12px 0;';return n.setAttribute("style",o),linkEl.setAttribute("style",o),e.appendChild(n),e.appendChild(linkEl),document.body.appendChild(e),window.setTimeout(function(){e.style.transform="translateY(0)"},r),e}(),t=window.setTimeout(m,n),e.addEventListener("mouseenter",function(){e.setAttribute("style",u(1)),clearTimeout(t)}),e.addEventListener("mouseleave",function(){e.setAttribute("style",u(s)),t=window.setTimeout(m,n)})}();</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"16ffa59163c146079310bcc62391e78f","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body></html>

@@ -1,0 +1,6 @@
+relationship_id,person_a_id,relationship_type,person_b_id,biological_legal_household,claim_ids,supporting_artifact_ids,contradicting_artifact_ids,independence_groups,status,confidence,rationale
+R-0001,P-0032,parent-of,P-0016,biological,C-0008,A-0041,,IG-CGAM-203-780-521,single-source,high,запись о браке 1872: «Андрея Яковлева сын Петр»
+R-0002,P-0034,parent-of,P-0017,biological,C-0008,A-0041,,IG-CGAM-203-780-521,single-source,high,«Ефима Васильева дочь Наталия»
+R-0003,P-0016,spouse-of,P-0017,biological,C-0008,A-0041;A-0042;A-0043,,IG-CGAM-203-780-521;IG-CGAM-203-780-536,corroborated,high,"брак 1872 + дети 1874, 1877"
+R-0004,P-0016,sibling-of,P-0029,biological,C-0009,A-0044,,IG-CGAM-203-780-566/594/524,corroborated,high,«брат его Петр» в 1877 и 1879
+R-0005,P-0016,sibling-of,P-0030,biological,C-0009,A-0042;A-0044,,IG-CGAM-203-780-536;IG-CGAM-203-780-566/594/524,corroborated,high,«сестра его девица Агафия» 1874; дочь Андрея Яковлева 1873

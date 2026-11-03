@@ -1,0 +1,36 @@
+#!/bin/bash
+# sequential polite thumb fetcher: reads queue lines "CODE PAGE", writes t2/CODE/pNNN.jpg
+S=/private/tmp/claude-501/-Users-sokomishalov-idea-justplay-backend/ff6ca444-5119-49a5-b0e1-aa24be3961f5/scratchpad
+Q=$S/t2/queue.txt; LOG=$S/t2/fetch.log
+UA="FamilyHistoryResearch/1.0 (personal non-commercial genealogy; sequential low-rate requests)"
+fails=0
+while true; do
+  grep -q '^STOP' $Q && { echo "STOP marker $(date +%T)" >> $LOG; exit 0; }
+  line=""
+  while read -r c p; do
+    [[ "$c" =~ ^[0-9]+$ ]] || continue
+    f=$(printf "%s/t2/%s/p%03d.jpg" $S $c $p)
+    [ -s "$f" ] && continue
+    grep -q "^SKIP $c $p\$" $LOG 2>/dev/null && continue
+    line="$c $p"; break
+  done < $Q
+  if [ -z "$line" ]; then sleep 20; continue; fi
+  set -- $line; c=$1; p=$2
+  path=$(grep "^$c	" $S/urls.tsv | cut -f2 | sed 's#https://upload.wikimedia.org/wikipedia/commons/##')
+  h=${path%/*}; F=${path##*/}
+  url="https://upload.wikimedia.org/wikipedia/commons/thumb/$h/$F/page$p-960px-$F.jpg"
+  mkdir -p $S/t2/$c; f=$(printf "%s/t2/%s/p%03d.jpg" $S $c $p)
+  code=$(curl -s -m 120 -A "$UA" -o "$f.tmp" -w '%{http_code}' "$url")
+  if [ "$code" = "200" ]; then
+    mv "$f.tmp" "$f"; fails=0
+    sleep $((3 + RANDOM % 3))
+  elif [ "$code" = "404" ]; then
+    rm -f "$f.tmp"; echo "SKIP $c $p" >> $LOG; sleep 4
+  else
+    rm -f "$f.tmp"; fails=$((fails+1))
+    w=$((60 * (2 ** (fails-1))))
+    echo "# $c p$p http=$code fail#$fails wait ${w}s $(date +%T)" >> $LOG
+    if [ $fails -ge 5 ]; then echo "STOPPED blocked at $c p$p $(date +%T)" >> $LOG; exit 1; fi
+    sleep $w
+  fi
+done

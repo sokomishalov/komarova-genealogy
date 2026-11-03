@@ -1,0 +1,20 @@
+HTTP/2 307 
+cache-control: private, no-store
+content-security-policy: default-src 'none'; base-uri 'none'; script-src 'self' mc.yandex.ru mc.yandex.fr mc.yandex.by mc.yandex.kz mc.yandex.md mc.yandex.ua mc.yandex.com.tr mc.yandex.com mc.yandex.uz mc.yandex.tj mc.yandex.ee yandex.ru *.yandex.ru yastatic.net ya.ru *.ya.ru; style-src 'self' 'unsafe-inline' yastatic.net; img-src 'self' data: blob: mc.yandex.ru mc.yandex.fr mc.yandex.by mc.yandex.kz mc.yandex.md mc.yandex.ua mc.yandex.com.tr mc.yandex.com mc.yandex.uz mc.yandex.tj mc.yandex.ee avatars.mds.yandex.net yastatic.net *.maps.yandex.net; font-src 'self' data: yastatic.net yandex.ru ya.ru; connect-src 'self' data: mc.yandex.ru mc.yandex.fr mc.yandex.by mc.yandex.kz mc.yandex.md mc.yandex.ua mc.yandex.com.tr mc.yandex.com mc.yandex.uz mc.yandex.tj mc.yandex.ee *.yandex.ru yandex.ru *.ya.ru ya.ru yastatic.net yandexmetrica.com:* *.maps.yandex.net; frame-src blob: mc.yandex.ru mc.yandex.fr mc.yandex.by mc.yandex.kz mc.yandex.md mc.yandex.ua mc.yandex.com.tr mc.yandex.com mc.yandex.uz mc.yandex.tj mc.yandex.ee yandex.ru forms.yandex.ru ya.ru; object-src 'none'; media-src 'self' yastatic.net; report-uri https://csp.yandex.net/csp?from=ya-archive-test&project=ya-archive&version=28; child-src blob: mc.yandex.ru;
+set-cookie: is_gdpr=0; Path=/; Domain=.ya.ru; Expires=Mon, 30 Oct 2028 02:28:43 GMT; SameSite=None; Secure
+set-cookie: is_gdpr_b=CJfjLxDNpAM=; Path=/; Domain=.ya.ru; Expires=Mon, 30 Oct 2028 02:28:43 GMT; SameSite=None; Secure
+set-cookie: _yasc=bB9RlU5WoosWd79wBN/33c8l4njTwHNYrFdAbi2Vz+FyZnB95UKRe57BarqlCoG48ZjnLA==; domain=.ya.ru; path=/; expires=Tue, 28 Oct 2036 02:28:43 GMT; SameSite=None; Secure
+set-cookie: pi=B+uD7G7RvQ8g4hvZdJ/dzFBW8x0Zs9Xthi8z+wfjZo676QbS2MlPuIWtOZWMUdE+EMsY3W/06bSE2kCXkE+PnGN/N5o=; Expires=Mon, 30-Oct-2028 02:28:43 GMT; Domain=.ya.ru; Path=/; Secure; HttpOnly; SameSite=None; Partitioned
+set-cookie: i=jNBEO0wF6Q0M33MisniWQ54bDbyNl7ar0bLGjvdvCNMd2L2w9W+nHjHeeX35YIL+1Uha5w92ryj9t3+630Ju98PIWoU=; Expires=Mon, 30-Oct-2028 02:28:43 GMT; Domain=.ya.ru; Path=/; Secure; HttpOnly; SameSite=None
+set-cookie: yandexuid=1083044441793413723; Expires=Mon, 30-Oct-2028 02:28:43 GMT; Domain=.ya.ru; Path=/; Secure; SameSite=None
+set-cookie: yashr=4562660391793413723; Path=/; Domain=.ya.ru; Expires=Sun, 31 Oct 2027 02:28:43 GMT; SameSite=None; Secure; HttpOnly; Partitioned
+set-cookie: bh=YNukldcGaiDcytG2Abvxn6sE+taGzAjS0e3rA/y5r/8H3/3zevOBAg==; Path=/; Domain=.ya.ru; Expires=Sun, 05 Dec 2027 02:28:43 GMT; SameSite=None; Secure
+x-content-type-options: nosniff
+x-yandex-req-id: 1793413723873841-3463949652308304444-rhqtjfpkw6tojejq-BAL
+report-to: { "group": "network-errors", "max_age": 100, "endpoints": [{"url": "https://dr.yandex.net/nel", "priority": 1}, {"url": "https://dr2.yandex.net/nel", "priority": 2}]}
+accept-ch: Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Sec-CH-Viewport-Width, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT, Width, Sec-Ch-Viewport-Height
+location: /archive
+x-xss-protection: 1; mode=block
+nel: {"report_to": "network-errors", "max_age": 100, "success_fraction": 0.001, "failure_fraction": 0.1}
+date: Sat, 31 Oct 2026 02:28:43 GMT
+

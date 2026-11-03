@@ -1,0 +1,37 @@
+relationship_id,person_a_id,relationship_type,person_b_id,biological_legal_household,claim_ids,supporting_artifact_ids,contradicting_artifact_ids,independence_groups,status,confidence,rationale
+R-0001,P-0032,parent-of,P-0016,biological,C-0008,A-0041,,IG-CGAM-203-780-521,single-source,high,запись о браке 1872: «Андрея Яковлева сын Петр»
+R-0002,P-0034,parent-of,P-0017,biological,C-0008,A-0041,,IG-CGAM-203-780-521,single-source,high,«Ефима Васильева дочь Наталия»
+R-0003,P-0016,spouse-of,P-0017,biological,C-0008,A-0041;A-0042;A-0043,,IG-CGAM-203-780-521;IG-CGAM-203-780-536,corroborated,high,"брак 1872 + дети 1874, 1877"
+R-0004,P-0016,sibling-of,P-0029,biological,C-0009,A-0044,,IG-CGAM-203-780-566/594/524,corroborated,high,«брат его Петр» в 1877 и 1879
+R-0005,P-0016,sibling-of,P-0030,biological,C-0009,A-0042;A-0044,,IG-CGAM-203-780-536;IG-CGAM-203-780-566/594/524,corroborated,high,«сестра его девица Агафия» 1874; дочь Андрея Яковлева 1873
+R-0006,P-0023,parent-of,P-0004,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0007,P-0045,parent-of,P-0004,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0008,P-0023,parent-of,P-0046,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0009,P-0045,parent-of,P-0046,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0010,P-0023,parent-of,P-0047,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0011,P-0045,parent-of,P-0047,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0012,P-0023,parent-of,P-0048,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0013,P-0045,parent-of,P-0048,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0014,P-0023,parent-of,P-0022,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0015,P-0045,parent-of,P-0022,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0016,P-0023,parent-of,P-0049,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0017,P-0045,parent-of,P-0049,biological,C-0018,A-0065;A-0066,,,reported,medium-high,семья
+R-0018,P-0004,spouse-of,P-0005,biological,,A-0001,,,reported,high,семья
+R-0019,P-0004,parent-of,P-0003,biological,,A-0001,,,reported,high,семья
+R-0020,P-0005,parent-of,P-0003,biological,,A-0001,,,reported,high,семья
+R-0021,P-0012,parent-of,P-0005,biological,C-0016,A-0065;A-0066;A-0069,,,reported,high,семья
+R-0022,P-0021,parent-of,P-0005,biological,C-0016,A-0065;A-0066;A-0069,,,reported,high,семья
+R-0023,P-0012,parent-of,P-0052,biological,C-0016,A-0065;A-0066;A-0069,,,reported,high,семья
+R-0024,P-0021,parent-of,P-0052,biological,C-0016,A-0065;A-0066;A-0069,,,reported,high,семья
+R-0025,P-0012,spouse-of,P-0021,biological,C-0016,A-0065,,,reported,high,"познакомились 1943, Орехово-Зуево"
+R-0026,P-0050,parent-of,P-0021,biological,C-0017,A-0067,,,reported,medium,семья
+R-0027,P-0051,parent-of,P-0021,biological,C-0017,A-0067,,,reported,medium,семья
+R-0028,P-0053,parent-of,P-0043,biological,C-0015,A-0060,,,single-source,high,метрика 1914
+R-0029,P-0054,parent-of,P-0043,biological,C-0015,A-0060,,,single-source,high,метрика 1914
+R-0030,P-0053,spouse-of,P-0054,biological,C-0015,A-0060,,,single-source,high,брак 31.I.1914
+R-0031,P-0060,parent-of,P-0053,biological,C-0020,A-0074,,,documented,high,метрика 1893 №22
+R-0032,P-0061,parent-of,P-0053,biological,C-0020,A-0074,,,documented,high,метрика 1893 №22
+R-0033,P-0062,parent-of,P-0054,biological,C-0021,A-0075,,,single-source,medium-high,"перепись 1897, возраст 4 г."
+R-0034,P-0019,parent-of,P-0063,biological,C-0022;C-0025,A-0076,,IG-CGAM-203-780-3264,single-source,high,метрика 1904
+R-0035,P-0064,parent-of,P-0063,biological,C-0022,A-0076,,IG-CGAM-203-780-3264,single-source,high,метрика 1904
+R-0036,P-0065,spouse-of,P-0028,legal,C-0025,A-0079;A-0077,,IG-CGAM-203-780-3340;IG-CGAM-203-780-3359,single-source,high,"запись о браке 1903, сверена по образу"

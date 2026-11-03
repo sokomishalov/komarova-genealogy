@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="robots" content="noindex,nofollow">
+
+    <title>НашиПредки</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script>
+    (function () {
+        var STORAGE_KEY = 'np-theme';
+        var theme = null;
+        try {
+            theme = window.localStorage.getItem(STORAGE_KEY);
+        } catch (e) {
+            theme = null;
+        }
+        if (theme !== 'dark' && theme !== 'light') {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+                ? 'dark'
+                : 'light';
+        }
+        document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+</script>
+
+<script src="/js/np_map_theme.js?v=1789831119"></script>
+
+    <link href="/vendor/bootswatch/minty/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-body-tertiary min-vh-100 d-flex align-items-center">
+    <div class="container py-5" style="max-width: 32rem;">
+            <div class="text-center">
+        <p class="fs-4 mb-4">Мы не успеваем за вами…</p>
+
+        <form method="post" action="/captcha">
+            <input type="hidden" name="_token" value="nhINjMyjluAYmEQZMheWKFSX4AvUE0rh9ermPoFT">            <input type="hidden" name="next" value="/church/4973">
+
+            
+            <input type="hidden" name="np-captcha-token" id="np-captcha-token" value="">
+
+            <div class="g-recaptcha d-flex justify-content-center mb-4"
+                 data-sitekey="6Ldlt_AtAAAAAD4ke4NuWFr-gYF5fvxmqAC7eYEK"
+                 data-callback="npCaptchaReady"></div>
+
+            <button type="submit" class="btn btn-primary px-4" id="np-captcha-submit" disabled>Продолжить</button>
+        </form>
+    </div>
+    </div>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        // Кнопка включается только после готового ответа: у v2 (галочка) виджет
+        // вызывает этот обработчик сам (data-callback), у v3 — вызов ниже.
+        function npCaptchaReady() {
+            document.getElementById('np-captcha-submit').disabled = false;
+        }
+
+        // Ключ reCAPTCHA бывает двух видов: v2 рисует виджет и заполняет поле
+        // g-recaptcha-response сам, у v3 виджета нет и токен берётся вызовом
+        // grecaptcha.execute. Различаем по возможностям библиотеки, а не по
+        // настройкам: страница должна работать с любым ключом, который выдал
+        // владелец сайта.
+        (function () {
+            var tries = 0;
+            var timer = setInterval(function () {
+                tries++;
+
+                if (window.grecaptcha && typeof grecaptcha.ready === 'function') {
+                    if (typeof grecaptcha.render !== 'function') {
+                        grecaptcha.ready(function () {
+                            grecaptcha.execute('6Ldlt_AtAAAAAD4ke4NuWFr-gYF5fvxmqAC7eYEK', {action: 'captcha'}).then(function (token) {
+                                document.getElementById('np-captcha-token').value = token;
+                                npCaptchaReady();
+                            });
+                        });
+                    }
+
+                    clearInterval(timer);
+                }
+
+                if (tries > 100) {
+                    clearInterval(timer);
+                }
+            }, 100);
+        })();
+    </script>
+</body>
+</html>

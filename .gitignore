@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+__pycache__/
+site/
+work/raw/
+case/inputs/dna-*
+work/venv/
+work/obdc.txt
+case/inputs/nastya-*.png
+case/inputs/2.png

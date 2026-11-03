@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Проверка безопасности</title>
+    <style>
+         
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 16px;
+        }
+
+        .container {
+            max-width: 370px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            padding: 1.5rem;
+        }
+
+        .logo {
+            display: flex;
+            margin-bottom: 1.5rem;
+        }
+
+        .logo img {
+            max-height: 60px;
+            width: auto;
+        }
+
+        .title {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 1.8rem;
+        }
+
+        .subtitle {
+            font-size: 0.85rem;
+            color: #6b7a8f;
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+
+        .description {
+            font-size: 0.85rem;
+            color: #5c6f87;
+            margin-bottom: 1.8rem;
+            line-height: 1.4;
+        }
+
+        .loader {
+            display: block;
+            width: 44px;
+            height: 44px;
+            border: 4px solid #e0e7ef;
+            border-top-color: #1a73e8;
+            border-radius: 50%;
+            animation: spin 2.0s linear infinite;
+            margin: 0 auto 1.5rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .hint {
+            font-size: 0.75rem;
+            color: #b0bccd;
+            margin-top: 4px;
+        }
+
+        .footer {
+            margin-top: 1.5rem;
+            font-size: 0.75rem;
+            color: #b0bccd;
+            border-top: 1px solid #edf2f7;
+            padding-top: 1.2rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .footer a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+         
+        .instruction {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 12px;
+            padding: 12px 16px;
+            border: 1px solid #e2edf2;
+            min-height: 287px;
+        }
+
+        .instruction-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            gap: 12px;
+            margin-bottom: 0.675rem;
+        }
+
+        .instruction-text {
+            font-size: 0.85rem;
+            color: #1e3a5f;
+            line-height: 1.3;
+            flex: 1;
+        }
+
+        .hint-box {
+            background: white;
+            border-radius: 12px;
+            flex-shrink: 0;
+        }
+
+        .hint-box img {
+            display: block;
+            max-height: 56px;
+            width: auto;
+            border-radius: 8px;
+        }
+
+        .error-message {
+            background: #fee2e2;
+            color: #b91c1c;
+            padding: 0.6rem;
+            border-radius: 14px;
+            display: none;
+            margin-bottom: 12px;
+            font-size: 0.8rem;
+            text-align: center;
+            width: 100%;
+        }
+
+        .image-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+            line-height: 0;
+        }
+
+        .captcha-image {
+            max-width: 100%;
+            border-radius: 0.375rem;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .click-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+            cursor: crosshair;
+        }
+
+        .action-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .icon-btn {
+            background: transparent;
+            border: none;
+            font-size: 1.3rem;
+            line-height: 1;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: background 0.2s;
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #4a627a;
+        }
+
+        .icon-btn:hover {
+            background: #eef2f6;
+            transform: scale(1.02);
+        }
+
+        .submit-btn {
+            background: #4e87ff;
+            border: none;
+            color: white;
+            padding: 0.675rem 1.5rem;
+            border-radius: 0.375rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .submit-btn:active {
+            transform: scale(0.98);
+        }
+
+        .submit-btn:disabled {
+            background: #9bb9e0;
+            cursor: not-allowed;
+        }
+
+        .submit-btn .loader {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #fff;
+            border-top-color: transparent;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .verification-check {
+            position: absolute;
+            left: -9999px;
+            top: -9999px;
+            opacity: 0;
+            pointer-events: none;
+            width: 0;
+            height: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+         
+        .view {
+            display: none;
+        }
+
+        .view.active {
+            display: block;
+        }
+
+         
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1e2633;
+            }
+
+            .container {
+                background: #2a3344;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            }
+
+            .title {
+                color: #e8edf5;
+            }
+
+            .subtitle, .status-text {
+                color: #b8c4d6;
+            }
+
+            .hint {
+                color: #8a9bb0;
+            }
+
+            .loader {
+                border-color: #3a485c;
+                border-top-color: #4a8af4;
+            }
+
+            .footer {
+                border-top-color: #3a485c;
+                color: #6a7a8f;
+            }
+
+            .footer a {
+                color: #6a9af5;
+            }
+
+            .instruction {
+                border-color: #3a485c;
+            }
+
+            .instruction-text {
+                color: #e0e8f0;
+            }
+
+            .error-message {
+                background: #4a1a1a;
+                color: #ffa0a0;
+            }
+
+            .captcha-image {
+                border-color: #4a5a6a;
+            }
+
+            .icon-btn {
+                color: #a0b0c0;
+            }
+
+            .icon-btn:hover {
+                background: #3a4a5a;
+            }
+        }
+
+         
+        @media (max-width: 450px) {
+            .container {
+                padding: 1.2rem;
+            }
+
+            .icon-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img width="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKkAAABGCAIAAAA4pSMvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5MDU1M0UxREIwN0YxMUU2QTAxQkUyQjgzNjhCNDIwMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGN0U2Mjk4QzVGM0YxMUYxQUEwNUQxQ0IyN0E2RTBDNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGN0U2Mjk4QjVGM0YxMUYxQUEwNUQxQ0IyN0E2RTBDNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5Zjg2OTVjYS0zNTE4LWViNGMtYmFjNC05MGQyNzY1YTBlYTEiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDowZWFjZWJkMy0wYjBiLTVjNDYtODQ1OS05YmM0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" />
+    </div>
+
+    
+    <div id="view-metrics" class="view">
+    <div class="subtitle">
+        Проводим быструю проверку безопасности. Это займёт всего пару секунд.
+    </div>
+    <div class="loader" id="metricsLoader"></div>
+    <div class="hint" id="hintText">Key: </div>
+</div>
+
+
+<div id="view-captcha" class="view active">
+<div class="title">Подтвердите, что вы не робот</div>
+<div class="description">
+    Мы заметили необычную активность с вашего устройства. Пожалуйста, подтвердите, что вы человек.
+</div>
+<div class="instruction">
+    <div class="instruction-header">
+        <div class="instruction-text">Выберите символы по порядку</div>
+        <div class="hint-box">
+            <img height="40" id="thumbImg" alt="Образец для кликов" style="display: none;">
+        </div>
+    </div>
+    <div id="captchaError" class="error-message"></div>
+    <div class="image-container" id="imageContainer">
+        <img height="210" id="captchaImg" class="captcha-image" alt="Капча" style="display: none;">
+        <canvas id="clickCanvas" class="click-canvas" style="display: none;"></canvas>
+    </div>
+</div>
+<div class="action-buttons">
+    <input type="checkbox" id="human_check" name="human_check" value="1"
+           class="verification-check" tabindex="-1" autocomplete="off" />
+    <label for="human_check" class="verification-check">Подтвердите, что вы человек</label>
+    <button id="refreshBtn" class="icon-btn" title="Новая капча">⟳</button>
+    <button id="clearPointsBtn" class="icon-btn" title="Сбросить точки">✖</button>
+    <button id="submitBtn" class="submit-btn">Отправить</button>
+</div>
+</div>
+
+<div class="footer">
+    Защита от автоматических запросов
+</div>
+</div>
+
+<script>
+    (function() {
+        'use strict';
+
+        
+        const RETURN_TO = '\/heroes\/?adv_search=y\u0026last_name=%D0%A8%D1%83%D1%82%D0%B8%D1%81\u0026first_name=%D0%98%D0%BE%D1%81%D0%B8%D1%84\u0026group=all';
+        const VIEW = 'captcha'; 
+
+        
+        function switchView(view) {
+            document.querySelectorAll('.view').forEach(el => el.classList.remove('active'));
+            const target = document.getElementById('view-' + view);
+            if (target) target.classList.add('active');
+
+            
+            
+            
+            
+
+            
+            if (view === 'captcha' && !window._captchaInitialized) {
+                initCaptcha();
+            }
+            if (view === 'metrics' && !window._metricsInitialized) {
+                initMetrics();
+            }
+        }
+
+        
+        window.addEventListener('popstate', function(event) {
+            const view = event.state && event.state.view ? event.state.view : (window.location.pathname.includes('captcha') ? 'captcha' : 'metrics');
+            switchView(view);
+        });
+
+        
+        let metricsInitialized = false;
+
+        async function initMetrics() {
+            if (metricsInitialized) return;
+            metricsInitialized = true;
+            window._metricsInitialized = true;
+
+            const BEHAVIOR_KEY = '';
+            const BEHAVIOR_ENC_KEY = '';
+            const COLLECT_URL = '/api/v1/behavior/verify';
+            const MIN_WAIT_MS = 2000;
+            const MAX_WAIT_MS = 5000;
+
+            
+            async function encryptData(data, encKeyBase64) {
+                try {
+                    const encKey = Uint8Array.from(atob(encKeyBase64), c => c.charCodeAt(0));
+                    const encoder = new TextEncoder();
+                    const plaintext = encoder.encode(JSON.stringify(data));
+                    const cryptoKey = await crypto.subtle.importKey(
+                        'raw',
+                        encKey,
+                        { name: 'AES-GCM' },
+                        false,
+                        ['encrypt']
+                    );
+                    const iv = crypto.getRandomValues(new Uint8Array(12));
+                    const encrypted = await crypto.subtle.encrypt(
+                        { name: 'AES-GCM', iv: iv },
+                        cryptoKey,
+                        plaintext
+                    );
+                    const combined = new Uint8Array(iv.length + encrypted.byteLength);
+                    combined.set(iv, 0);
+                    combined.set(new Uint8Array(encrypted), iv.length);
+                    return btoa(String.fromCharCode.apply(null, combined));
+                } catch (e) {
+                    console.error('Encryption failed:', e);
+                    throw e;
+                }
+            }
+
+            
+            async function getExtendedMetrics() {
+                const metrics = {};
+                try {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = 256;
+                    canvas.height = 128;
+                    const ctx = canvas.getContext('2d');
+                    ctx.textBaseline = 'top';
+                    ctx.font = "14px 'Arial'";
+                    ctx.fillStyle = '#f60';
+                    ctx.fillRect(0, 0, 128, 64);
+                    ctx.fillStyle = '#069';
+                    ctx.fillText('Cwm fjordbank glyphs vext quiz, 😃', 0, 0);
+                    ctx.fillStyle = 'rgba(102, 204, 0, 0.7)';
+                    ctx.fillText('Cwm fjordbank glyphs vext quiz, 😃', 4, 17);
+                    metrics.canvasFingerprint = canvas.toDataURL().slice(0, 200);
+                } catch (e) {
+                    metrics.canvasFingerprint = 'error';
+                }
+                try {
+                    const canvas = document.createElement('canvas');
+                    const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+                    if (gl) {
+                        const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+                        if (debugInfo) {
+                            metrics.webglVendor = gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL);
+                            metrics.webglRenderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+                        }
+                        metrics.webglMaxTextureSize = gl.getParameter(gl.MAX_TEXTURE_SIZE);
+                        metrics.webglMaxVertexAttribs = gl.getParameter(gl.MAX_VERTEX_ATTRIBS);
+                    } else {
+                        metrics.webglVendor = 'no_webgl';
+                    }
+                } catch (e) {
+                    metrics.webglVendor = 'error';
+                }
+                metrics.hasChrome = !!(window.chrome && (window.chrome.runtime || window.chrome.loadTimes || window.chrome.csi || window.chrome.app));
+                metrics.hasWebStore = !!(window.chrome && window.chrome.webstore);
+                metrics.vendor = navigator.vendor || '';
+                if (navigator.connection) {
+                    metrics.connection = {
+                        type: navigator.connection.effectiveType,
+                        rtt: navigator.connection.rtt,
+                        downlink: navigator.connection.downlink,
+                    };
+                } else {
+                    metrics.connection = null;
+                }
+                if (performance.memory) {
+                    metrics.memory = {
+                        jsHeapSizeLimit: performance.memory.jsHeapSizeLimit,
+                        totalJSHeapSize: performance.memory.totalJSHeapSize,
+                        usedJSHeapSize: performance.memory.usedJSHeapSize,
+                    };
+                } else {
+                    metrics.memory = null;
+                }
+                if (navigator.getBattery) {
+                    try {
+                        const battery = await navigator.getBattery();
+                        metrics.battery = {
+                            charging: battery.charging,
+                            level: battery.level,
+                        };
+                    } catch (e) {
+                        metrics.battery = null;
+                    }
+                }
+                metrics.hasNotification = !!(window.Notification);
+                metrics.hasPushManager = !!(window.PushManager);
+                metrics.hasPermissions = !!(navigator.permissions);
+                metrics.hasFocus = document.hasFocus();
+                if (screen.orientation) {
+                    metrics.screenOrientation = screen.orientation.type;
+                }
+
+                
+                const pluginNames = [];
+                try {
+                    for (let i = 0; i < Math.min(navigator.plugins.length, 10); i++) {
+                        const plugin = navigator.plugins[i];
+                        if (plugin && plugin.name) {
+                            pluginNames.push(plugin.name);
+                        }
+                    }
+                } catch (e) {
+                    
+                }
+                metrics.pluginNames = pluginNames;
+
+                return metrics;
+            }
+
+            
+            async function collectMetrics() {
+                const data = {
+                    userAgent: navigator.userAgent,
+                    language: navigator.language,
+                    languages: navigator.languages || [],
+                    platform: navigator.platform,
+                    hardwareConcurrency: navigator.hardwareConcurrency || 0,
+                    deviceMemory: navigator.deviceMemory || 0,
+                    headless: {
+                        webdriver: !!(navigator.webdriver),
+                        pluginsEmpty: navigator.plugins.length === 0,
+                        languagesEmpty: (navigator.languages || []).length === 0,
+                        headlessUA: /Headless/i.test(navigator.userAgent),
+                        puppeteer: /Puppeteer/i.test(navigator.userAgent),
+                        phantom: /PhantomJS/i.test(navigator.userAgent),
+                        nightmare: /Nightmare/i.test(navigator.userAgent),
+                    },
+                    touchEvents: 'ontouchstart' in window || navigator.maxTouchPoints > 0,
+                    screenWidth: window.screen.width,
+                    screenHeight: window.screen.height,
+                    windowInnerWidth: window.innerWidth,
+                    windowInnerHeight: window.innerHeight,
+                    pageLoadTime: performance.now(),
+                    cookiesEnabled: navigator.cookieEnabled,
+                    clicks: [],
+                    mouseMovements: [],
+                    scrolls: [],
+                    keyPresses: [],
+                    clickTimestamps: [],
+                    firstInteractionTime: null,
+                    lastInteractionTime: null,
+                    extended: await getExtendedMetrics(),
+                };
+
+                let clickCount = 0;
+                let mouseMoveCount = 0;
+                let scrollCount = 0;
+                let keyCount = 0;
+                let startTime = Date.now();
+
+                function recordClick(e) {
+                    const now = Date.now();
+                    data.clickTimestamps.push(now);
+                    data.clicks.push({ x: e.clientX, y: e.clientY, time: now - startTime });
+                    if (!data.firstInteractionTime) data.firstInteractionTime = now - startTime;
+                    data.lastInteractionTime = now - startTime;
+                    clickCount++;
+                }
+
+                function recordMouseMove(e) {
+                    mouseMoveCount++;
+                    if (mouseMoveCount % 10 === 0) {
+                        data.mouseMovements.push({ x: e.clientX, y: e.clientY, time: Date.now() - startTime });
+                    }
+                    if (!data.firstInteractionTime) data.firstInteractionTime = Date.now() - startTime;
+                    data.lastInteractionTime = Date.now() - startTime;
+                }
+
+                function recordScroll() {
+                    scrollCount++;
+                    data.scrolls.push({ scrollY: window.scrollY, time: Date.now() - startTime });
+                    if (!data.firstInteractionTime) data.firstInteractionTime = Date.now() - startTime;
+                    data.lastInteractionTime = Date.now() - startTime;
+                }
+
+                function recordKey(e) {
+                    keyCount++;
+                    data.keyPresses.push({ key: e.key || e.code, time: Date.now() - startTime });
+                    if (!data.firstInteractionTime) data.firstInteractionTime = Date.now() - startTime;
+                    data.lastInteractionTime = Date.now() - startTime;
+                }
+
+                document.addEventListener('click', recordClick);
+                document.addEventListener('mousemove', recordMouseMove);
+                document.addEventListener('scroll', recordScroll, { passive: true });
+                document.addEventListener('keydown', recordKey);
+
+                let waitTime = Math.floor(Math.random() * (MAX_WAIT_MS - MIN_WAIT_MS + 1)) + MIN_WAIT_MS;
+                waitTime = Math.min(waitTime, 8000);
+
+                async function sendMetrics() {
+                    document.removeEventListener('click', recordClick);
+                    document.removeEventListener('mousemove', recordMouseMove);
+                    document.removeEventListener('scroll', recordScroll);
+                    document.removeEventListener('keydown', recordKey);
+
+                    data.totalTimeMs = Date.now() - startTime;
+                    data.clickCount = clickCount;
+                    data.mouseMoveCount = mouseMoveCount;
+                    data.scrollCount = scrollCount;
+                    data.keyCount = keyCount;
+
+                    const intervals = [];
+                    for (let i = 1; i < data.clickTimestamps.length; i++) {
+                        intervals.push(data.clickTimestamps[i] - data.clickTimestamps[i - 1]);
+                    }
+                    data.clickIntervals = intervals;
+
+                    try {
+                        const encryptedMeta = await encryptData(data, BEHAVIOR_ENC_KEY);
+
+                        const response = await fetch(COLLECT_URL, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            credentials: 'include',
+                            body: JSON.stringify({
+                                key: BEHAVIOR_KEY,
+                                encryptedMeta: encryptedMeta,
+                                returnTo: RETURN_TO
+                            })
+                        });
+
+                        if (!response.ok) {
+                            
+                            if (response.status === 403) {
+                                switchView('captcha');
+                                return;
+                            }
+                            throw new Error('Server error');
+                        }
+
+                        const result = await response.json();
+                        if (result.redirectTo) {
+                            window.location.href = result.redirectTo;
+                        } else {
+                            window.location.href = RETURN_TO;
+                        }
+                    } catch (error) {
+                        console.warn('Behavior check failed, redirecting anyway:', error);
+                        window.location.href = RETURN_TO;
+                    }
+                }
+
+                setTimeout(sendMetrics, waitTime);
+            }
+
+            
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', collectMetrics);
+            } else {
+                await collectMetrics();
+            }
+        }
+
+        
+        let captchaInitialized = false;
+
+        function initCaptcha() {
+            if (captchaInitialized) return;
+            captchaInitialized = true;
+            window._captchaInitialized = true;
+
+            let captchaKey = '';
+            let points = [];
+            let isSubmitting = false;
+            let currentEncKey = null;
+
+            
+            const img = document.getElementById('captchaImg');
+            const thumbImg = document.getElementById('thumbImg');
+            const canvas = document.getElementById('clickCanvas');
+            const ctx = canvas.getContext('2d');
+            const errorDiv = document.getElementById('captchaError');
+            const submitBtn = document.getElementById('submitBtn');
+            const refreshBtn = document.getElementById('refreshBtn');
+            const clearPointsBtn = document.getElementById('clearPointsBtn');
+
+            function showError(msg) {
+                errorDiv.textContent = msg;
+                errorDiv.style.display = 'block';
+                setTimeout(() => errorDiv.style.display = 'none', 5000);
+            }
+
+            function redrawCanvas() {
+                if (!img.complete || img.naturalWidth === 0) return;
+                const rect = img.getBoundingClientRect();
+                canvas.width = rect.width;
+                canvas.height = rect.height;
+                canvas.style.width = rect.width + 'px';
+                canvas.style.height = rect.height + 'px';
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                points.forEach((point, idx) => {
+                    const scaleX = canvas.width / img.naturalWidth;
+                    const scaleY = canvas.height / img.naturalHeight;
+                    const cx = point.x * scaleX;
+                    const cy = point.y * scaleY;
+                    ctx.beginPath();
+                    ctx.arc(cx, cy, 11, 0, 2 * Math.PI);
+                    ctx.fillStyle = 'rgba(255, 99, 71, 0.85)';
+                    ctx.fill();
+                    ctx.strokeStyle = '#ffffff';
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+                    ctx.font = 'bold 13px system-ui, "Segoe UI"';
+                    ctx.fillStyle = '#ffffff';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText((idx + 1).toString(), cx, cy);
+                });
+            }
+
+            function updateCanvasAndDraw() {
+                if (img.complete && img.naturalWidth > 0) {
+                    canvas.style.display = 'block';
+                    redrawCanvas();
+                } else {
+                    canvas.style.display = 'none';
+                }
+            }
+
+            async function loadCaptcha() {
+                try {
+                    const resp = await fetch('/api/v1/captcha/gen');
+                    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                    const data = await resp.json();
+                    captchaKey = data.key;
+                    img.src = data.image;
+                    img.style.display = 'block';
+                    thumbImg.src = data.thumb;
+                    thumbImg.style.display = 'block';
+                    if (data.encKey) {
+                        const rawKey = Uint8Array.from(atob(data.encKey), c => c.charCodeAt(0));
+                        currentEncKey = await crypto.subtle.importKey(
+                            'raw', rawKey,
+                            { name: 'AES-GCM' },
+                            false, ['encrypt']
+                        );
+                    }
+                    points = [];
+                    submitBtn.disabled = false;
+                    errorDiv.style.display = 'none';
+                    canvas.style.display = 'none';
+                    img.onload = () => updateCanvasAndDraw();
+                    if (img.complete) updateCanvasAndDraw();
+                } catch (err) {
+                    console.error(err);
+                    showError('Не удалось загрузить капчу. Обновите страницу.');
+                    img.style.display = 'none';
+                    thumbImg.style.display = 'none';
+                    canvas.style.display = 'none';
+                    submitBtn.disabled = true;
+                }
+            }
+
+            async function encryptMeta(metaObj) {
+                if (!currentEncKey) return null;
+                const encoder = new TextEncoder();
+                const plaintext = encoder.encode(JSON.stringify(metaObj));
+                const iv = crypto.getRandomValues(new Uint8Array(12));
+                const encrypted = await crypto.subtle.encrypt(
+                    { name: 'AES-GCM', iv: iv },
+                    currentEncKey,
+                    plaintext
+                );
+                const combined = new Uint8Array(iv.length + encrypted.byteLength);
+                combined.set(iv);
+                combined.set(new Uint8Array(encrypted), iv.length);
+                return btoa(String.fromCharCode.apply(null, combined));
+            }
+
+            function getClickPosition(e) {
+                const rect = canvas.getBoundingClientRect();
+                const scaleX = img.naturalWidth / rect.width;
+                const scaleY = img.naturalHeight / rect.height;
+                let x = (e.clientX - rect.left) * scaleX;
+                let y = (e.clientY - rect.top) * scaleY;
+                x = Math.min(img.naturalWidth, Math.max(0, x));
+                y = Math.min(img.naturalHeight, Math.max(0, y));
+                return { x, y };
+            }
+
+            function addPoint(e) {
+                if (isSubmitting) return;
+                const pos = getClickPosition(e);
+                points.push(pos);
+                redrawCanvas();
+            }
+
+            function onCanvasClick(e) { addPoint(e); }
+            function onCanvasTouch(e) {
+                e.preventDefault();
+                const touch = e.touches[0];
+                if (!touch) return;
+                addPoint({ clientX: touch.clientX, clientY: touch.clientY });
+            }
+
+            function removeLastPoint(e) {
+                e.preventDefault();
+                if (points.length > 0) {
+                    points.pop();
+                    redrawCanvas();
+                }
+            }
+
+            function clearPoints() {
+                if (points.length > 0) {
+                    points = [];
+                    redrawCanvas();
+                }
+            }
+
+            async function verifyCaptcha() {
+                if (isSubmitting) return;
+                if (points.length === 0) {
+                    showError('❌ Вы не отметили ни одной фигуры.');
+                    return;
+                }
+
+                const humanChecked = document.getElementById('human_check').checked;
+
+                
+                const meta = {
+                    clickIntervals: [],
+                    clickCount: points.length,
+                    totalTimeMs: 0,
+                    touchEvents: 'ontouchstart' in window,
+                    userAgent: navigator.userAgent,
+                    human_check: humanChecked,
+                    headless: {
+                        webdriver: !!(navigator.webdriver),
+                        pluginsEmpty: navigator.plugins.length === 0,
+                        languagesEmpty: (navigator.languages || []).length === 0,
+                        headlessUA: /Headless/i.test(navigator.userAgent),
+                        puppeteer: /Puppeteer/i.test(navigator.userAgent),
+                    }
+                };
+                const encryptedMeta = await encryptMeta(meta);
+                if (!encryptedMeta) {
+                    showError('Ошибка шифрования данных. Обновите страницу.');
+                    return;
+                }
+
+                isSubmitting = true;
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = '<span class="loader"></span> Проверка...';
+
+                try {
+                    const resp = await fetch('/api/v1/captcha/verify', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            key: captchaKey,
+                            dots: points.map(p => ({ x: Math.round(p.x), y: Math.round(p.y) })),
+                            returnTo: RETURN_TO,
+                            meta: encryptedMeta
+                        })
+                    });
+                    const data = await resp.json();
+                    if (resp.ok && data.success) {
+                        window.location.href = data.redirectTo;
+                    } else {
+                        showError(data.error || '❌ Неверное решение или подозрительное поведение. Попробуйте ещё раз.');
+                        await loadCaptcha();
+                    }
+                } catch (err) {
+                    console.error(err);
+                    showError('Сетевая ошибка. Попробуйте позже.');
+                    await loadCaptcha();
+                } finally {
+                    isSubmitting = false;
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = 'Отправить';
+                }
+            }
+
+            
+            canvas.addEventListener('click', onCanvasClick);
+            canvas.addEventListener('contextmenu', removeLastPoint);
+            canvas.addEventListener('touchstart', onCanvasTouch);
+            canvas.addEventListener('touchmove', e => e.preventDefault());
+
+            refreshBtn.addEventListener('click', loadCaptcha);
+            clearPointsBtn.addEventListener('click', clearPoints);
+            submitBtn.addEventListener('click', verifyCaptcha);
+
+            window.addEventListener('resize', () => {
+                if (img.complete && img.naturalWidth > 0) redrawCanvas();
+            });
+
+            
+            loadCaptcha();
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentView = VIEW;
+            if (currentView === 'metrics' || currentView === 'captcha') {
+                switchView(currentView);
+            } else {
+                const path = window.location.pathname;
+                if (path.includes('captcha')) {
+                    switchView('captcha');
+                } else {
+                    switchView('metrics');
+                }
+            }
+        });
+
+        
+        window.switchView = switchView;
+
+    })();
+</script>
+</body>
+</html>
