@@ -1,0 +1,1174 @@
+{
+ "lanes": [
+  {
+   "lane": "sons-records",
+   "findings": [
+    {
+     "title": "Демографический список 1945: Снимщиков Александр Федорович, 1921, «мать Елена Ивановна»",
+     "url": "https://pamyat-naroda.ru/heroes/memorial-chelovek_vpp1991163702/",
+     "archival_ref": "ЦАМО, ф. 8498, оп. 120987, д. 34 (202 зсп; выбыл 19.03.1945 в 51 сд). Образ: стр. 1 из 2, строка 1",
+     "names_as_written": "«Снимщиков Александр Федор.» (в индексе ПН: Снимщиков Александр Федорович); графа «Состав семьи и ее адрес»: «адрес тот-же. Мать Елена Ивановна» (последнее слово видно частично, читается как «Ивановна», чтение вероятное)",
+     "place_as_written": "«Курск. обл. Мантуров. р-н, Реплотавский(?) с/с, с. ...»; РВК: «Мантуровский, 1940 г.». Индексатор ошибочно поставил «Горьковская обл.»",
+     "record_date": "1945 (выбыл 19.03.1945)",
+     "relevance": "probable",
+     "summary": "Демографический список «Команда №2… на усиление… 3-го стр. б-на 2083 сп», 10.03.45. Строка 1: Снимщиков Александр Федорович, 1921 г. р., рядовой, русский. Призван Мантуровским РВК в 1940 г. Уроженец Мантуровского р-на Курской обл. В графе «Состав семьи и ее адрес» записано: «адрес тот-же, Мать Елена Ивановна». Отец не указан, что согласуется с гибелью Федора в 1943/44 г. Это первый документ, где у Снимщиковых из Репецкой Платы названа мать «Елена Ивановна»; прабабушку зовут так же (Елена Ивановна Коршикова, 1900–1991). Предостережения: (1) Александра нет в семейном списке детей Федора; (2) в 1921 г. Елене было 21 год — это возможно; (3) это может быть другая Елена Ивановна. Скриншоты: work/raw/agents/sn-children-mil/pn-vpp1991163702-row1-*.png/jpg",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/sn-children-mil/pn-vpp1991163702-row1-family-col-zoom2.png"
+    },
+    {
+     "title": "Снимщиков Дмитрий Андриянович, 1907, Репецкая Плата: пропал без вести в 1944 (вероятный брат Федора Андриановича)",
+     "url": "https://obd-memorial.ru/html/info.htm?id=408963514",
+     "archival_ref": "Книга памяти. Курская область. Том 5 (ОБД ID 408963514; ПН memorial-chelovek_pechatnoi_knigi_pamyati408963514)",
+     "names_as_written": "«СНИМЩИКОВ Дмитрий Андриянович»",
+     "place_as_written": "«Мантуровский р-н, с. Реп. Плата»",
+     "record_date": "1944",
+     "relevance": "probable",
+     "summary": "Это единственный Снимщиков-Андриянович в ОБД и ПН. Текст КП т. 5: «СНИМЩИКОВ Дмитрий Андриянович, 1907, Мантуровский р-н, с. Реп. Плата, рядовой, 1944, пропал б/вести». Ровесник предполагаемого Федора, отчество от того же редкого имени, то же село. Вероятный родной брат Федора Андриановича, то есть сын того же Андриана. Донесений ЦАМО на него в ОБД и ПН нет: есть только строка книги памяти, графы «родственники» нет. Пригодится для поиска Андриана Снимщикова в метриках и для запроса в военкомат (извещение семье 1944–46)."
+    },
+    {
+     "title": "ВПП 359 зсп 1943: Снимщиков Д. Ф., 1926, с. Реплота (без родственников)",
+     "url": "https://pamyat-naroda.ru/heroes/memorial-chelovek_vpp1998812859/",
+     "archival_ref": "ЦАМО, ф. 8563, оп. 105609с, д. 15; образ стр. 12 из 23, строка 25",
+     "names_as_written": "«Снимщиков Д.Ф.»",
+     "place_as_written": "«Курск. обл. Мантуровский р-н с. Реплота»; военкомат Мантуровский РВК; призван 2.05(1943)",
+     "record_date": "1943 (выбыл 28.06.1943 в 14 оумцп)",
+     "relevance": "possible",
+     "summary": "Строка прочитана визуально: 1926 г. р., колхозник, образование 7 кл., призван 2.05, профессия «сапожник», «место рождения и постоянное жительство: Курск. обл. Мантуровский р-н с. Реплота». Графы с родственниками в этом списке нет, родство с Федором не устанавливается.",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/sn-children-mil/pn-vpp1998812859-row25-dmitry1926.png"
+    },
+    {
+     "title": "Юбилейные карточки 1985 г.: Иван Ф. 1919, Дмитрий Ф. 1925/26 и Александр Ф. 1921 из одной пачки",
+     "url": "https://pamyat-naroda.ru/heroes/podvig-chelovek_yubileinaya_kartoteka1520440584/",
+     "archival_ref": "ЦАМО, юбилейная картотека, шкаф 56, ящик 23; документы №79 (Иван — ООВ I ст.; Дмитрий — ООВ II ст., podvig-chelovek_yubileinaya_kartoteka1520440610) и №84 (Александр — ООВ II ст.), все от 06.04.1985",
+     "names_as_written": "Снимщиков Александр Федорович; Снимщиков Дмитрий Федорович; Снимщиков Иван Федорович",
+     "place_as_written": "Александр: «Курская область, Мантуровский район»; Дмитрий: «РФ, Курская область, Мантуровский район, село Репецкая Плата»",
+     "record_date": "06.04.1985",
+     "relevance": "possible",
+     "summary": "Все трое живы в 1985 г. Их карточки лежат в одном ящике, у них одна дата и соседние номера документов. Скорее всего, их наградил один военкомат, и все трое тогда жили в одном районе. Это косвенно указывает, что они братья. Образы карточек закрыты (замок ЦАМО), поэтому военкомат и адрес прочитать нельзя."
+    },
+    {
+     "title": "Снимщиков Александр Федорович, 1921, Саратовская КП (однофамилец)",
+     "url": "https://pamyat-naroda.ru/heroes/memorial-chelovek_pechatnoi_knigi_pamyati1053540717/",
+     "archival_ref": "Книга Памяти. Саратовская обл. Том 13, Октябрьский район, стр. 367",
+     "names_as_written": "«СНИМЩИКОВ Александр Федорович, род. 1921. Сержант, 105-й минп.»",
+     "place_as_written": "Саратовская обл., Октябрьский район",
+     "record_date": "",
+     "relevance": "background",
+     "summary": "Тот же год рождения, но другой регион и звание (сержант 105 минп; у курского Александра — рядовой 202 зсп/51 сд). Вероятно, это другой человек. Записан, чтобы не путать."
+    }
+   ],
+   "searches": [
+    {
+     "source": "obd-memorial.ru",
+     "query": "Снимщиков Дмитрий (без КП и с КП)",
+     "result": "found",
+     "note": "14 записей без КП, 18 с КП; среди них Дмитрий Андриянович 1907 (только из КП Курской т.5, ID 408963514)"
+    },
+    {
+     "source": "obd-memorial.ru",
+     "query": "Снимщиков + отчество Андриянович (с КП)",
+     "result": "found",
+     "note": "1 запись — Дмитрий Андриянович 1907"
+    },
+    {
+     "source": "obd-memorial.ru",
+     "query": "Снимщиков + отчество Андрианович (с КП)",
+     "result": "not-found"
+    },
+    {
+     "source": "obd-memorial.ru",
+     "query": "Снимщиков + отчество Андреянович (с КП)",
+     "result": "not-found"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Снимщиков, отчество Андриянович (нечёткий, группировка)",
+     "result": "found",
+     "note": "7 док.: Дмитрий Андриянович 1907 (КП); прочие — П.А., А.А., Василий Андр. 1924 (Москва), О.А. — не из Курской обл."
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Снимщиков, место рождения «Мантуровский», все документы без группировки",
+     "result": "found",
+     "note": "67 документов, все 7 страниц прочитаны. Новых Федоровичей нет (только Иван 1919, Александр 1921, Дмитрий 1925/26). Семена и Николая Федоровичей нет"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Образ ВПП Александра Ф. 1921 (memorial-chelovek_vpp1991163702)",
+     "result": "found",
+     "note": "Демографический список с графой «Состав семьи»: «Мать Елена Ивановна»"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Образ ВПП Дмитрия Ф. 1926 (memorial-chelovek_vpp1998812859)",
+     "result": "partial",
+     "note": "Строка прочитана; графы с родственниками нет"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Иван Ф. 1919: person-hero83264509, kld-card_ran70010383",
+     "result": "blocked",
+     "note": "Карточка ранения в филиале ЦАМО (ВМД), образ закрыт; наградные — без родственников"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Юбилейные карточки 1985 Александра (1520440584) и Дмитрия (1520440610)",
+     "result": "partial",
+     "note": "Образы закрыты; индекс: шк.56 ящ.23, №79/№84, 06.04.1985"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Снимщиков Александр Федорович (нечёткий, 217 док.)",
+     "result": "partial",
+     "note": "Первая страница: 1921 — Саратовская КП (однофамилец). Полностью не дочитано"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Снимчиков + Федорович (нечёткий, 153 док.)",
+     "result": "partial",
+     "note": "Первая страница: курские Снимчиковы из Хмелевого (Велико-Михайловский р-н), к Реплате не относятся. Остальные страницы не читались: ранее агент 5 просмотрел все 77 документов «Снимщиков … Федорович»"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Снимщикова Елена",
+     "result": "found",
+     "note": "5 док. — только Елена Тихоновна 1923 (Пензенская обл.), не наша"
+    }
+   ],
+   "leads": [
+    "Александр Федорович Снимщиков, 1921, с матерью «Елена Ивановна» (ЦАМО 8498-120987-34): спросить семью (тётю Лену), был ли у Федора и Елены старший сын Александр ~1921 г. р., который служил с 1940 г. и вернулся живым. Если да, этот документ прямо подтверждает семью Федор + Елена Ивановна в Репецкой Плате и показывает, что дети рождались с ~1921 г.",
+    "Проверить конфликт: если Иван Ф. 1919 и Дмитрий Ф. 1925/26 — братья Александра (карточки 1985 г. из одной пачки, №79/84), у Федора и Елены было бы два сына Ивана (1919 и 1941/42). Это маловероятно. Варианты: у Ивана 1919 другая мать (первый брак Федора?), он сын другого Федора, или дед Иван родился иначе. Спросить семью о старших детях Федора.",
+    "Дмитрий Андриянович Снимщиков 1907, Реп. Плата, пропал без вести в 1944 — вероятный брат Федора. Искать рождения детей Андриана Снимщикова в метриках Архангельской ц. Репецкой Платы (ГАКО ф.217, ~1895–1910) и извещение о пропаже 1944–46 гг. (архив Курского облвоенкомата / Мантуровского РВК).",
+    "Юбилейные карточки 1985 г. (ЦАМО шк.56 ящ.23, №79 и №84, 06.04.1985): образы закрыты. Военкомат, выдавший награды, можно узнать запросом в ЦАМО или в музее/военкомате. Если это Луховицкий или Фастовский военкомат, связь с семьёй Елены Ивановны подтвердится.",
+    "Учётная карточка военнослужащего / личное дело Александра Ф. 1921 (демобилизован 17.06.1946 по прежним данным) хранится в военкомате по месту учёта. Там может быть указан отец (Федор Андрианович) — запрос только через семью."
+   ]
+  },
+  {
+   "lane": "repression-collab",
+   "findings": [
+    {
+     "title": "Указатель «Жертвы политического террора в СССР» (Мемориал), буквы «Сни…»: все Снимщиковы",
+     "url": "https://web.archive.org/web/20211026091616/http://lists.memo.ru/d30/f417.htm",
+     "summary": "В архивной копии базы Мемориала от 2021 г. 11 записей: Снимщиков Алексей Матвеевич 1903, Константин Сергеевич 1901, Трофим Спиридонович 1891 (все ст. Каменобродская, Ставрополье, 1937); Анатолий Иванович 1925 (Москва, спецпоселение); Андрей Васильевич 1904 (Москва, «Московская правда»); Василий Сергеевич 1908 (Оренбургская обл., ВМН 1937); Иван Иванович 1928 и Снимщикова Евдокия Егоровна 1900 (ст. Преградная, выселены 1930); Ларион Константинович 1884 и Сергей Константинович 1875 (Самарская обл., Башкортостан); Федор Дмитриевич 1902, с. Лозное, Белгородская обл. (арестован 1937, дело прекращено 1939). Андриановича/Андрияновича нет, курских и мантуровских Снимщиковых нет. Написания «Снимшиков», «Снемщиков» в указателе тоже нет: соседние записи — Сниккер… и Снипишскер.",
+     "relevance": "background",
+     "names_as_written": "Снимщиков Федор Дмитриевич; Снимщиков Ларион Константинович; Снимщикова Евдокия Егоровна и др.",
+     "place_as_written": "с.Лозное В.-Михайловского р-на Белгородской обл.; Ставропольский кр.; Самарская Обл.",
+     "archival_ref": "Источники записей: Книга памяти Белгородской обл.; Книга памяти Ставропольского края; Книга памяти Республики Башкортостан; Сведения ГУВД Краснодарского края",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/repress/notes.md"
+    },
+    {
+     "title": "Бессмертный барак — поиск по Книгам памяти: Снимщиков / Снимщикова / Снимшиков / Снимщеков",
+     "url": "https://bessmertnybarak.com/search/#query=Снимщиков&section=books",
+     "summary": "«Снимщиков» — 5 записей: Андрей Васильевич 1904 (Москва), Даниил Леонтьевич 1890 (ст. Преградная), Яков Иванович 1898 (ст. Ермоловская), Иван Иванович 1928, Илларион Константинович 1880 (Самарская губ.). «Снимщикова» — 1 запись: Евдокия Егоровна (список репрессированных Краснодарского края). «Снимшиков» и «Снимщеков» — 0. Курских записей и Федора Андриановича нет.",
+     "relevance": "background",
+     "names_as_written": "Снимщиков Андрей Васильевич; СНИМЩИКОВ ДАНИИЛ ЛЕОНТЬЕВИЧ; Снимщиков Яков Иванович; Снимщиков Иван Иванович; Снимщиков Илларион Константинович; Снимщикова Евдокия Егоровна"
+    },
+    {
+     "title": "База «Без срока давности», именной указатель: Снимщиковы",
+     "url": "https://xn--90ag.xn--80aabgieomn8afgsnjq.xn--p1ai/search?p.0.v=%D0%A1%D0%BD%D0%B8%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2&type=custom&ot=606886&p.0.t&p.0.d&p.0.c=12&p.0.a=606891",
+     "summary": "Одна запись: Снимщикова Зинаида Ивановна, 1924 г. р., жительница Нежегольского сельсовета, угнана в Германию (Белгородская обл.). К нашей семье не относится. Общий поиск по «Репецк» — 0. Мантуровский район в базе представлен актом ЧГК — см. следующую находку.",
+     "relevance": "background",
+     "names_as_written": "Снимщикова Зинаида Ивановна",
+     "place_as_written": "Нежегольский сельсовет, Белгородская область"
+    },
+    {
+     "title": "ЭБИД №365949: докладная записка исполкома Мантуровского райсовета о зверствах оккупантов, 8 мая 1943 г.",
+     "url": "https://docs.historyrussia.org/ru/nodes/365949",
+     "summary": "Перепроверил (запись уже есть в деле как A-0083). Это только карточка каталога, текста документа нет. Напечатан в сборнике «Без срока давности… Курская область» (М.: Фонд «Связь Эпох», 2020). Фонд Р-3605 — областная Чрезвычайная государственная комиссия; в таких актах бывают имена пострадавших, а иногда и пособников. Электронной версии курского тома не нашёл.",
+     "relevance": "possible",
+     "archival_ref": "ГАКО ф. Р-3605 оп. 1 д. 269 л. 15–19 об.",
+     "record_date": "1943-05-08",
+     "place_as_written": "Мантуровский район"
+    },
+    {
+     "title": "ВГД, тема №37066 «Село Репецкая Плата»: упоминания раскулачивания",
+     "url": "https://forum.vgd.ru/829/37066/40.htm",
+     "summary": "Единственное упоминание раскулачивания в Репецкой Плате — со слов родственников, о семье Афанасьевых (Андрей Михайлович и Анна Антоновна «раскулачили и вроде как выслали»). О Снимщиковых в связи с репрессиями ничего нет. В теме есть хронология оккупации района (29.11–04.12.1941 и 03.07.1942 — февраль 1943; казнено 155 жителей, угнано 280) и шифры метрических книг (ГАКО ф.217 оп.3 д.1520 за 1906–1909; оп.1-2 д.4215/4216).",
+     "relevance": "background",
+     "archival_ref": "ГАКО ф.217 оп.3 д.1520 (МК Архангельской ц. 1906–1909)",
+     "place_as_written": "с. Репецкая Плата Тимского уезда",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/repress/vgd_40.html"
+    }
+   ],
+   "searches": [
+    {
+     "source": "lists.memo.ru (Wayback 2020/2021): указатель «С» → l442.htm → d30/f417.htm",
+     "query": "Снимщиков, Снимщикова, Снимшиков, Снемщиков (алфавитный указатель)",
+     "result": "not-found",
+     "note": "11 Снимщиковых, Андриановича и курских записей нет; живой сайт lists.memo.ru / base.memo.ru не открывается (ошибка DNS)"
+    },
+    {
+     "source": "bessmertnybarak.com (поиск по Книгам памяти, через браузер)",
+     "query": "Снимщиков; Снимщикова; Снимшиков; Снимщеков",
+     "result": "not-found",
+     "note": "5+1 однофамилец из других регионов; прямой POST-запрос к поиску из shell запретил классификатор, поэтому искал через браузер"
+    },
+    {
+     "source": "ru.openlist.wiki",
+     "query": "полнотекстовый поиск «Снимщиков»; категория «Книга памяти Курской обл.» с pagefrom=Сним",
+     "result": "blocked",
+     "note": "«Доступ ограничен. Для входа используйте Special:UserLogin» — не входил; через Wayback CDX выгрузить список страниц не получилось"
+    },
+    {
+     "source": "visz.nlr.ru («Возвращённые имена»)",
+     "query": "Снимщиков",
+     "result": "blocked",
+     "note": "соединение отклонено, в браузере — страница ошибки"
+    },
+    {
+     "source": "lib.memo.ru/book/2475 (Книга памяти жертв политических репрессий Курской обл.)",
+     "query": "карточка книги / полный текст",
+     "result": "blocked",
+     "note": "DNS; в веб-поиске онлайн-текста курской Книги памяти репрессированных (т. 1–3, 1996–2011) нет"
+    },
+    {
+     "source": "gorenka.org («Жертвы политических репрессий Курской области», алфавитные страницы)",
+     "query": "страница на букву С",
+     "result": "blocked",
+     "note": "таймаут; на Wayback упёрся в 429 Too Many Requests"
+    },
+    {
+     "source": "бд.безсрокадавности.рф (именной указатель и общий поиск)",
+     "query": "Снимщиков; Репецк",
+     "result": "not-found",
+     "note": "только Снимщикова Зинаида Ивановна 1924 (Белгородская обл.); в соседней вкладке другой агент ведёт поиск по «Мантуровский»"
+    },
+    {
+     "source": "docs.historyrussia.org (ЭБИД)",
+     "query": "node 365949",
+     "result": "partial",
+     "note": "только карточка каталога, текста нет"
+    },
+    {
+     "source": "WebSearch",
+     "query": "Снимщиков Федор репрессирован Курская; «Снимщиков Федор»; Андрианович/Андриянович Снимщиков; «Репецкая Плата» арестован/раскулачен; «Мантуровского р-на» 1943 58-1а",
+     "result": "not-found",
+     "note": "страниц о Федоре Андриановиче нет; совпадения только у живых однофамильцев (их пропустил)"
+    },
+    {
+     "source": "forum.vgd.ru тема 37066 (стр. 0–80)",
+     "query": "сним|репресс|раскулач|староста|полицай",
+     "result": "not-found",
+     "note": "о Снимщиковых нет; раскулачивание — только Афанасьевы"
+    },
+    {
+     "source": "history.milportal.ru: статья «Агентура немецких спецслужб и коллаборационистские органы на юге и юго-востоке Курской обл.»",
+     "query": "Мантуровский/Тимский, старосты",
+     "result": "not-found",
+     "note": "названы старосты только Белгородско-Шебекинского куста; ссылки — АУФСБ по Курской и Белгородской обл."
+    },
+    {
+     "source": "nashi-predki.ru (статья о Репецкой Плате); archive.rkursk.ru (описи ГАКО)",
+     "query": "раздел о репрессированных уроженцах; описи фондов",
+     "result": "blocked",
+     "note": "ECONNREFUSED / 504"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Снимщиков Андриан",
+     "result": "not-found",
+     "note": "25 результатов, все — оренбургские метрики (Верхняя Вязовка, Бузулукский у.); курских фондов нет"
+    }
+   ],
+   "leads": [
+    "Важная оговорка: если Федора арестовали в 1943–44 за пособничество (ст. 58-1а/58-3, Указ ПВС от 19.04.1943), его, скорее всего, не реабилитировали. Тогда его нет ни в Книгах памяти жертв репрессий, ни в базах Мемориала и Бессмертного барака. Пустой результат там ничего не опровергает. Его дело тогда хранится в архиве УФСБ по Курской обл. (фонд архивных уголовных дел на немецких пособников и полицейских). Запрос туда может подать только родственник (внук/правнук) с документами о родстве.",
+    "«Открытый список» закрыт без входа. Если пользователь войдёт сам, нужно проверить: категорию «Книга памяти Курской обл.» от «Сним…», полнотекстовый поиск «Снимщиков Андри» / «Андриянович» / «Мантуровский р-н Реп. Плата», а также «Снимщиков Андрей Васильевич (1904)». В «Открытый список» попадают и некоторые нереабилитированные из списков ФСБ.",
+    "ГАКО ф. Р-3605 оп. 1 д. 269 (акты ЧГК по Мантуровскому р-ну, л. 15–19 об. и далее) — в актах бывают поимённые списки пострадавших и пособников. Печатный сборник: «Без срока давности… Курская область» (М.: Связь Эпох, 2020) — смотреть в библиотеке или через ГАКО.",
+    "Смерть «в 1944» стоит проверить через ГАКО: книги ЗАГС / сельсовета Репецко-Платовского с/с 1944 (запись акта о смерти) и похозяйственные книги 1943–1946 (выбытие главы двора). Эти документы закрывают версию «умер под следствием или в заключении» лучше, чем базы репрессий.",
+    "Раскулачивание 1929–1932: Мантуровский р-н тогда входил в ЦЧО (Старооскольский округ). Списки лишенцев и раскулаченных искать в ГАВО (Воронеж, фонды ЦЧО/окрисполкома) и ГАКО (фонды Мантуровского РИК). Онлайн их нет. В базах Мемориала и Бессмертного барака курских раскулаченных Снимщиковых нет.",
+    "Сильная наводка из уже сделанного поиска S-0068: в «Памяти народа» есть Снимщиков Дмитрий Андриянович, 1907 г. р., Репецкая Плата — возможно, брат Федора (тот же отец Андриан). Открыть его карточки: адрес семьи, жена, мать. Метрики: ГАКО ф.217 оп.3 д.1520 (1906–1909) — рождение Дмитрия 1907 подтвердит отца Андриана и, возможно, даст имя матери.",
+    "Из-за сетевых блокировок не проверены: base.memo.ru (новая база Мемориала), visz.nlr.ru («Возвращённые имена»), gorenka.org (алфавитные списки курских репрессированных), nashi-predki.ru (статья о Репецкой Плате с упоминанием репрессированных уроженцев). Стоит повторить из другой сети."
+   ]
+  },
+  {
+   "lane": "occupation-chgk",
+   "findings": [
+    {
+     "title": "BSD: excerpt from a report by the Manturovo district executive committee to the Kursk oblast executive committee on Nazi atrocities in the district",
+     "url": "https://xn--90ag.xn--80aabgieomn8afgsnjq.xn--p1ai/article/1376783",
+     "archival_ref": "ГАКО. Ф. Р-3605. Оп. 1. Д. 269. Л. 15–19 об.",
+     "record_date": "1943-05-08",
+     "place_as_written": "Куськино, Прилепы, Роговое, Рябиново, Свинец, Мантуровский р-н, Курская обл.",
+     "names_as_written": "Висков Е.К.; Кочетов И.Е.; Криволапов А.Д.; Наумовы М.С., Е.Т.; Переверзевы Г.В., Т.В.; Померанцева У.П.; Скрябин И.Г.; Сорочаева П.Д.; Сысоев П.М.; Толокова П.И.; Тонких Я.Л.; Кретов П.А. (свинецкий староста); Муханов Л.П.",
+     "summary": "The main published district-level document on civilian deaths in Manturovsky district (rubric: «Уничтожение мирных жителей в среде обитания»). It is published only as an excerpt («Из докладной записки»). The person index has no Snimshchikov, and Repetskaya Plata is not among the localities. Only the index was read. The full text is a .doc file and was not downloaded, per the rules. The full case GAKO R-3605-1-269 (the oblast commission's file on Manturovsky district) is the main lead to order.",
+     "relevance": "background"
+    },
+    {
+     "title": "BSD: act on the mass killing of children in the village of Rogovoye, Manturovsky district",
+     "url": "https://xn--90ag.xn--80aabgieomn8afgsnjq.xn--p1ai/article/1106448",
+     "archival_ref": "ГАКО. Ф. Р-3605. Оп. 1. Д. 269. Л. 34–34 об.",
+     "record_date": "1943-07-08",
+     "place_as_written": "Роговое, с., Мантуровский р-н, Курская обл.; колхоз «Новый путь»",
+     "names_as_written": "Семыкины (жертвы); Сошенков (представитель Райисполкома); Голубев А.А.; Бражникова М.К.; Токарева Д.А.",
+     "summary": "Shows that the same case R-3605-1-269 holds village-level acts for Manturovsky district. It does not concern Repetskaya Plata, and there are no Snimshchikovs in it. This supports the idea that case 269 may also hold an act or list for the Repetsko-Plotavsky village council.",
+     "relevance": "background"
+    },
+    {
+     "title": "BSD: list of the district's documents (geographic index «Мантуровский р-н, Курская обл.»)",
+     "url": "https://xn--90ag.xn--80aabgieomn8afgsnjq.xn--p1ai/geo/10720192",
+     "archival_ref": "ГАКО Р-3605-1-269; ГАОПИКО П-2-1-30 л.299–300; ГАОПИКО П-1-1-3238 л.337–346",
+     "record_date": "1943–1944",
+     "place_as_written": "Мантуровский р-н, Курская обл.",
+     "names_as_written": "",
+     "summary": "The BSD database has only 4 documents for the district (2 from GAKO, 2 from GAOPIKO). None mentions Snimshchikov or Repetskaya Plata, which is also absent from BSD's geographic index. The district list includes Верхосемье, Каменка, Кировка, Кузькино/Куськино, Мантурово, Прилепы and others.",
+     "relevance": "background"
+    },
+    {
+     "title": "BSD name index: the only Snimshchikova",
+     "url": "https://xn--90ag.xn--80aabgieomn8afgsnjq.xn--p1ai/search?p.0.v=Снимщиков&type=simple_bsd",
+     "archival_ref": "",
+     "record_date": "",
+     "place_as_written": "Нежегольский сельсовет (Белгородская обл.)",
+     "names_as_written": "Снимщикова Зинаида Ивановна, 1924 г.р., угнанная в Германию",
+     "summary": "The whole BSD database has one person with this surname: Zinaida Ivanovna, deported from the Nezhegol village council (Belgorod region). Her patronymic is Ivanovna and she is from another district, so she is not Fyodor's daughter and the record is not about him.",
+     "relevance": "possible"
+    },
+    {
+     "title": "Arolsen Archives: index of people named SNIMSCHTSCHIKOW / SNIMTSCHIKOW / SNIMTSCHIKOWA / SNIMSCHIKOW",
+     "url": "https://collections.arolsen-archives.org/en/search?s=Snimtschikow",
+     "archival_ref": "2.2.2.1 War Time Card File (02020201 oS), DocID 74991288–74991290 (Snimtschikow Warwara/Alexander)",
+     "record_date": "1942–1945",
+     "place_as_written": "Schachty (у Wassilli 1926); Chmeowoc (у Feodora 1919)",
+     "names_as_written": "SNIMSCHTSCHIKOW Peter 21.05.1910; SNIMSCHTSCHIKOW Wasili/Wassilij/Wassily/Wassil/Wassilli 28.11.1926 (Schachty); SNIMTSCHIKOW WARWARA 09.08.1924; SNIMTSCHIKOW ALEXANDER 30.09.1944; SNIMTSCHIKOWA Feodora/FEODORA 01.10.1919 (Chmeowoc); SNIMSCHIKOW Wassili/Wassi 1926",
+     "summary": "Arolsen holds forced labourers with this surname, but no Fedor/Fjodor or Andrian. Varvara (b. 1924) and Alexander (b. 30.09.1944, probably her child born in Germany) are registered in the wartime card file of foreign workers. Peter (b. 1910) has no place. The place of birth on the cards was not read, because opening the scans requires accepting a declaration of consent, which was not done (route blocked). Varvara is not among Fyodor's known children; the link is speculative.",
+     "relevance": "possible"
+    },
+    {
+     "title": "Arolsen Archives: people born in REPLATA",
+     "url": "https://collections.arolsen-archives.org/en/search?s=Replata",
+     "archival_ref": "1.1.29.2 Natzweiler Personal Files (AFANASEW Michael, prisoner no. 3012)",
+     "record_date": "1943–1945",
+     "place_as_written": "REPLATA",
+     "names_as_written": "AFANASEW MICHAEL 23.11.1924, Häftling 3012; OWZENOW Egor 08.01.1893",
+     "summary": "Arolsen holds natives of Replata who were deported. So the village's deportees are partly indexed, but there are no Snimshchikovs among them under the spellings tried. The search covered the place spellings Replata, Repetzkaja, Repezkaja, Reppezkaja and Repetskaya; the Plota results are too noisy.",
+     "relevance": "background"
+    },
+    {
+     "title": "VGD forum thread «Село Репецкая Плата»: occupation figures and memorial plaques",
+     "url": "https://forum.vgd.ru/829/37066/0.htm",
+     "archival_ref": "",
+     "record_date": "",
+     "place_as_written": "село Репецкая Плата; Мантуровский район",
+     "names_as_written": "Снимщиков (в списке однодворцев, переселившихся в 1827 г. в Бузулукский у. — стр. 30.htm)",
+     "summary": "The district was occupied twice, 29.11–4.12.1941 and 3.07.1942–February 1943. The last fighting in the district was on 10–13 February 1943. During the occupation 155 residents were executed and 280 deported to Germany (no source given). The village has a mass grave of 8 soldiers of the 232nd Rifle Division and plaques with 309 names of villagers (soldiers). The plaque photos (radikal.ru, 2011) are dead and not in Wayback. Nothing about Fyodor; the 1827 entry concerns an earlier generation.",
+     "relevance": "background",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/occupation-line/vgd37066_0.html"
+    }
+   ],
+   "searches": [
+    {
+     "source": "bezsrokadavnosti (xn--90ag...p1ai) quick search",
+     "query": "Снимщиков",
+     "result": "partial",
+     "note": "1 person: Snimshchikova Zinaida Ivanovna, 1924, Belgorod region"
+    },
+    {
+     "source": "bezsrokadavnosti quick search",
+     "query": "Мантуровский → geo/10720192 and villages",
+     "result": "found",
+     "note": "4 documents; the two district-level ones (1376783, 1106448) were checked via the person index, no Snimshchikovs"
+    },
+    {
+     "source": "bezsrokadavnosti",
+     "query": "Репецк / Реплата",
+     "result": "not-found",
+     "note": "Not in the geographic index (another agent's tab ran the same query)"
+    },
+    {
+     "source": "bezsrokadavnosti",
+     "query": "Снимщикова/Снимшиков/Снимщеков/Снимщенков via fetch",
+     "result": "partial",
+     "note": "Search results load client-side, so the server-side fetch returned nothing; only «Снимщиков» was checked in the browser"
+    },
+    {
+     "source": "Arolsen Archives",
+     "query": "Snimschtschikow, Snimtschikow, Snimtschikowa, Snimschikow",
+     "result": "partial",
+     "note": "Found Peter 1910, Wassilij 1926, Warwara 1924, Alexander 1944, Feodora 1919; no Fedor. Scans need consent (blocked)"
+    },
+    {
+     "source": "Arolsen Archives",
+     "query": "Snimschtschikowa, Snimshchikov, Snimschtschikov, Snimstschikow, Snimschikov, Snimschtschekow, Snimstchikov/ow, Snimschtschenkow(a), Snimschtschikoff, Snimstschikoff, Snimschtikow, Snimtschikov",
+     "result": "not-found",
+     "note": "Exact-match search; results from the automated loop may not have finished loading, so some empty results are unreliable"
+    },
+    {
+     "source": "Arolsen Archives",
+     "query": "places: Replata, Repetzkaja, Repezkaja, Reppezkaja, Repetskaya, Manturowo, Manturovo, Plota",
+     "result": "partial",
+     "note": "Replata: Afanasew 1924, Owzenow 1893; Manturowo: 4 people (Arashanzew, Barkowa, Melnikowa, Propin); no Snimshchikovs"
+    },
+    {
+     "source": "forum.vgd.ru 37066 (6 pages, cp1251)",
+     "query": "Снимщ / оккупац / угнан / расстрел / ЧГК",
+     "result": "partial",
+     "note": "Only district statistics and the 1827 resettlement; plaque photos are dead"
+    },
+    {
+     "source": "WebSearch",
+     "query": "Мантуровский район акт ЧГК / угнанные / Репецкая Плата история / школа музей / краеведение / Снимщиков оккупация / остарбайтеры",
+     "result": "not-found",
+     "note": "No village or name lists for Repetskaya Plata online"
+    },
+    {
+     "source": "WebSearch",
+     "query": "ГАРФ Р-7021 оп.29 Курская Мантуровский",
+     "result": "not-found",
+     "note": "Case number for the district's ChGK act not found online"
+    },
+    {
+     "source": "Memorial «Списки угнанных» / Ostarbeiter",
+     "query": "Снимщиков",
+     "result": "not-found",
+     "note": "No working public search found"
+    }
+   ],
+   "leads": [
+    "Main lead: GAKO f. R-3605 (oblast ChGK commission), op. 1, d. 269 — the Manturovsky district case (the 08.05.1943 district report at l. 15–19ob, village acts at l. 34+). Look for an act or list of victims or deportees for the Repetsko-Plotavsky village council, and order a check of the whole case by surname. This needs a request to GAKO, which the user has to make.",
+    "GARF R-7021 (ChGK), Kursk oblast inventory: the Manturovsky district act with lists of those shot, tortured and deported. Check the GARF inventory, or the Yandex archive search with the query «7021 Мантуровский».",
+    "Arolsen: open the cards for SNIMTSCHIKOW Warwara 09.08.1924 and Alexander 30.09.1944 (DocID 74991289/74991290) and SNIMSCHTSCHIKOW Peter 21.05.1910, to read place of birth and parents. This needs the user to accept the declaration of consent themselves, or to send an inquiry to Arolsen.",
+    "The «killed during the liberation» story fits the fighting of 10–13 February 1943 (232nd Rifle Division). If Fyodor died as a civilian or was shot as a collaborator, he would not be in military databases. His fate could be in UNKVD Kursk filtration or investigation files (FSB archive for Kursk oblast), or in a village council death register for 1943–44 (ZAGS / GAKO).",
+    "The VGD thread 37066 author has photos of plaques with 309 villagers' names. Ask on the forum for the photos to be re-uploaded (the user has to do this).",
+    "The figures of 155 executed and 280 deported for the district probably come from the district report or the ChGK act. The name lists of deportees for the district may be in GAKO (district executive committee fond, 1943–46 lists of repatriates)."
+   ]
+  },
+  {
+   "lane": "metrics-church",
+   "findings": [
+    {
+     "title": "ГАКО ф.217 оп.3 д.1521 — МК Архангельской ц. с. Репецкая Плата 1910, 1912–1913 (каталог)",
+     "url": "https://nashipredki.com/archive/gako-kursk/fond-217/opis-3/delo-1521",
+     "summary": "Подтверждено по каталогу: дело 1521 — 179 листов, только Архангельская церковь. Онлайн-копии не найдены. Полный перечень по church/4849: д.342 (1874), 347 (1882), 349 (1887), 353 (1895), 1519 (1902–1905), 1520 (1906–1909), 1521 (1910–1913). Книг за 1896–1901 и 1914–1919 в перечне нет. Рождение Федора (~1895–1905) может быть в д.353 (1895) или в д.1519, а брак с Еленой Ивановной (~1917–1925) в эти годы не попадает. Сканов для чтения в сети нет.",
+     "relevance": "background",
+     "archival_ref": "ГАКО ф.217 оп.3 д.342, 347, 349, 353, 1519, 1520, 1521",
+     "place_as_written": "с. Репецкая Плата Тимского уезда",
+     "record_date": "1874–1913"
+    },
+    {
+     "title": "Архив г. Севастополя: переселенцы из Репецкой Платы (Чигоревы), Евдокия Адрианова — НЕ Снимщикова",
+     "url": "https://ya.ru/archive/search?text=Репецкая%20Плота",
+     "summary": "В Севастополе 1907–1915 жили выходцы из Репецкой Платы: Михаил Николаев Чигорев, Пантелеимон, Стефан и Афанасий Парменовы Чигоревы. Проверял крёстную «Евдокія Адріанова Чигорева» 1913 года (д.122 ск.75): нет ли там дочери Андриана Снимщикова. По записи о браке 1911 г. (д.108 ск.141, №5, 11 октября) её девичья фамилия Забіяка, она дочь севастопольского мещанина. Версия отвергнута. Снимщиковых в этом кластере не найдено.",
+     "relevance": "background",
+     "archival_ref": "Архив г. Севастополя ф.30 оп.1 д.108 скан 141; д.122 скан 75; д.87 скан 349; д.92 скан 141; д.107 скан 164; д.114 скан 72; д.134 скан 177",
+     "names_as_written": "Пантелеимонъ Парменовъ Чигоревъ; дѣвица Евдокія Адріанова Забіяка; поручители Стефанъ Парменовъ Чигоревъ, Ѳеодоръ Адріановъ Забіяка",
+     "place_as_written": "Курской губ., Тимскаго уѣзда Верхосемской волости, села Рѣпецкой-Плоты",
+     "record_date": "1911-10-11 (брак); 1912-12-30 (крещение)"
+    },
+    {
+     "title": "Архив г. Севастополя: Коршиковы из «села Репецких Бутырок» (Погоженская вол., Тимский у.)",
+     "url": "https://ya.ru/archive/search?text=Коршиков%20Тимский",
+     "summary": "Найдены записи о семье Леонтия Евфимиева Коршикова из «с. Репецких Бутырок», Погоженская волость Тимского уезда: дети 1898, 1900, 1902, 1908; Михаил Леонтьев Коршиков в 1913 г.; Николай Леонтьев Коршиков вступил в брак в 1918 г. Это подтверждает, что фамилия Коршиков жила в Бутырках по соседству с Репецкой Платой, и совпадает с гипотезой дела о Больших Бутырках. Ивана Коршикова, отца Елены Ивановны, в этих записях нет. Записи только фоновые.",
+     "relevance": "background",
+     "archival_ref": "Архив г. Севастополя ф.30 оп.1 д.42 ск.14; д.52 ск.12; д.64 ск.8; д.70 ск.497; д.92 ск.83; д.122 ск.45; д.145 ск.182",
+     "names_as_written": "Леонтий Евфимиев Коршиков; Михаил Леонтие Коршиков; Николай Леонтьев Коршиков",
+     "place_as_written": "Курская губерния, Тимский уезд, Погоженская волость, село Репецких Бутырок / Репецкие Бутырки",
+     "record_date": "1898–1918"
+    },
+    {
+     "title": "Яндекс Архив: «Снимщиков Андриан» и «Адрианов Снимщиков» — только бузулукская (Оренбург) и кузбасская ветви",
+     "url": "https://ya.ru/archive/search?text=Снимщиков%20Андриан",
+     "summary": "По запросу «Снимщиков Андриан» 25 результатов, по «Адрианов Снимщиков» 30. Все из ОГАОО (Бузулукский у.: Верхняя Вязовка, Покровка — например, младенец «Адриан Сергеев Снимщиков» †1879), ГА Кузбасса (Сусловское, Святогорская), ГАИО и ЦГАМО. Ни одной записи о Федоре или Андриане Снимщикове из Репецкой Платы нет. По «Снимщиков Тимский» нашлись кузбасские переселенцы Косма Егоров Снимщиков (Тимский у., «Верхская вол., д. Круглая», 1908–1909, ГА Кузбасса ф.60 оп.4 д.428 ск.38) и Никита Иванов Снимщиков (д. Святогорская). Это другая деревня, к Федору они отношения не имеют.",
+     "relevance": "possible",
+     "archival_ref": "ГА Кузбасса ф.60 оп.4 д.428 ск.38, 158; ОГАОО ф.389 оп.1 д.365 ск.581",
+     "names_as_written": "Косма Егоров Снимщиков; Адриан Сергеев Снимщиков (1 мес.)",
+     "place_as_written": "Курская губерния, Тимский уезд, Верхская волость, деревня Круглая",
+     "record_date": "1879; 1908–1909"
+    }
+   ],
+   "searches": [
+    {
+     "source": "familysearch.org (индексы записей)",
+     "query": "surname=Снимщиков exact",
+     "result": "blocked",
+     "note": "без входа 0 результатов и баннер «sign in to see all results»; входить нельзя"
+    },
+    {
+     "source": "familysearch.org (каталог)",
+     "query": "place Russia, Kursk + Church records",
+     "result": "blocked",
+     "note": "каталог перенаправляет на страницу входа"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Репецкая",
+     "result": "partial",
+     "note": "270 результатов, в основном однофамильцы Репецкие; полезна только севастопольская запись 1913 г."
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Репецкая Плота",
+     "result": "found",
+     "note": "6 результатов: Архив Севастополя, Чигоревы; Снимщиковых нет"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Чигорев Тимский",
+     "result": "found",
+     "note": "Евдокия Адрианова Чигорева — урожд. Забияка (брак 1911), не Снимщикова"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Снимщиков Андриан",
+     "result": "not-found",
+     "note": "25 результатов, все Оренбург/Кузбасс/Иркутск, Репецкой Платы нет"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Адрианов Снимщиков",
+     "result": "not-found",
+     "note": "30 результатов, нерелевантно"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Снимщиков Тимский",
+     "result": "partial",
+     "note": "7 результатов: Косма Егоров (д. Круглая) и Никита Иванов — Кузбасс, к делу не относятся"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Верхосемской Снимщиков",
+     "result": "not-found",
+     "note": "0 результатов"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Снимшиков",
+     "result": "not-found",
+     "note": "16 результатов: Московская обл., Кузбасс, Оренбург, Астрахань"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Снимщиков Курской",
+     "result": "not-found",
+     "note": "18 результатов, Репецкой Платы нет"
+    },
+    {
+     "source": "ya.ru/archive",
+     "query": "Коршиков Тимский",
+     "result": "found",
+     "note": "Коршиковы из «Репецких Бутырок» (Севастополь), фон"
+    },
+    {
+     "source": "nashipredki.com/church/4849",
+     "query": "МК Архангельской ц. Репецкая Плата",
+     "result": "found",
+     "note": "14 МК в ГАКО ф.217 оп.3 (1874–1913), онлайн-копий нет; исповедных и ревизских сказок нет"
+    },
+    {
+     "source": "nashipredki.com/archive/gako-kursk/fond-217/opis-3/delo-1521",
+     "query": "внутренняя опись д.1521",
+     "result": "found",
+     "note": "179 листов, 1910 и 1912–1913, онлайн-доступа нет"
+    },
+    {
+     "source": "archive.rkursk.ru",
+     "query": "главная страница / электронный зал",
+     "result": "blocked",
+     "note": "WebFetch 504 Gateway Timeout; в браузере не загрузилась"
+    },
+    {
+     "source": "web search",
+     "query": "ГАКО Курск метрические книги онлайн ф.217",
+     "result": "not-found",
+     "note": "подтверждений онлайн-оцифровки ф.217 нет, указан только читальный зал"
+    },
+    {
+     "source": "web search",
+     "query": "Снимщиков Андриан/Адриан/Андриянович Курская Тимский",
+     "result": "not-found",
+     "note": "поисковик не стал искать по имени; выдал общие ресурсы"
+    }
+   ],
+   "leads": [
+    "Метрики Репецкой Платы онлайн отсутствуют на Яндекс Архиве, FamilySearch (без входа) и ГАКО. Единственный путь к записи о рождении Федора у Андриана — читальный зал или запрос в ГАКО: ф.217 оп.3 д.353 (1895), д.1519 (1902–1905), д.1520 (1906–1909); 1896–1901 в описи не значатся. Брак Федора с Еленой (~1917–1925) приходится на годы, которых в перечне нет; искать в ЗАГС Мантуровского/Тимского района (ГАКО, фонды Р) или в метриках, которых нет в описи 3.",
+    "FamilySearch с входом пользователя: проверить, есть ли курские МК (ф.217) в каталоге, а также индексы Fedor/Feodor Adrianov Snimshchikov в Киеве 1900–1917. Василий Адрианов Снимщиков из Верхосемской вол. крестил сына в Киеве в 1910 г. (A-0062), значит Федор Андрианович мог быть его братом и тоже бывать в Киеве.",
+    "Наводка из соседних вкладок другого агента (мной не проверялась): в ОБД (Книга памяти) есть запись «СНИМЩИКОВ Дмитрий Андриянович», https://obd-memorial.ru/html/info.htm?id=408963514 — возможный брат Федора. На Find a Grave есть «Семен Федорович Снимщиков (1914–1988)», memorial 308607923; если это сын Федора, то сам Федор родился не позже ~1893.",
+    "Севастополь (Архив г. Севастополя ф.30 оп.1, на Яндекс Архиве) — заметный центр переселенцев из Репецкой Платы и Бутырок в 1898–1918. Сплошной просмотр 1900–1917 мог бы найти Снимщиковых, которых OCR распознал с ошибкой.",
+    "Коршиковы из «Репецких Бутырок» (Погоженская вол.) — фоновое подтверждение гипотезы, что Елена Ивановна Коршикова происходит из Бутырок. Ивана Коршикова не найдено."
+   ]
+  },
+  {
+   "lane": "family-trees-forums",
+   "findings": [
+    {
+     "title": "Самый сильный аналитический вывод (не новый документ): в Верхосемской вол. Тимского у. жил Василий Адрианов Снимщиков — вероятный брат Федора Андриановича",
+     "url": "https://www.familysearch.org/ (запись A-0062 в деле: крещение Феодора 10.IV.1910, Киев)",
+     "summary": "Эта запись уже есть в деле: A-0062/P-0044. В ней отец назван как «Тимскаго уѣзда, Верхосемской вол. Василий Адриановъ Снимщиковъ», мать — Татьяна Ивановна. Деревня Репецкая Плата входит в Верхосемскую волость. Значит, в той же волости до ~1888 г. жил Адриан Снимщиков, у которого был сын Василий. Федор Андрианович — тоже сын Андриана (Адриана) из этой волости. Самая экономная гипотеза: Василий и Федор — братья, а Адриан — их общий отец. Тогда киевская ветвь (Федор Васильевич 1909/10 и, возможно, Андрей Васильевич 1904) — двоюродная родня деда Ивана, а не его прямая линия. Документом это не подтверждено, но гипотеза указывает, где искать: метрики Архангельской церкви д. Репецкая Плата, где родители записаны как «Адриан ... и жена его ...». За ~1886–1905 сохранились ГАКО ф.217 оп.3 д.349 (1887), д.353 (1895), д.1519 (1902–1905).",
+     "relevance": "probable",
+     "names_as_written": "Василий Адріановъ Снимщиковъ; Феодоръ; Татьяна Ивановна",
+     "place_as_written": "Тимскаго уѣзда, Верхосемской вол.",
+     "record_date": "1910",
+     "archival_ref": "см. A-0062 в деле (FamilySearch, киевские метрики 1910)"
+    },
+    {
+     "title": "ВГД, тема 37066 «Село Репецкая Плата» (дневник agis*): прочитаны страницы 0–50, Федора Андриановича нет",
+     "url": "https://forum.vgd.ru/829/37066/0.htm",
+     "summary": "Все 6 страниц тема (/0, /10, /20, /30, /40, /50.htm) сохранены и проверены поиском по строкам «снимщ», «андриа», «адриа», «андрея», «коршик». Снимщиков упомянут один раз: в списке однодворцев, которые в 1827 г. переселились из «с. Репецая Плота» в Оренбургскую губ. (ревизия 31.3.1834, позиция «4. Снимщиков»). Андрианов и Коршиковых нет. Полезное в теме — шифры источников. Метрики: ГАКО ф.217 оп.3 д.1520 (1906–1909, 181 лист); ф.217 оп.1-2 д.4215 (1804) и д.4216 (1831). Ревизские сказки: 3-я (1762) ф.184 оп.2 д.42; 4-я (1782) д.111 с.415–438; 5-я (1795) д.195 с.548; 6-я (1811) ф.184 оп.3 д.6 с.182; 8-я (1834) ф.184 оп.2 д.729; 9-я (1850) д.954 с.218. 7-я и 10-я ревизии не сохранились. Ещё один участник пишет, что метрики XX в. в ГАКО сохранились плохо («плохой сохран»), а сельскохозяйственная перепись 1911 г. существует, но людей в ней установить трудно.",
+     "relevance": "background",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/trees-forums/vgd37066_*.html",
+     "names_as_written": "Снимщиков (без имени, 1834)",
+     "place_as_written": "с.Репецая Плота, Тимского уезда",
+     "record_date": "1834; посты 2011–2025",
+     "archival_ref": "ГАКО ф.217 оп.3 д.1520; ф.217 оп.1-2 д.4215, 4216; ф.184 оп.2 д.42,111,195,729,954; ф.184 оп.3 д.6"
+    },
+    {
+     "title": "ВГД, тема 100926 «Снимщиковы (Курская губерния)»: это ветвь из Нежеголи, не наша",
+     "url": "https://forum.vgd.ru/topic/100926/",
+     "summary": "Тема пользователя Yulya_Kotlyarova от 2019 г. В ней Снимщиковы из с. Нежеголь Белгородского у.: Матвей Кузьмич, его жена Наталья Николаевна (1870), дети Алексей Матвеевич и Прасковья Матвеевна (1899–1969, в браке Унковская); также Карп Иванович и другие. Андриана и Федора Андриановича нет. Попутно: автор ищет Коршиковых из д. Безлепкино Тимского у.; в теме 83868 она выложила фото семьи Коршиковых из Безлепкина/Репца (Антон Яковлевич). Безлепкино — третье, наряду с Большими Бутырками, гнездо Коршиковых в том же районе.",
+     "relevance": "background",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/trees-forums/t100926.html",
+     "names_as_written": "Снимщикова Прасковья Матвеевна; Снимщиков Алексей Матвеевич; Коршиков Антон Яковлевич",
+     "place_as_written": "с. Нежеголь, Белгородский уезд; д. Безлепкино, Тимский у."
+    },
+    {
+     "title": "ВГД, тема 83868 «История курского села Репец»: все 36 страниц проверены, о нашей семье ничего",
+     "url": "https://forum.vgd.ru/2699/83868/0.htm",
+     "summary": "Все 36 страниц скачаны и проверены поиском по тем же строкам. Снимщиков встречается только в подписи участницы (Нежеголь). Коршиковы упомянуты лишь в истории XVII–XVIII вв.: д. Котенёва (Долгая Поляна) → Репец → основание Репецких (Больших) Бутырок в 1714–1718 гг. → хутор Безлепкин; переселение на Алтай (с. Долганка) в 1884/1898 гг. Ивана Коршикова, отца Елены (~1870-е), и семьи Елены ~1900 г. там нет.",
+     "relevance": "background",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/trees-forums/v83868/",
+     "names_as_written": "Коршиковы (XVII–XIX вв.)",
+     "place_as_written": "с. Репец; Репецкие Бутырки; хутор Безлепкин"
+    },
+    {
+     "title": "Familio: среди 342 Снимщиковых нет ни Андриана из Курской губ., ни Федора Андриановича",
+     "url": "https://familio.org/persons?f_lastName=%D0%A1%D0%BD%D0%B8%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2&f_firstAndMiddleName=%D0%90%D0%BD%D0%B4%D1%80%D0%B8%D0%B0%D0%BD",
+     "summary": "Поиск шёл через фильтр f_firstAndMiddleName (первый параметр — фамилия). По «Андриан» есть один человек: «Снимщиков Андриан Сергеевич, род. 24.08.1879, село Верхняя Вязовка». Это оренбургско-самарская ветвь, не Тимский уезд. По «Адриан», «Андреян», «Андрианович», «Адрианович», «Андреянович», «Андриянович» и «Андриановна» — 0. По «Федор» — 11: Артемьевич 1909 и Ильич 1879 (оба Верхняя Вязовка); Иванович ~1706 и Кузьмич ~1800 (Подхожее); Иванович 20.04.1925, Абрамов 1893 и Егорович (из справочников); два Федора без отчества (svrt1914, русско-японская). Елен Снимщиковых две, обе XIX в. (Ероховка, Верхняя Вязовка). Снимщиковы Репецкой Платы в дереве Т. Алексеевой доходят только до начала XIX в. (Николай Иванович 1767, Василий Николаевич ~1784, Петр Васильевич 1801, Дарья Васильевна 1802). Елены Ивановны Коршиковой 1900 г. среди Коршиковых/Коршиковой Елен нет. Есть Коршиков Иван 1750 из «село Репец».",
+     "relevance": "background",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/trees-forums/famlist.html",
+     "names_as_written": "Снимщиков Андриан Сергеевич",
+     "place_as_written": "село Верхняя Вязовка",
+     "record_date": "24.08.1879"
+    },
+    {
+     "title": "Geni: Андриана, Адриана и Федора Андриановича нет",
+     "url": "https://www.geni.com/search?search_type=people&names=%D0%A4%D0%B5%D0%B4%D0%BE%D1%80+%D0%A1%D0%BD%D0%B8%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2",
+     "summary": "По «Андриан Снимщиков» и «Адриан Снимщиков» — «No results found». По «Федор Снимщиков» найдено 4 человека: Федор Иванович (1714–1785), Федор Иванович Ломов (1815), Федор Кузьмич (1800–1815) — все из ветви Подхожее/Ломовы (Тульская губ.); Фёдор Дмитриевич (1902). Курских среди них нет.",
+     "relevance": "background",
+     "names_as_written": "Фёдор Дмитриевич Снимщиков (1902)"
+    },
+    {
+     "title": "Яндекс: по точной фразе \"Снимщиков Федор Андрианович\" совпадений нет",
+     "url": "https://yandex.ru/search/?text=%22%D0%A1%D0%BD%D0%B8%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2+%D0%A4%D0%B5%D0%B4%D0%BE%D1%80+%D0%90%D0%BD%D0%B4%D1%80%D0%B8%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%22",
+     "summary": "Яндекс ответил «Точного совпадения не нашлось». Без кавычек выдача состоит из других Федоров: Иванович (ПН); 1914.svrt; Георгиевский кавалер «Снимщиков Федор, 6 Кубанский пластунский батальон» (forum.vgd.ru/post/3103/99846/p2986556.htm) — кубанский. Поиск по «Андриан|Адриан|Андреян|Андриян» Яндекс сводит к «Андрей». В выдаче только современные люди, их не открывали. Сайты moypolk.ru и polkrf.ru: Федора Снимщикова нет (есть Иван Поликарпович, Алексей Васильевич, Анатолий Петрович, Иван Семенович, Иван Романович, Николай Мартынович). «Снимщиков Дмитрий Фёдорович» на 1418museum.ru (heroes/69273130) — 1913 г. р., с. Хмелевое Великомихайловского р-на, это НЕ Дмитрий 1926 из Репецкой Платы. «Снимщиков Александр Федорович», гв. ст. сержант, 1924–17.03.1945, Бранево (prussia39.ru), — год не совпадает с Александром 1921 из дела, не проверялся.",
+     "relevance": "possible",
+     "names_as_written": "Снимщиков Дмитрий Фёдорович; Снимщиков Александр Федорович"
+    }
+   ],
+   "searches": [
+    {
+     "source": "forum.vgd.ru тема 37066 (все 6 стр., curl cp1251)",
+     "query": "снимщ|андриа|адриа|андрея|коршик",
+     "result": "partial",
+     "note": "Только 1834 (переселенцы в Оренбург). Шифры ГАКО ф.217 оп.3 д.1520, оп.1-2 д.4215/4216, ф.184 — ревизии"
+    },
+    {
+     "source": "forum.vgd.ru тема 100926",
+     "query": "Снимщиковы (Курская губ.)",
+     "result": "not-found",
+     "note": "Нежегольская ветвь (Белгородский у.)"
+    },
+    {
+     "source": "forum.vgd.ru тема 83868 «История села Репец» (36 стр.)",
+     "query": "снимщ|андриан|адриан|андреян|коршик",
+     "result": "not-found",
+     "note": "Коршиковы — только XVII–XIX вв.; Безлепкино/Бутырки"
+    },
+    {
+     "source": "WebSearch site:forum.vgd.ru",
+     "query": "Снимщиков",
+     "result": "not-found",
+     "note": "Самурская, Кавказ, Тула, КП Курской (Иван Михайлович) — уже известно; Андриановича нет"
+    },
+    {
+     "source": "familio.org (фильтр f_firstAndMiddleName)",
+     "query": "Снимщиков + Андриан/Адриан/Андреян/Андриян/Андрианович/Адрианович/Андреянович/Андриянович; Снимщикова Андриановна; Снимшиков Федор; Снимщиков Федор/Андрей/Елена; Коршикова Елена; Коршиков Иван",
+     "result": "not-found",
+     "note": "Только Андриан Сергеевич 1879 Верхняя Вязовка"
+    },
+    {
+     "source": "geni.com (поиск по людям, браузер)",
+     "query": "Андриан Снимщиков; Адриан Снимщиков; Федор Снимщиков",
+     "result": "not-found",
+     "note": "Федоры Снимщиковы на Geni только из ветви Подхожее и Фёдор Дмитриевич 1902"
+    },
+    {
+     "source": "myheritage.com/names",
+     "query": "fedor_snimshchikov",
+     "result": "blocked",
+     "note": "Расширение браузеру читать страницу не дало; WebFetch получил пустую страницу"
+    },
+    {
+     "source": "ru.rodovid.org",
+     "query": "Снимщиков",
+     "result": "blocked",
+     "note": "Антибот-проверка «Please wait / verifying» (WebFetch 503) — не обходил"
+    },
+    {
+     "source": "wikitree.com",
+     "query": "Snimshchikov",
+     "result": "blocked",
+     "note": "Пустая страница (JS); WebFetch — пусто"
+    },
+    {
+     "source": "FamilySearch Tree / Ancestry",
+     "query": "—",
+     "result": "blocked",
+     "note": "Нужен вход; не логинился"
+    },
+    {
+     "source": "nashipredki.com/church/4849",
+     "query": "Архангельская ц. Репецкая Плата",
+     "result": "partial",
+     "note": "Каталог: ф.217 оп.3 д.342 (1874), 347 (1882), 349 (1887), 353 (1895), 1519 (1902–05), 1520 (1906–09), 1521 (1910–13); 1896–1901 нет. Исследователей прихода нет"
+    },
+    {
+     "source": "yandex.ru (браузер)",
+     "query": "\"Снимщиков Федор Андрианович\"",
+     "result": "not-found",
+     "note": "«Точного совпадения не нашлось»"
+    },
+    {
+     "source": "yandex.ru",
+     "query": "\"Снимщиков\" Андриан | Адриан | Андреян | Андриян",
+     "result": "not-found",
+     "note": "Яндекс заменяет имя на «Андрей»; в выдаче современные люди, их не открывал"
+    },
+    {
+     "source": "yandex.ru",
+     "query": "\"Снимщикова Елена Ивановна\"",
+     "result": "not-found",
+     "note": "Только живые тёзки (ИП в Краснодарском крае) — не трогал"
+    },
+    {
+     "source": "yandex.ru",
+     "query": "Снимщиковы Луховицы | Реплата | \"Репецкая Плата\"",
+     "result": "partial",
+     "note": "ok.ru (запрещено правилами) — «день памяти Сергея Дмитриевича Снимщикова 1965», отец которого переехал в Репецкую Плату; не открывал"
+    },
+    {
+     "source": "yandex.ru site:moypolk.ru|polkrf.ru",
+     "query": "Снимщиков Федор",
+     "result": "not-found"
+    },
+    {
+     "source": "yandex.ru",
+     "query": "\"Снимщиков Дмитрий Федорович\" | \"Снимщиков Александр Федорович\"",
+     "result": "partial",
+     "note": "1418museum: Дмитрий Фёдорович 1913 Хмелевое — не наш; prussia39: Александр Ф. 1924–1945 — не проверен"
+    },
+    {
+     "source": "WebSearch (Google-like)",
+     "query": "\"Федор Андрианович Снимщиков\"; \"Снимщиков Андриан\"; \"Андреян Снимщиков\"; Snimshchikov Fedor Andrianovich",
+     "result": "not-found"
+    },
+    {
+     "source": "katalog.kurskonb.ru PDF talant/page0048",
+     "query": "Снимщиков Сергей Дмитриевич",
+     "result": "blocked",
+     "note": "Ошибка TLS-сертификата; ослаблять проверку TLS не разрешено"
+    }
+   ],
+   "leads": [
+    "ГЛАВНАЯ ГИПОТЕЗА: у Адриана Снимщикова из Верхосемской вол. Тимского у. был сын Василий Адрианович (киевская метрика 1910, A-0062/P-0044); значит, Федор Андрианович вероятно его брат. Проверка: метрики Архангельской церкви д. Репецкая Плата, ГАКО ф.217 оп.3 д.349 (1887), д.353 (1895), д.1519 (1902–1905). Искать «Адриан(Андриан) ... Снимщиков и жена его ...» среди родившихся. Также ГАКО ф.217 оп.3 д.1520–1521 (1906–1913): Федор крёстный или в браке, если женат рано. Онлайн этих метрик нет — нужен запрос в ГАКО, только по поручению пользователя.",
+    "Нужен вопрос к семье, а не поиск: помнит ли кто-то дядю Василия, киевскую родню или Андрея/Федора Васильевичей. Это проверило бы гипотезу о братьях Василий—Федор.",
+    "Пробел в метриках 1896–1901 (у Nashipredki их нет в описи). Если Федор родился в эти годы, нужна исповедная ведомость или посемейный список. Отдельно — сельскохозяйственная перепись 1917/1911 по Репецкой Плате (о переписи 1911 говорят на ВГД 37066). Вероятно, ГАКО, фонды переписей; шифры уточнить.",
+    "Сергей Дмитриевич Снимщиков, род. 8.03.1965 в ст. Староверческая Мурашинского р-на Кировской обл. Его отец Дмитрий переехал в Репецкую Плату (сниппет Яндекса со страницы ok.ru). Возможно, это Дмитрий Федорович 1926 (P-0026), т.е. внук Андриана. Страницу ok.ru по правилам не открывал. Источник о погибшем (не о живом) можно проверить разрешённым путём: найти мемориал/Книгу памяти (Чечня/Афганистан) по имени, если пользователь разрешит.",
+    "prussia39.ru: гв. ст. сержант Снимщиков Александр Федорович (1924–17.03.1945, Бранево). Проверить место рождения: если Мантуровский р-н — это ещё один сын Федора. В деле Александр Федорович значится как 1921 г. р.",
+    "Коршиковы: помимо Больших Бутырок, гнездо есть в д. Безлепкино (Тимский у.). Елена Ивановна 1900 может быть оттуда. Это гипотеза по частоте фамилии, без документа.",
+    "Rodovid (антибот), MyHeritage, WikiTree, FamilySearch Tree и Ancestry открыть не удалось: нужен вход или они блокируют. Пользователь может сам проверить их со своим аккаунтом."
+   ]
+  },
+  {
+   "lane": "ww1-civil",
+   "findings": [
+    {
+     "title": "GWAR: Снимщиков Федор Андреевич / «Феодор Андр.», ст. урядник 2-го Кубанского пластунского батальона, ранен 04.06.1915, убит 03.07.1915. Однофамилец, не наш",
+     "url": "https://gwar.mil.ru/heroes/chelovek_donesenie15652459/",
+     "archival_ref": "РГВИА ф.16196 оп.1 д.1050 (списки потерь Кубанских пластунских батальонов), док. 221882, pages_id 10350123 (убит, выс. 393); второе донесение: д.1050, док. 176619, pages_id 10350080, id 15657279 (ранен, сел. Боламутовка)",
+     "names_as_written": "Снимщиков Феодор Андр.; Снимщиков Федор Андреевич",
+     "place_as_written": "место жительства не указано; в той же части и в том же списке есть Снимщиков Трофим Андр./Андреевич, Кубанская обл., Майкопский отд., ст. Губская",
+     "record_date": "1915-06-04 / 1915-07-03",
+     "relevance": "background",
+     "summary": "Других Федоров Снимщиковых в ПМВ с отчеством на «Андр-» нет. Этот — кубанский казак, вероятно брат Трофима Андреевича из ст. Губской, погиб в 1915 г. Значит, это не Федор Андрианович из Репецкой Платы (умер в 1943–44). Отвергнут. Георгиевский крест 2 ст. на «Снимщикова Федора» без отчества (1914.svrt.ru, РГИА ф.496 оп.3 д.903) приписать нашему нельзя: скорее он принадлежит этому казачьему уряднику.",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/pmv-gwar/sp-Андрианович.json"
+    },
+    {
+     "title": "GWAR: все уроженцы Репецкой Платы в картотеке ПМВ (из 1320 карточек Верхосемьской вол.): Снимщиковых только двое, Андриановичей нет",
+     "url": "https://gwar.mil.ru/heroes/chelovek_gospital20863774/",
+     "archival_ref": "РГВИА, Картотека бюро учёта потерь, ящики 4420-С (Федор Семенович) и 3172-С (Трифон Васильевич); дубль Трифона — id 23046687 «Смилищинов Трафим Василиевич»",
+     "names_as_written": "Спимщиков Федор Семенович; Снимщиков Трифон Васильевич; Смилищинов Трафим Василиевич",
+     "place_as_written": "Курская губ., Тимский уезд, Верхосемьская вол., д. Ренецкая Плата (а также «Плота Репецкая», «Репин-Плат», «Рениц. Плата», «Репецк. Плота»)",
+     "record_date": "1915",
+     "relevance": "background",
+     "summary": "Заново разобрал case/sources/gwar-verhosem.json: выписал всех уроженцев «Ренецкой/Репецкой Платы» (около 70 карточек) и прогнал регулярные выражения на отчества Андр-/Адр- и на фамилии, похожие на Снимщиков. По Репецкой Плате нашлись только Федор Семенович и Трифон (Трафим) Васильевич, оба уже в деле (A-0034, A-0035). У Снимщиковых волости нет ни одного отчества Андрианович/Адрианович. Андриановичи из Тимского уезда с другими фамилиями (Ковыршин Федор Андрианович, Погоженская вол.; Махнычев Кирилл Андрианович, с. Пузачи) — не наши.",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/case/sources/gwar-verhosem.json"
+    },
+    {
+     "title": "GWAR: поиск «Федор + Андрианович/Адрианович/Андриянович/Андреянович/Адриянович/Андрианов» по Курской губ.: Снимщиковых нет",
+     "url": "https://gwar.mil.ru/",
+     "archival_ref": "индекс gwar_2023 (РГВИА: именные списки потерь ф.16196 оп.1; картотека бюро учёта потерь; награждения; пленные)",
+     "names_as_written": "Ковыршин Федор Андрианович (Тимский у., Погоженская вол., Теплый Колодец, id 21490795); Зайцев Федор Ахуриянович (Тимский у., Успенская вол., Леженка, id 1668144); прочие из Суджанского, Грайворонского, Корочанского, Курского, Льговского и Путивльского уездов",
+     "place_as_written": "Курская губ.",
+     "record_date": "1914–1917",
+     "relevance": "background",
+     "summary": "По губернии выдача полная: 18–22 записи. Среди них нет ни Снимщикова, ни уроженца Верхосемьской волости. Нечёткий поиск «Андреянович» дал 2009 записей; получены первые 1000 по релевантности, Андриановичей-Снимщиковых среди них тоже нет. Если писарь исказил фамилию, такой поиск запись не найдёт.",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/pmv-gwar/"
+    },
+    {
+     "title": "ГАКО ф. Р-2795 (Комитет ЗАГС Курской обл., объединённый фонд), оп.4: акты гражданского состояния ВИКов Тимского уезда 1923–1925. Новый архивный маршрут",
+     "url": "https://nashipredki.com/archive/gako-kursk/fond-p2795/opis-4",
+     "archival_ref": "ГАКО ф. Р-2795 оп.4 д.883 (1923–1924, рождения Михельпольского и Сазановского ВИКов Тимского у.); д.1105 (1924–1925, Сазановский ВИК, рождения и браки)",
+     "names_as_written": "",
+     "place_as_written": "«Михельпольского ВИКа Тимского у Курской губ.»",
+     "record_date": "1923–1925",
+     "relevance": "possible",
+     "summary": "На НашиПредки проиндексированы только 2 дела описи 4, сканов нет. Опись показывает, что ГАКО хранит советские книги ЗАГС волисполкомов Тимского уезда 1920-х годов в объединённом фонде Р-2795. Значит, там же могут лежать книги Верхосемского ВИКа (1919–1928). Что в них можно найти: брак Федора Андриановича Снимщикова с Еленой Ивановной Коршиковой (~1918–1925) и рождения старших детей. В таких записях указаны отчество, возраст и место жительства. Это прямой путь к документу, но нужен запрос в ГАКО.",
+     "local_path": ""
+    }
+   ],
+   "searches": [
+    {
+     "source": "gwar.mil.ru (gwar.py search)",
+     "query": "given=Федор patronymic=Андрианович|Адрианович|Андриянович|Андреянович|Адриянович|Андрианов gubernia=Курская",
+     "result": "not-found",
+     "note": "18–22 точных совпадения, ни одного Снимщикова; «Андреянович» нечётко дал 2009 записей, просмотрены первые 1000"
+    },
+    {
+     "source": "gwar.mil.ru (gwar.py search)",
+     "query": "surname=Снимщиков patronymic=Андрианович|Адрианович|Андриянович|Андреянович",
+     "result": "partial",
+     "note": "Нашёлся только кубанский казак Федор Андреевич (ст. урядник 2 Куб. пласт. бат., убит 03.07.1915) — отвергнут"
+    },
+    {
+     "source": "gwar.mil.ru (gwar.py search)",
+     "query": "surname=Снимщиков given=Андриан|Адриан|Андреян|Андриян",
+     "result": "not-found",
+     "note": "Андриана/Адриана Снимщикова нет; в выдаче Андреи, Антоны, Александры"
+    },
+    {
+     "source": "gwar.mil.ru (gwar.py search)",
+     "query": "варианты фамилии: Снимшиков, Снимщеков, Снимщенков, Спимщиков, Снимчиков, Снимшеков, Смимщиков, Снемщиков (нечётко, от 134 до 553 записей на вариант)",
+     "result": "not-found",
+     "note": "Новых Снимщиковых из Тимского у. нет. Известные: Федор Семенович, Трифон Васильевич, Василий Федотович, Петр Семенович «Снимиунков»; Роман Дмитриевич (Михельпольская вол.), Тихон Васильевич «Снымщиков» (Верхопольская вол.), Семен Михайлович «Спимщиков» (Колпаковская вол.). Семсиков Федор Андрианович — Витебская губ., не наш"
+    },
+    {
+     "source": "gwar.mil.ru (сохранённая выдача case/sources/gwar-verhosem.json)",
+     "query": "повторный разбор 1320 карточек Верхосемьской вол.: все уроженцы Репецкой Платы; отчества Андр*/Адр*",
+     "result": "not-found",
+     "note": "Снимщиковых из Репецкой Платы двое (Федор Семенович, Трифон Васильевич); Андриановичей-Снимщиковых нет"
+    },
+    {
+     "source": "1914.svrt.ru (СВРТ: именные списки потерь РГБ, книги памяти, ГК 2–4 ст.)",
+     "query": "Снимщиков, Снимшиков, Снимщеков, Снимчиков, Спимщиков, Снимщенков",
+     "result": "not-found",
+     "note": "Снимщиков — 7 записей: Василий Семенов (Рязанская губ.); Иван Иванов ×2 (Корочанский у.); Максим, ГК 4 ст.; Роман Дмитр. (Тимский у., Михельпольская вол., пбв 13.08.1914, Именной список №411, стр.6573); Федор, ГК 2 ст., без отчества; Федот, ГК 3 ст. Снимшиков — Устин Федоров (Корочанский у.). По остальным вариантам — 0"
+    },
+    {
+     "source": "web search (extended)",
+     "query": "\"Снимщиков Андриан\" / \"Андриан Снимщиков\" / \"Федор Андрианович Снимщиков\"",
+     "result": "not-found",
+     "note": "только familio и однофамильцы"
+    },
+    {
+     "source": "web search",
+     "query": "Снимщиков красноармеец 1919/1920 Тимский уезд / Верхосемье, Гражданская война",
+     "result": "not-found"
+    },
+    {
+     "source": "web search (extended)",
+     "query": "\"Снимщиков\" \"Репецкая Плата\" OR \"Реплата\"",
+     "result": "not-found",
+     "note": "Нового нет: familio, ВГД 37066 и Википедия уже есть в деле"
+    },
+    {
+     "source": "nashipredki.com (WebFetch)",
+     "query": "ГАКО Курск: список фондов; поиск Р-1221 / Верхосемский ВИК",
+     "result": "partial",
+     "note": "Фонда Р-1221 на НашиПредки нет. Найден ф. Р-2795 оп.4 (ЗАГС ВИКов Тимского у. 1923–1925), проиндексированы 2 дела. Прямой curl к nashipredki упирается в CAPTCHA (/captcha), обходить её не стал"
+    },
+    {
+     "source": "web search",
+     "query": "ГАКО фонд Р-1221 Верхосемский волостной исполком опись; путеводитель ГАКО по волисполкомам Тимского у.",
+     "result": "not-found",
+     "note": "Опись Р-1221 онлайн не найдена"
+    },
+    {
+     "source": "cfc.rusarchives.ru (Центральный фондовый каталог)",
+     "query": "Верхосемск",
+     "result": "blocked",
+     "note": "ECONNREFUSED или таймаут и через curl, и в браузере: сайт недоступен из этой сети"
+    },
+    {
+     "source": "archive.rkursk.ru (сайт ГАКО)",
+     "query": "главная / путеводитель",
+     "result": "blocked",
+     "note": "504 Gateway Timeout; в браузере страница не открылась"
+    }
+   ],
+   "leads": [
+    "ГЛАВНЫЙ НОВЫЙ МАРШРУТ: ГАКО ф. Р-2795 (Комитет ЗАГС Курской обл., объединённый фонд), оп.4. В описи есть акты ЗАГС ВИКов Тимского уезда 1923–1925 (д.883 — Михельпольский и Сазановский ВИКи). Нужен запрос в ГАКО, его делает пользователь: книги записей актов Верхосемского ВИКа (с. Верхосемье / Репецкая Плата) за 1918–1928. Что искать: брак Федора Андриановича Снимщикова с Еленой Ивановной Коршиковой (вероятно 1918–1925) и рождения детей — Семена, Николая, Надежды, Ксении, Ольги. В записях будут отчество отца, возраст и место жительства.",
+    "Чтобы установить год рождения Федора: метрические книги Архангельской церкви Репецкой Платы (ГАКО ф.217 оп.3) за ~1885–1905. Часть книг Тимского у. описана на nashipredki.com (Архангельская церковь с. Засемское; Троицкая церковь Верхосемья — д.1593/1594). Искать рождение Феодора у Адриана/Андриана Снимщикова и браки Адриана за ~1875–1895.",
+    "Отец Федора, Андриан Снимщиков (род. ~1855–1875), по возрасту не служил рядовым в ПМВ. Его скорее найти в подворных карточках сельхозпереписи 1911 г. (ГАКО ф.4 оп.1; для Погожего — д.910) и в переписи 1917 г., чем в военных базах.",
+    "По ПМВ результат отрицательный и согласуется с семейной версией, что Федор Андрианович не воевал: на gwar и svrt его нет. Оговорка: поиск не найдёт запись, если писарь исказил фамилию (уже встречались «Спимщиков», «Снимиунков», «Смилищинов»). При необходимости можно вручную просмотреть сканы именных списков потерь полков, куда призывали из Тимского уезда (например, 314-й Новооскольский, 6-й Российский стрелковый).",
+    "Георгиевский крест 2 ст. «Снимщиков Федор» без отчества (РГИА ф.496 оп.3 д.903, стр.64; 1914.svrt.ru): кто это, можно установить по номеру креста в приказе по части. Скорее всего это кубанский урядник Федор Андреевич из 2 Куб. пласт. бат., не наш.",
+    "Доступность источников: cfc.rusarchives.ru и archive.rkursk.ru из этой сети не открываются; nashipredki при прямом запросе требует CAPTCHA, через WebFetch страницы открылись. Опись Р-1221 Верхосемского ВИКа онлайн не найдена. Нужен запрос в ГАКО о составе фонда: списки избирателей и лишенцев 1920-х, похозяйственные списки.",
+    "Выгрузки этого прохода лежат в /Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/pmv-gwar/: f-*.json — «Федор + Андрианович» по Курской губ.; s-*.json — варианты фамилии; sp-*.json и sg-*.json — Снимщиков с отчеством или именем Андриан."
+   ]
+  },
+  {
+   "lane": "graves-civil",
+   "findings": [
+    {
+     "title": "Find a Grave: Семен Федорович Снимщиков, 15.02.1914–17.05.1988, Люблинское кладбище (Москва)",
+     "url": "https://www.findagrave.com/memorial/308607923",
+     "summary": "Карточка в Find a Grave импортирована из московского реестра захоронений (автор woowoo, добавлена 24.09.2026). Тип захоронения: гробом в землю, участок ЗИ/066/7.1/0054. На том же участке похоронена Александра Григорьевна Снимщикова (05.05.1907–18.11.1983), вероятно жена. Совпадают имя, отчество, фамилия и Москва с «старшим братом Семеном Федоровичем» из семейного рассказа. Но год рождения 1914 мешает считать его сыном Елены Ивановны (1900 г.р.): ей тогда было бы 13–14 лет. Он мог быть сыном Федора от первого брака, а мог быть однофамильцем. Если это наш Семен, Федор родился не позже ~1893. Фото надгробия нет, отчество Федора по этой записи не проверить.",
+     "relevance": "probable",
+     "names_as_written": "Семен Федорович Снимщиков; Александра Григорьевна Снимщикова",
+     "place_as_written": "Lublinskoe Cemetery, South-Eastern Administrative Okrug, Moscow",
+     "record_date": "1988-05-17",
+     "archival_ref": "FaG memorial 308607923; plot ЗИ/066/7.1/0054 (данные ГБУ «Ритуал»)",
+     "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/burials-late-civil/notes.md"
+    },
+    {
+     "title": "Find a Grave: «И Ф Снимщиков», 18.06.1942–08.05.2009, Хованское (Центральное)",
+     "url": "https://www.findagrave.com/memorial/321706498",
+     "summary": "Повторная проверка уже известной записи. Участок Центральное, ЗИ/121/45А/0146, тип «гробом в землю», карточка добавлена 21.10.2026. Совпадает с дедом Иваном (P-0004), это уже есть в research-state. Других Снимщиковых в участке 45А в выдаче нет. В соседнем секторе 45В похоронена «Мария Васильевна Снимшикова» 1913–2001 (ЗИ/121/45В/0012). Это слабая наводка: родство не установлено.",
+     "relevance": "direct",
+     "names_as_written": "И Ф Снимщиков",
+     "place_as_written": "Khovanskoye Cemetery, Центральное",
+     "record_date": "2009-05-08",
+     "archival_ref": "FaG memorial 321706498; plot ЗИ/121/45А/0146"
+    },
+    {
+     "title": "Find a Grave: полный перебор фамилии Снимщиков/Снимщикова (83 записи) и вариантов написания",
+     "url": "https://www.findagrave.com/memorial/search?lastname=%D0%A1%D0%BD%D0%B8%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2",
+     "summary": "Просмотрены все записи: 39 мужских и 44 женских, почти все из московского реестра, плюс Крымск и Горячий Ключ. Не найдены: Елена Ивановна Снимщикова 1900–1991 (есть только Елена Викентьевна 1901–1991, Рогожское, КО/100/001/16А/3/13/87, другая женщина), Николай Федорович, Ксения/Ольга/Надежда Федоровна, Федор Андрианович. С отчеством Федорович/Федоровна есть ещё Анна Федоровна 22.12.1921–16.10.2000 (Долгопрудненское, Южное ЗИ/036/Н40/0271) и Антонина Федоровна 14.07.1936–27.11.2007 (Крымск). В семейном списке их нет, связь не установлена. Варианты: «Снимшиков» дал 3 записи (Константин Леонтьевич 1934–1986 Хованское; Мария Васильевна 1913–2001 Хованское 45В; Екатерина Денисовна 1928–2007 Горячий Ключ). «Снимщеков», «Снімщикова», «Snimshchikov(a)» дали 0 записей.",
+     "relevance": "background",
+     "names_as_written": "Снимщиков/Снимщикова/Снимшиков/Снимшикова"
+    },
+    {
+     "title": "Find a Grave: Архипчук",
+     "url": "https://www.findagrave.com/memorial/search?lastname=%D0%90%D1%80%D1%85%D0%B8%D0%BF%D1%87%D1%83%D0%BA",
+     "summary": "Кириллицей одна запись: Степан Артёмович Архипчук, 31.07.1904–23.11.1959, Востряковское, Центральное ЗИ/027/14/0049. Связь с мужем Надежды Федоровны не установлена, Москва, а не Фастов. Латиницей Arkhipchuk: 3 записи в США, не относятся к делу.",
+     "relevance": "possible",
+     "names_as_written": "Степан Артёмович Архипчук",
+     "place_as_written": "Vostryakovskoe Cemetery, Moscow"
+    }
+   ],
+   "searches": [
+    {
+     "source": "findagrave.com",
+     "query": "lastname=Снимщикова (все 3 страницы, 44 записи)",
+     "result": "partial",
+     "note": "Елены Ивановны 1900–1991 нет; Ксении/Ольги/Надежды Федоровны нет"
+    },
+    {
+     "source": "findagrave.com",
+     "query": "lastname=Снимщиков (83 записи, стр. 1–3)",
+     "result": "found",
+     "note": "Семен Федорович 1914–1988 Люблинское; И Ф 1942–2009 Хованское (известен)"
+    },
+    {
+     "source": "findagrave.com",
+     "query": "Snimshchikov / Snimshchikova / Снімщикова / Снимщеков",
+     "result": "not-found"
+    },
+    {
+     "source": "findagrave.com",
+     "query": "Снимшиков",
+     "result": "partial",
+     "note": "3 записи, Мария Васильевна 1913–2001 Хованское 45В — слабая наводка"
+    },
+    {
+     "source": "findagrave.com",
+     "query": "Архипчук; Arkhipchuk",
+     "result": "partial",
+     "note": "Степан Артёмович 1904–1959 Востряковское; США — не наши"
+    },
+    {
+     "source": "findagrave.com",
+     "query": "firstname=Елена middlename=Ивановна born 1900 died 1991 (без фамилии)",
+     "result": "not-found"
+    },
+    {
+     "source": "findagrave.com",
+     "query": "страница 2 результатов",
+     "result": "partial",
+     "note": "автоматическая проверка Cloudflare «Just a moment» прошла сама, после ожидания; ничего не обходилось"
+    },
+    {
+     "source": "asleep.site (Украина, поиск могил)",
+     "query": "Снимщикова; Архипчук",
+     "result": "not-found",
+     "note": "cookie-баннер закрыт без согласия"
+    },
+    {
+     "source": "pamyat-naroda.ru",
+     "query": "Снимщиков Семен Федорович (71 док., стр. 1–3)",
+     "result": "partial",
+     "note": "записи 1914 г.р. не встретилось; есть Семен Ф. 1919 Сталинская обл., 1920 ст. Преградная, пограничники 93/98 ПО без года; фильтр по отчеству нечёткий; стр. 4–5 не просмотрены"
+    },
+    {
+     "source": "web search",
+     "query": "Фастів кладовище пошук поховань онлайн база",
+     "result": "not-found",
+     "note": "городской онлайн-базы Фастова нет; упомянуты RIPsearch (texty.org.ua), asleep.site"
+    },
+    {
+     "source": "web search",
+     "query": "Луховицы кладбище база захоронений",
+     "result": "not-found",
+     "note": "онлайн-базы по Луховицам не найдено; упомянут поискзахоронений.рф (МО), не проверялся"
+    },
+    {
+     "source": "web search",
+     "query": "Репецкая Плата / Реплата братская могила, кладбище, обелиск",
+     "result": "not-found"
+    },
+    {
+     "source": "web search",
+     "query": "\"Снимщикова Елена Ивановна\"",
+     "result": "blocked",
+     "note": "поисковик отказал: полное ФИО частного лица"
+    },
+    {
+     "source": "findagrave.com (WebFetch)",
+     "query": "поиск",
+     "result": "blocked",
+     "note": "403 для WebFetch; через браузер работает"
+    }
+   ],
+   "leads": [
+    "Семен Федорович Снимщиков 15.02.1914–17.05.1988 (Люблинское, ЗИ/066/7.1/0054, с Александрой Григорьевной 1907–1983). Спросить семью: совпадают ли даты со «старшим братом Семеном»? Если да, он родился, когда Елене Ивановне было 13, значит, у Федора, вероятно, был первый брак и Федор родился не позже ~1893. Тогда метрику Семена 1914 стоит искать в ГАКО ф.217, Архангельская ц. Репецкой Платы. Там должны быть указаны отец с отчеством (Андрианов?) и первая жена.",
+    "По Семену 1914 г.р.: в «Памяти народа» досмотреть страницы 4–5 выдачи «Снимщиков Семен Федорович». Поискать в ОБД и ПН записи 1914 г.р. с местом рождения (Мантуровский/Тимский) или призывом из Москвы. Если найдётся, в документе может быть адрес семьи или имя матери.",
+    "Хованское: в соседнем секторе ЗИ/121/45В похоронена Мария Васильевна Снимшикова 1913–2001. Проверить, не родственница ли она. Семейный участок деда (45А/0146) лучше подтвердить фото надгробия от семьи.",
+    "В Find a Grave Ксения и Ольга Федоровны под фамилией Снимщикова не найдены, вероятно, похоронены под фамилиями мужей. Нужны их фамилии в браке от семьи, потом искать в московском реестре (ГБУ «Ритуал», mos.ru требует входа) и в Реутове.",
+    "Елена Ивановна 1900–1991 в московском реестре отсутствует, значит, она, скорее всего, похоронена в Фастове (или Луховицах). Онлайн-баз по Фастову и Луховицам нет. Остаются фото надгробия от семьи, книги учёта КП кладбищ Фастова или акт о смерти 1991 г. в ДРАЦС Фастова. Акт о смерти может назвать отчество мужа, только если в нём есть сведения о браке.",
+    "поискзахоронений.рф (Московская обл.) и RIPsearch (Украина) не проверялись. Проверить, если они доступны без входа и CAPTCHA."
+   ]
+  }
+ ],
+ "critic": {
+  "findings": [
+   {
+    "title": "Демографический список 1945: Снимщиков Александр Федорович, 1921, «Мать Елена Ивановна»",
+    "url": "https://pamyat-naroda.ru/heroes/memorial-chelovek_vpp1991163702/",
+    "archival_ref": "ЦАМО, ф. 8498, оп. 120987, д. 34 (202 зсп; выбыл 19.03.1945 в 51 сд); образ стр. 1 из 2, строка 1",
+    "names_as_written": "«Снимщиков Александр Федор.», 1921; графа «Состав семьи»: «адрес тот-же. Мать Елена Ивановна» (последнее слово обрезано: «Ивановна» или «Иванова»)",
+    "place_as_written": "«Курск. обл. Мантуров. р-на, …пловотский(?) с/с, с. …» (видимо, Репецко-Плотавский с/с); призван «Мантуров… 1940 г.»",
+    "record_date": "1945-03-10",
+    "relevance": "probable",
+    "summary": "ВЕРДИКТ: прочтение подтверждено, родство не доказано. Сам смотрел кадры агента (row1-full и family-col-zoom2). Видно: «Мантуров… р-н», «…рапловотский(?) с/с с.», призыв Мантуровским РВК в 1940 г. В графе семьи «Мать Елена Ив[ановна]». Отец не назван, что согласуется с его отсутствием или смертью к 1945 г. Это лучший на сегодня документ, где у Снимщиковых из Репецкой Платы мать названа Еленой Ивановной. Тогда она была бы прабабушкой Еленой Ивановной Коршиковой (1900 г. р.), и ей было 21, когда родился Александр. Прямой связи с Федором Андриановичем нет: отчество «Федорович» без отчества отца, а Александра нет в семейном списке детей. Нужно подтверждение от семьи или из ЗАГС/метрик. В ПН индексатор ошибочно поставил «Горьковская обл.».",
+    "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/sn-children-mil/pn-vpp1991163702-row1-family-col-zoom2.png"
+   },
+   {
+    "title": "ОБД: Снимщиков Дмитрий Андриянович, 1907, выбыл 1944 (Книга памяти Курской обл., т. 5)",
+    "url": "https://obd-memorial.ru/html/info.htm?id=408963514",
+    "archival_ref": "Книга памяти. Курская область. Том 5; ОБД ID 408963514",
+    "names_as_written": "СНИМЩИКОВ Дмитрий Андриянович",
+    "place_as_written": "по данным агента в тексте КП: «Мантуровский р-н, с. Реп. Плата» (в карточке ОБД места нет)",
+    "record_date": "1944",
+    "relevance": "probable",
+    "summary": "ВЕРДИКТ: запись подтверждена, родство не проверено. Сам открыл ОБД: фамилия, имя, отчество «Андриянович», 1907 г., дата выбытия 1944, источник КП Курской обл. т. 5. Поля места в карточке ОБД нет. Место «Мантуровский р-н, с. Реп. Плата» взято из выдачи ПН у агента: страница ПН мне отдала 401, текст КП т. 5 онлайн я не нашёл. Отчество редкое и совпадает, есть единственный в базах Андриянович-Снимщиков, тот же район. Отсюда сильная гипотеза: это брат Федора Андриановича, сын того же Андриана. Документом это не доказано."
+   },
+   {
+    "title": "Find a Grave: Семен Федорович Снимщиков, 15.02.1914–17.05.1988, Люблинское кладбище",
+    "url": "https://www.findagrave.com/memorial/308607923",
+    "archival_ref": "FaG 308607923; участок ЗИ/066/7.1/0054",
+    "names_as_written": "Семен Федорович Снимщиков; Александра Григорьевна Снимщикова (1907–1983)",
+    "place_as_written": "Lublinskoe Cemetery, Moscow",
+    "record_date": "1988-05-17",
+    "relevance": "possible",
+    "summary": "ВЕРДИКТ: не проверено. Сам не открывал: WebFetch получает 403, агент смотрел через браузер. Понижено с probable до possible. При рождении Семена в 1914 г. Елене Ивановне (1900 г. р.) было бы 13–14 лет. Значит, это либо сын Федора от первого брака, либо однофамилец. Отчества отца в записи нет."
+   },
+   {
+    "title": "Find a Grave: «И Ф Снимщиков», 18.06.1942–08.05.2009, Хованское",
+    "url": "https://www.findagrave.com/memorial/321706498",
+    "archival_ref": "FaG 321706498; ЗИ/121/45А/0146",
+    "names_as_written": "И Ф Снимщиков",
+    "place_as_written": "Khovanskoye Cemetery, Центральное",
+    "record_date": "2009-05-08",
+    "relevance": "direct",
+    "summary": "ВЕРДИКТ: подтверждено ранее (уже в деле как дед Иван). О Федоре сверх отчества «Ф» ничего не даёт. Повторно не проверял."
+   },
+   {
+    "title": "Василий Адрианов Снимщиков, Верхосемская вол. Тимского у. (киевская метрика 1910, A-0062): вероятный брат Федора",
+    "url": "https://www.familysearch.org/",
+    "archival_ref": "A-0062/P-0044 в деле (киевские метрики 1910)",
+    "names_as_written": "Василий Адріановъ Снимщиковъ; жена Татьяна Ивановна",
+    "place_as_written": "Тимскаго уѣзда, Верхосемской вол.",
+    "record_date": "1910-04-10",
+    "relevance": "probable",
+    "summary": "ВЕРДИКТ: не проверено. Это вывод агента из записи, которая уже есть в деле, а не новый документ. Отец Василия, Адриан Снимщиков, жил в той же волости, что и Федор, поэтому Василий, Федор и Дмитрий 1907 г. р. могут быть братьями. Подтвердить можно только метриками ГАКО ф.217 оп.3."
+   },
+   {
+    "title": "ВПП 359 зсп 1943: Снимщиков Д. Ф., 1926, с. Реплота",
+    "url": "https://pamyat-naroda.ru/heroes/memorial-chelovek_vpp1998812859/",
+    "archival_ref": "ЦАМО, ф. 8563, оп. 105609с, д. 15; стр. 12 из 23, строка 25",
+    "names_as_written": "«Снимщиков Д.Ф.»",
+    "place_as_written": "«Курск. обл. Мантуровский р-н с. Реплота»",
+    "record_date": "1943",
+    "relevance": "possible",
+    "summary": "ВЕРДИКТ: не проверено. Сам скриншот не открывал. Графы родственников в документе нет, поэтому родство не устанавливается.",
+    "local_path": "/Users/sokomishalov/idea/komarova-genealogy/work/raw/agents/sn-children-mil/pn-vpp1998812859-row25-dmitry1926.png"
+   },
+   {
+    "title": "Юбилейные карточки 1985: Иван Ф. 1919, Александр Ф. 1921, Дмитрий Ф. 1925/26 (ЦАМО шк.56 ящ.23, №79/№84)",
+    "url": "https://pamyat-naroda.ru/heroes/podvig-chelovek_yubileinaya_kartoteka1520440584/",
+    "archival_ref": "ЦАМО, юбилейная картотека, шк. 56, ящ. 23, док. №79 и №84 от 06.04.1985",
+    "names_as_written": "Снимщиков Александр Федорович; Снимщиков Дмитрий Федорович; Снимщиков Иван Федорович",
+    "place_as_written": "Дмитрий: «Курская область, Мантуровский район, село Репецкая Плата»",
+    "record_date": "1985-04-06",
+    "relevance": "possible",
+    "summary": "ВЕРДИКТ: не проверено. Образы закрыты. Карточки лежат рядом в одной пачке, это косвенный признак, что все трое из одного района. Что они братья, не доказано."
+   },
+   {
+    "title": "Отвергнутые однофамильцы, собранные агентами",
+    "url": "https://gwar.mil.ru/heroes/chelovek_donesenie15652459/",
+    "archival_ref": "РГВИА ф.16196 оп.1 д.1050; КП Саратовской обл. т.13 с.367; Архив г. Севастополя ф.30 оп.1 д.108 ск.141",
+    "names_as_written": "Снимщиков Феодор Андр. (кубанский урядник, †1915); Снимщиков Александр Федорович 1921 (Саратов, сержант 105 минп); Евдокия Адрианова Чигорева, урожд. Забияка",
+    "relevance": "background",
+    "summary": "ВЕРДИКТ: однофамильцы, вывод агентов принимаю. Кубанский урядник Федор Андреевич убит в 1915 г., значит, это не наш Федор. Саратовский Александр 1921 г. р. — другая часть и другое звание. Севастопольская Евдокия Адриановна по рождению Забияка, а не Снимщикова. По репрессиям (Мемориал, Бессмертный барак, БСД) и по ПМВ (gwar, svrt) Андриановичей-Снимщиковых нет. Если Федор был нереабилитированным пособником, его там и не должно быть."
+   }
+  ],
+  "searches": [
+   {
+    "source": "pamyat-naroda.ru (локальные скриншоты агента sn-children-mil)",
+    "query": "визуальная проверка строки 1 ВПП 1991163702 (Александр Ф. 1921)",
+    "result": "found",
+    "note": "Читается: «Мантуров… р-н», «…пловотский с/с», «1940 г.», «Мать Елена Ив…». Прочтение агента подтверждено"
+   },
+   {
+    "source": "obd-memorial.ru (WebFetch)",
+    "query": "id=408963514",
+    "result": "found",
+    "note": "СНИМЩИКОВ Дмитрий Андриянович, 1907, выбытие 1944, КП Курской обл. т.5; в карточке ОБД места нет"
+   },
+   {
+    "source": "pamyat-naroda.ru (WebFetch)",
+    "query": "memorial-chelovek_pechatnoi_knigi_pamyati408963514",
+    "result": "blocked",
+    "note": "HTTP 401; место «Реп. Плата» осталось только со слов агента"
+   },
+   {
+    "source": "WebSearch",
+    "query": "Снимщиков Александр Федорович 1924 1945 Бранево",
+    "result": "not-found",
+    "note": "Ссылку на prussia39 найти не удалось; связь с Мантуровским р-ном не проверена"
+   },
+   {
+    "source": "WebSearch",
+    "query": "«Снимщиков» «Реп. Плата»/«Репецкая Плата» Книга памяти Курская т.5",
+    "result": "not-found",
+    "note": "Онлайн-текста КП Курской т.5 нет; только каталоги nashipredki"
+   }
+  ],
+  "leads": [
+   "Несостыковки в датах детей: (1) Иван Ф. 1919 из Реплаты и дед Иван 1941/42 у одних родителей — два живых Ивана маловероятны. (2) Семен Ф. 1914 и мать Елена 1900 г. р. — ей было бы 13–14 лет. (3) Александр 1921 и Дмитрий 1926 из Репецкой Платы в семейном списке не названы. Возможные объяснения: у Федора был первый брак, или в селе жили два Федора Снимщиковых, или год рождения Елены неверен. Все три вопроса надо задать семье.",
+   "Даты по поколениям: если Семен 1914 — сын Федора, то Федор родился до ~1893. Брат Дмитрий Андриянович родился в 1907, тогда Андриан — ~1860–1870-х гг. рождения. Метрики Архангельской ц. Репецкой Платы для проверки: ГАКО ф.217 оп.3 д.349 (1887), д.353 (1895), д.1519 (1902–1905), д.1520 (1906–1909: рождение Дмитрия 1907 подтвердит отца Андриана и даст имя матери).",
+   "Брак Федора и Елены Ивановны и рождения детей 1918–1928 записаны в книгах ЗАГС Верхосемского ВИКа. Где они могут быть: ГАКО ф. Р-2795 (объединённый фонд ЗАГС), оп.4 — там уже найдены книги других ВИКов Тимского у. 1923–1925. Запрос в архив подаёт пользователь.",
+   "Гибель Федора в 1943–44 гг. можно проверить по актам о смерти Репецко-Плотавского с/с 1943–44 и похозяйственным книгам 1943–46 (ГАКО, фонды Мантуровского РИК). Если его судили как пособника: архив УФСБ по Курской обл., запрос от прямого потомка. Акты ЧГК по району: ГАКО Р-3605 оп.1 д.269.",
+   "Учётная карточка или личное дело Александра Федоровича 1921 г. р. в военкомате по месту демобилизации. Там может быть полное отчество отца — это прямой мост к Федору Андриановичу. Запрос подаёт семья.",
+   "Не пройдено: ПН «Снимщиков Семен Федорович», стр. 4–5 выдачи (ищем 1914 г. р.). prussia39.ru: место рождения Александра Ф. 1924–1945. Arolsen: карточки Warwara 1924, Alexander 1944, Peter 1910 — нужно согласие пользователя на условия доступа. «Открытый список», MyHeritage, FamilySearch — нужен вход пользователя. Lists.memo, gorenka, archive.rkursk.ru — повторить из другой сети."
+  ]
+ }
+}

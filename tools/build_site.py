@@ -17,7 +17,7 @@ LIVING_SIB = {'s-gennadiy', 's-sofya', 's-zsibs'}
 LIVING_CARDS = {'gennadiy', 'sofya'}
 PIDS = {
     'nastya': 'P-0001', 'igor': 'P-0002', 'irina': 'P-0003', 'viktor': 'P-0011', 'larisa': 'P-0006', 'ivan': 'P-0004',
-    'galina': 'P-0005', 'nikolay': 'P-0008', 'elvira': 'P-0010;P-0009', 'fedor': 'P-0023', 'elena': 'P-0045', 'pavel': 'P-0012;P-0043',
+    'galina': 'P-0005', 'nikolay': 'P-0008', 'elvira': 'P-0010;P-0009', 'fedor': 'P-0023;P-0025;P-0066', 'elena': 'P-0045', 'pavel': 'P-0012;P-0043',
     'fekla': 'P-0021', 'egor': 'P-0014;P-0019;P-0028;P-0036;P-0037;P-0063;P-0064;P-0065', 'natalyaa': 'P-0015', 'sofyash': 'P-0020', 'evsevy': 'P-0053', 'elisav': 'P-0054',
     'nikolsh': 'P-0050;P-0055;P-0056;P-0057;P-0058;P-0059', 'varvara': 'P-0051', 'ignat': 'P-0060', 'feodora': 'P-0061', 'daniil': 'P-0062', 'pyotr': 'P-0016;P-0029;P-0030;P-0031',
     'natyak': 'P-0017', 'andrey': 'P-0032;P-0038', 'mavra': 'P-0033', 'efim': 'P-0034', 'yakov': 'P-0039', 'evfimia': 'P-0040',
